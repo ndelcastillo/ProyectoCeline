@@ -1,0 +1,41 @@
+import React, { useState } from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faHandPointLeft, faHandPointRight, faArrowRight, faArrowLeft } from '@fortawesome/free-solid-svg-icons'
+
+function Arquitectura({ bookimg }) {
+
+  // Variables y Estados
+  const [imagenActual, setImagenActual] = useState(0);
+  const cantidad = bookimg?.length;
+
+  // Return prematuro
+  if (!Array.isArray(bookimg) || cantidad === 0)
+    return;
+
+  // Siguiente y Anteriro imagen
+  const siguienteImagen = () => {
+    setImagenActual(imagenActual === cantidad - 1 ? 0 : imagenActual + 1);
+  }
+  const anteriorImagen = () => {
+    setImagenActual(imagenActual === 0 ? cantidad -1 : imagenActual - 1);
+  }
+
+  return (
+    <div className='arquitetcuraSliderColumn1'
+    >
+      <FontAwesomeIcon className='iconLeft' icon={faArrowLeft} onClick={anteriorImagen} />
+      {bookimg.map((imagen, index) => {
+        return (
+          <div className={imagenActual === index ? `${"arquitecturaSliderImg"} ${"arquitecturaSliderImgActive"}` : "arquitecturaSliderImg"}>
+            {imagenActual === index && (
+              <img key={index} src={imagen} alt="imagen" />
+            )}
+          </div>
+        )
+      })}
+      <FontAwesomeIcon className='iconRight' icon={faArrowRight} onClick={siguienteImagen} />
+    </div>
+  )
+}
+
+export default Arquitectura

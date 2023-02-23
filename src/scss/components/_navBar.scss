@@ -1,0 +1,76 @@
+.navBarRow1 {
+
+    .navBarColumn1 {
+        hr {
+            margin: 30px 30px 0px 30px;
+            color: black;
+        }
+
+        ul {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+
+            .navBarLink{
+                text-decoration: none;
+            }
+
+            li {
+                list-style: none;
+                transition: all .1s;
+                cursor: pointer;
+            }
+
+            .navBarInicio {
+                font-family: 'helveticaNeueLight';
+                font-size: calc(0.3rem + 1vw);
+                color: black;
+
+                &:hover {
+                    color: $greyColor;
+                }
+            }
+
+            .navBarStatement {
+                font-family: 'helveticaNeueLight';
+                font-size: calc(0.3rem + 1vw);
+                color: black;
+
+                &:hover {
+                    color: $orangeColor;
+                }
+            }
+
+            .navBarObras {
+                font-family: 'helveticaNeueLight';
+                font-size: calc(0.3rem + 1vw);
+                color: black;
+
+                &:hover {
+                    color: $greenColor;
+                }
+            }
+
+            .navBarArquitectura {
+                font-family: 'helveticaNeueLight';
+                font-size: calc(0.3rem + 1vw);
+                color: black;
+
+                &:hover {
+                    color: $yellowColor;
+                }
+            }
+
+            .navBarContacto {
+                font-family: 'helveticaNeueLight';
+                font-size: calc(0.3rem + 1vw);
+                margin-right: 30px;
+                color: black;
+
+                &:hover {
+                    color: $blueColor;
+                }
+            }
+        }
+    }
+}

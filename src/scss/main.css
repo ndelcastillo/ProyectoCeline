@@ -1,0 +1,843 @@
+/*---------- HELVETICA NEUE ----------*/
+@font-face {
+  font-family: "helveticaNeueBlackItalic";
+  src: url(../../../public/assets/fonts/HelveticaNeue/HelveticaNeueBlackItalic.ttf) format("truetype");
+}
+@font-face {
+  font-family: "helveticaNeueBoldItalic1";
+  src: url(../../../public/assets/fonts/HelveticaNeue/HelveticaNeueBoldItalic1.ttf) format("truetype");
+}
+@font-face {
+  font-family: "helveticaNeueBoldItalic2";
+  src: url(../../../public/assets/fonts/HelveticaNeue/HelveticaNeueBoldItalic2.ttf) format("truetype");
+}
+@font-face {
+  font-family: "helveticaNeueMedium";
+  src: url(../../../public/assets/fonts/HelveticaNeue/HelveticaNeueMedium.ttf) format("truetype");
+}
+@font-face {
+  font-family: "helveticaNeueMediumItalic";
+  src: url(../../../public/assets/fonts/HelveticaNeue/HelveticaNeueMediumItalic.ttf) format("truetype");
+}
+@font-face {
+  font-family: "helveticaNeueLight";
+  src: url(../../../public/assets/fonts/HelveticaNeue/HelveticaNeueLight.ttf) format("truetype");
+}
+@font-face {
+  font-family: "helveticaNeueUltraLight";
+  src: url(../../../public/assets/fonts/HelveticaNeue/HelveticaNeueUltraLight.ttf) format("truetype");
+}
+/*---------- PIXEL TANDYSOFT ----------*/
+@font-face {
+  font-family: "pixelTandysoft";
+  src: url(../../../public/assets/fonts/PixelTandysoft/PixelTandysoft.ttf) format("truetype");
+}
+/*---------- RETRON 2000 ----------*/
+@font-face {
+  font-family: "retron2000";
+  src: url(../../../public/assets/fonts/Retron2000/Retron2000.ttf) format("truetype");
+}
+/*---------- WIDA ROUND ----------*/
+@font-face {
+  font-family: "widaRoundBold";
+  src: url(../../../public/assets/fonts/WidaRound/WidaRoundBold.ttf) format("truetype");
+}
+@font-face {
+  font-family: "widaRoundBoldItalic";
+  src: url(../../../public/assets/fonts/WidaRound/WidaRoundBoldItalic.ttf) format("truetype");
+}
+@font-face {
+  font-family: "widaRoundItalic";
+  src: url(../../../public/assets/fonts/WidaRound/WidaRoundItalic.ttf) format("truetype");
+}
+@font-face {
+  font-family: "widaRoundLight";
+  src: url(../../../public/assets/fonts/WidaRound/WidaRoundLight.ttf) format("truetype");
+}
+@font-face {
+  font-family: "widaRoundLightItalic";
+  src: url(../../../public/assets/fonts/WidaRound/WidaRoundLightItalic.ttf) format("truetype");
+}
+@font-face {
+  font-family: "widaRoundRegular";
+  src: url(../../../public/assets/fonts/WidaRound/WidaRoundRegular.ttf) format("truetype");
+}
+@font-face {
+  font-family: "widaRoundSmallCaps";
+  src: url(../../../public/assets/fonts/WidaRound/WidaRoundSmallCaps.ttf) format("truetype");
+}
+@font-face {
+  font-family: "widaRoundSmallCapsItalic";
+  src: url(../../../public/assets/fonts/WidaRound/WidaRoundSmallCapsItalic.ttf) format("truetype");
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.App {
+  text-align: center;
+  background-color: white;
+  height: 100vh;
+  width: 100%;
+}
+
+.row {
+  height: 100%;
+  /*
+  border: 2px solid red;
+  background-color: lightblue;
+  */
+}
+
+.columns {
+  height: 100%;
+  /*
+  border: 2px solid black;
+  background-color: lightgreen;
+  */
+}
+
+.navBarGif {
+  text-align: right;
+  width: 100%;
+}
+
+.navBarGif1 {
+  margin: 0px 0px 0px 0px;
+  position: relative;
+  left: 10px;
+  top: 40px;
+  color: black;
+}
+
+.navBarHr1 {
+  margin: 30px 30px 0px 30px;
+  color: black;
+}
+
+.navBarUl {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.navBarUl li {
+  list-style: none;
+  transition: all 0.1s;
+  cursor: pointer;
+}
+
+.navBarUl li:hover {
+  list-style: none;
+  cursor: pointer;
+}
+
+.navBarInicio {
+  font-family: "helveticaNeueLight";
+  font-weight: 100;
+  font-size: calc(0.3rem + 1vw);
+  color: black;
+}
+
+.navBarInicio:hover {
+  font-family: "helveticaNeueLight";
+  font-weight: 100;
+  font-size: calc(0.3rem + 1vw);
+  color: rgb(146, 146, 146);
+}
+
+.navBarStatement {
+  font-family: "helveticaNeueLight";
+  font-weight: 100;
+  font-size: calc(0.3rem + 1vw);
+  color: black;
+}
+
+.navBarStatement:hover {
+  font-family: "helveticaNeueLight";
+  font-weight: 100;
+  font-size: calc(0.3rem + 1vw);
+  color: rgb(255, 98, 4);
+}
+
+.navBarObras {
+  font-family: "helveticaNeueLight";
+  font-weight: 100;
+  font-size: calc(0.3rem + 1vw);
+  color: black;
+}
+
+.navBarObras:hover {
+  font-family: "helveticaNeueLight";
+  font-weight: 100;
+  font-size: calc(0.3rem + 1vw);
+  color: rgb(110, 169, 120);
+}
+
+.navBarArquitectura {
+  font-family: "helveticaNeueLight";
+  font-weight: 100;
+  font-size: calc(0.3rem + 1vw);
+  color: black;
+}
+
+.navBarArquitectura:hover {
+  font-family: "helveticaNeueLight";
+  font-weight: 100;
+  font-size: calc(0.3rem + 1vw);
+  color: rgb(225, 229, 27);
+}
+
+.navBarContacto {
+  font-family: "helveticaNeueLight";
+  font-weight: 100;
+  font-size: calc(0.3rem + 1vw);
+  margin-right: 30px;
+  color: black;
+}
+
+.navBarContacto:hover {
+  font-family: "helveticaNeueLight";
+  font-weight: 100;
+  font-size: calc(0.3rem + 1vw);
+  margin-right: 30px;
+  color: rgb(33, 86, 227);
+}
+
+h5 {
+  font-family: "helveticaNeueLight";
+  font-weight: 100;
+  font-size: 16px;
+  color: grey;
+}
+
+.contactoContainer1 {
+  background-color: white;
+  width: 100%;
+  min-height: 80vh;
+}
+
+.contactoColumn1 {
+  min-height: 30vh;
+}
+
+.contactoColumn2 {
+  min-height: 0vh;
+}
+.contactoColumn2 p {
+  font-size: 14px;
+  text-align: left;
+  font-family: "helveticaNeueLight";
+  color: grey;
+}
+
+.contactoColumn3 {
+  min-height: 30vh;
+}
+
+.contactoColumn4 {
+  min-height: 0vh;
+}
+.contactoColumn4 a {
+  text-decoration: none;
+}
+.contactoColumn4 a p {
+  font-size: 14px;
+  text-align: center;
+  font-family: "helveticaNeueLight";
+  color: grey;
+}
+.contactoColumn4 a p:hover {
+  color: blue;
+}
+
+/*---------- HOME A ----------*/
+/*
+.homeA{
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    max-width: 100vw;
+    position: relative;
+    text-shadow: 2px 2px 2px rgba(0,0,0,.2);
+}
+
+.homeTitleA{
+    font-size: 4rem;
+    color: orange;
+    font-family: 'helveticaNeueMedium';
+}
+
+.colorOverlay {
+    position: absolute;
+    width:100%;
+    height:100%;
+    background-color: rgb(0,0,0,.1);
+}
+
+@media (max-width: 768 ) {
+    .homeA {
+        min-height: 30vh
+    }
+    .homeTitleA {
+        font-size: calc(1.525rem + 3.3vw)
+    }
+}
+*/
+/*---------- HOME B ----------*/
+/*
+.homeB {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../../../public/assets/gif/gifCelineComp.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.homeB1 {
+    text-align: right;
+    width: 100%;
+    height: 10vh;
+}
+
+.homeBGif {
+    margin: 15px 0px 0px 0px;
+    position: relative;
+    top: 10px;
+    right: 5px;
+}
+
+.homeBTitle {
+    font-family: 'pixelTandysoft';
+    font-size: 42px;
+    color: lightgrey;
+    margin: 0px 45px 0px 45px;
+}
+
+.homeBTitle:hover {
+    color: blue;
+    cursor: context-menu;
+}
+
+.homeBHr1 {
+    margin: 0px 30px 0px 30px;
+    height: 1px;
+     color: white;    
+}
+
+.homeB2 {
+    width: 100%;
+    height: 80vh;
+    margin: 0px 0px 0px 0px;
+}
+
+.homeB3 {
+    width: 100%;
+    height: 10vh;
+    margin: 0px 0px 0px 0px;
+}
+
+.homeBHr3 {
+    margin: 0px 30px 0px 30px;
+    height: 1px;
+    color: white;  
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px 45px 30px 45px;
+
+}
+
+li {
+    font-family: 'helveticaNeueLight';
+    font-weight: 100;
+    font-size: 22px;
+    color: lightgrey;
+}
+*/
+/*---------- HOME C ----------*/
+.homeC {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../../../public/assets/gif/gifCelineComp.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.homeC1 {
+  text-align: right;
+  width: 100%;
+}
+
+.homeCGif {
+  margin: 20px 0px 0px 0px;
+  position: relative;
+  top: 10px;
+  right: 5px;
+}
+
+.homeCTit {
+  font-family: "retron2000";
+  color: white;
+  margin: 40px 30px 0px 0px;
+  font-size: calc(1rem + 2vw);
+  font-style: italic;
+}
+
+.homeCTitle {
+  font-family: "pixelTandysoft";
+  font-size: 42px;
+  color: lightgrey;
+  margin: 0px 45px 0px 45px;
+}
+
+.homeCTitle:hover {
+  color: blue;
+  cursor: context-menu;
+}
+
+.homeC1Hr {
+  margin: 0px 30px 0px 30px;
+  height: 1px;
+  color: white;
+}
+
+.homeC2 {
+  width: 100%;
+  height: 77vh;
+  margin: 0px 0px 0px 0px;
+}
+
+.homeC3 {
+  width: 100%;
+  margin: 0px 0px 0px 0px;
+}
+
+.homeC3Hr {
+  margin: 0px 30px 0px 30px;
+  height: 1px;
+  color: white;
+}
+
+.homeUl {
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.homeUl li {
+  list-style: none;
+  transition: all 0.1s;
+  cursor: pointer;
+}
+
+.homeUl li:hover {
+  list-style: none;
+  cursor: pointer;
+}
+
+.homeStatement {
+  font-family: "helveticaNeueLight";
+  font-weight: 100;
+  font-size: calc(0.4rem + 1vw);
+  color: white;
+}
+
+.homeStatement:hover {
+  font-family: "helveticaNeueLight";
+  font-weight: 100;
+  font-size: calc(0.4rem + 1vw);
+  color: rgb(255, 98, 4);
+}
+
+.homeObras {
+  font-family: "helveticaNeueLight";
+  font-weight: 100;
+  font-size: calc(0.4rem + 1vw);
+  color: white;
+}
+
+.homeObras:hover {
+  font-family: "helveticaNeueLight";
+  font-weight: 100;
+  font-size: calc(0.4rem + 1vw);
+  color: rgb(110, 169, 120);
+}
+
+.homeArquitectura {
+  font-family: "helveticaNeueLight";
+  font-weight: 100;
+  font-size: calc(0.4rem + 1vw);
+  color: white;
+}
+
+.homeArquitectura:hover {
+  font-family: "helveticaNeueLight";
+  font-weight: 100;
+  font-size: calc(0.4rem + 1vw);
+  color: rgb(225, 229, 27);
+}
+
+.homeContacto {
+  font-family: "helveticaNeueLight";
+  font-weight: 100;
+  font-size: calc(0.4rem + 1vw);
+  margin-right: 30px;
+  color: white;
+  margin: 0px 30px 0px 0px;
+}
+
+.homeContacto:hover {
+  font-family: "helveticaNeueLight";
+  font-weight: 100;
+  font-size: calc(0.4rem + 1vw);
+  margin-right: 30px;
+  color: rgb(33, 86, 227);
+}
+
+/*---------- HOME D ----------*/
+/*
+.homeD {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../../../public/assets/gif/gifCelineComp.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.homeD1 {
+    text-align: right;
+    width: 100%;
+}
+
+.homeDTit{
+    font-family: 'retron2000';
+    color: white;
+    margin: 40px 30px 0px 0px;
+    font-size: calc(1rem + 2.5vw);
+}
+
+.homeDGif {
+    margin: 20px 0px 0px 0px;
+    position: relative;
+    top: 10px;
+    right: 5px;
+}
+
+.homeDTitle {
+    font-family: 'pixelTandysoft';
+    font-size: 42px;
+    color: lightgrey;
+    margin: 0px 45px 0px 45px;
+}
+
+.homeDTitle:hover {
+    color: blue;
+    cursor: context-menu;
+}
+
+.homeD1Hr {
+    margin: 0px 30px 0px 30px;
+    height: 1px;
+     color: white;    
+}
+
+.homeD2 {
+    width: 100%;
+    height: 0vh;
+    margin: 0px 0px 0px 0px;
+}
+
+.homeD3 {
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+}
+
+.homeD3Hr {
+    margin: 0px 30px 0px 30px;
+    height: 1px;
+    color: white;  
+}
+
+
+.homeD3Ul{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.homeD3Ul li{
+    list-style: none;
+    transition: all .1s;
+    cursor: pointer;
+}
+
+.homeD3Ul li:hover{
+    list-style: none;
+    cursor: pointer;
+}
+
+.homeStatement{
+    font-family: 'helveticaNeueLight';
+    font-weight: 100;
+    font-size: calc(0.4rem + 1vw);
+    color: white;
+}
+
+.homeObras{
+    font-family: 'helveticaNeueLight';
+    font-weight: 100;
+    font-size: calc(0.4rem + 1vw);
+    color: white;
+}
+
+.homeArquitectura{
+    font-family: 'helveticaNeueLight';
+    font-weight: 100;
+    font-size: calc(0.4rem + 1vw);
+    color: white;
+
+}
+
+.homeContacto{
+    font-family: 'helveticaNeueLight';
+    font-weight: 100;
+    font-size: calc(0.4rem + 1vw);
+    margin-right: 30px;
+    color: white;
+    margin:0px 30px 0px 0px;
+}
+*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.row {
+  height: 100%;
+  /*
+  border: 2px solid red;
+  background-color: lightblue;
+  */
+}
+
+.columns {
+  height: 100%;
+  /*
+  border: 2px solid black;
+  background-color: lightgreen;
+  */
+}
+
+.obrasContainer1 {
+  background-color: white;
+  width: 100%;
+  height: 100%;
+}
+
+/*UNOMASUNOTRES > HOVER FX inicia*/
+.container1 {
+  width: 200px;
+  margin: 150px auto;
+  font-family: "retron2000";
+  position: relative;
+  overflow: hidden;
+  transition: all 0.1s;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.container1:hover {
+  transform: scale(1.05);
+}
+
+.container1 .img1 {
+  width: 200px;
+  height: auto;
+  transition: all 0.5s;
+}
+
+.container1:hover .img1 {
+  transform: scale(1.1);
+}
+
+.container1 .content1 {
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: -150%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: justify;
+  height: 100%;
+  color: #fff;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content1 .txt1 {
+  text-align: center;
+  font-size: 15px;
+}
+
+.container1:hover .content1 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.link1 {
+  text-decoration: none;
+}
+
+/*HOVER FX finaliza*/
+/*
+.pinoscopia {
+    position: relative;
+    top:250px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}*/
+/*PINOSCOPIA > HOVER FX inicia*/
+.container2 {
+  width: 100%;
+  height: 100%;
+  font-family: "retron2000";
+  position: relative;
+  overflow: hidden;
+  transition: all 0.1s;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  position: relative;
+  top: 250px;
+}
+
+.container2:hover {
+  transform: scale(1.05);
+}
+
+.container2 .img2 {
+  width: 100%;
+  height: 100%;
+  transition: all 0.5s;
+}
+
+.container2:hover .img2 {
+  transform: scale(1.1);
+}
+
+.container2 .content2 {
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: -150%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: justify;
+  height: 100%;
+  color: #fff;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content2 .txt2 {
+  text-align: center;
+  font-size: 15px;
+}
+
+.container2:hover .content2 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.link2 {
+  text-decoration: none;
+}
+
+/*HOVER FX finaliza*/
+.colectivero {
+  position: relative;
+  bottom: 50px;
+  left: 120px;
+}
+
+.lopsis {
+  position: relative;
+  bottom: 50px;
+  left: 100px;
+}
+
+.tuVeneno {
+  position: relative;
+  top: 50px;
+}
+
+.visuales {
+  position: relative;
+  left: 350px;
+  top: 50px;
+}
+
+.idiotique {
+  position: relative;
+  bottom: 100px;
+  left: 0px;
+}
+
+.intensidadEfimera {
+  position: relative;
+  bottom: 180px;
+  left: 300px;
+}
+
+h3 {
+  font-family: "retron2000";
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.statementContainer1 {
+  background-color: white;
+  width: 100%;
+  min-height: 80vh;
+}
+
+.statementBox0 {
+  min-height: 25vh;
+}
+
+.statementBox1 {
+  padding: 5vh;
+}
+
+.statementTxt1 {
+  font-size: 14px;
+  text-align: justify;
+  font-family: "helveticaNeueLight";
+  color: grey;
+}
+
+.statementTxt2 {
+  font-size: 14px;
+  text-align: center;
+  font-family: "helveticaNeueLight";
+  color: grey;
+}/*# sourceMappingURL=main.css.map */
