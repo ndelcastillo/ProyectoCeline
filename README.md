@@ -1,70 +1,76 @@
-# Getting Started with Create React App
+<h1 align="center">
+  <br>
+  <a href="https://celineart.netlify.app/"><img src="" width="200"></a>
+  <br>
+  celine
+  <br>
+</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h4 align="center">A minimal online web store app built on top of <a href="https://es.reactjs.org" target="_blank">React</a>.</h4>
 
-## Available Scripts
+<p align="center">
+  <a href="#how-to-use">How To Use</a> •
+  <a href="#download">Download</a> •
+  <a href="#credits">Credits</a> •
+  <a href="#related">Related</a> •
+  <a href="#license">License</a>
+</p>
 
-In the project directory, you can run:
+## About
+This project is celine's portfolio.
 
-### `npm start`
+## How To Use
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+```bash
+# Clone this repository
+$ git clone https://github.com/amitmerchant1990/electron-markdownify
 
-### `npm test`
+# Go into the repository
+$ cd electron-markdownify
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Install dependencies
+$ npm install
 
-### `npm run build`
+# Run the app
+$ npm start
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+> **Note**
+> If you're using Linux Bash for Windows, [see this guide](https://www.howtogeek.com/261575/how-to-run-graphical-linux-desktop-applications-from-windows-10s-bash-shell/) or use `node` from the command prompt.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Download
 
-### `npm run eject`
+You can [download](https://github.com/ndelcastillo/ProyectoFinalTienda.git) the latest version of Filotaxia github project for Windows, macOS and Linux.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Credits
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+This software uses the following open source packages:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- [React](https://es.reactjs.org)
+- [Node.js](https://nodejs.org/)
+- [Bootstrap](https://react-bootstrap.github.io)
+- [Fortawesome](https://fortawesome.com)
+- [Uiballloader](https://uiball.com/loaders/)
+- [Firebase](https://firebase.google.com)
+- [Animate](https://animate.style/)
+- [Framer Motion](https://www.npmjs.com/)
+- [SASS](https://sass-lang.com/)
+- Emojis are taken from [here](https://github.com/arvida/emoji-cheat-sheet.com)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Related
 
-## Learn More
+[celine](https://celineart.netlify.app/) - Web version of celine
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## License
 
-### Code Splitting
+Nicolas del Castillo
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
+> GitHub [@ndelcastillo](https://github.com/ndelcastillo) &nbsp;&middot;&nbsp;
+> Twitter [@nikodelcas](https://twitter.com/nikodelcas)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
