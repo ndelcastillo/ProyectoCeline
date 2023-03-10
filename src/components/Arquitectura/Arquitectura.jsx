@@ -23,7 +23,7 @@ function Arquitectura({ bookimg }) {
   return (
     <div className='arquitetcuraSliderColumn1'
     >
-      <FontAwesomeIcon className='iconLeft' icon={faArrowLeft} onClick={anteriorImagen} />
+      <p className='iconLeft' icon={faArrowLeft} onClick={anteriorImagen} >←</p>
       {bookimg.map((imagen, index) => {
         return (
           <div className={imagenActual === index ? `${"arquitecturaSliderImg"} ${"arquitecturaSliderImgActive"}` : "arquitecturaSliderImg"}>
@@ -33,7 +33,7 @@ function Arquitectura({ bookimg }) {
           </div>
         )
       })}
-      <FontAwesomeIcon className='iconRight' icon={faArrowRight} onClick={siguienteImagen} />
+      <p className='iconRight' icon={faArrowRight} onClick={siguienteImagen} >→</p>
     </div>
   )
 }

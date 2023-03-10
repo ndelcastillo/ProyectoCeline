@@ -1,0 +1,193 @@
+.obraFuturoGuionParaLaObraDelFuturoContainer1 {
+    background-color: white;
+
+    .obraFuturoGuionParaLaObraDelFuturoRow1 {
+        margin: 0 0 0 0;
+
+        .obraFuturoGuionParaLaObraDelFuturoColumn1 {
+            div {
+                margin: 20px 15px 0 0;
+                display: flex;
+                flex-direction: row;
+                justify-content: end;
+
+                .obraFuturoGuionParaLaObraDelFuturoLink {
+                    text-decoration: none;
+
+                    .obraFuturoGuionParaLaObraDelFuturoTitulo {
+                        font-family: 'pixelTandysoft';
+                        font-size: calc(0.3rem + 2vw);
+                        color: black;
+                    }
+                }
+            }
+        }
+    }
+
+    .obraFuturoGuionParaLaObraDelFuturoRow2 {
+        margin: 0 15px 0 15px;
+
+        .obraFuturoGuionParaLaObraDelFuturoColumn1 {
+            hr {
+                color: black;
+                margin: 0 0 10px 0;
+            }
+
+            div {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+
+                .obraFuturoGuionParaLaObraDelFuturoLink {
+                    text-decoration: none;
+
+                    h6 {
+                        list-style: none;
+                        transition: all .1s;
+                        cursor: pointer;
+                        font-family: 'helveticaNeueLight';
+                        font-size: 16px;
+                        color: black;
+
+                        &:hover {
+                            color: $greenColor;
+                        }
+                    }
+                }
+
+                .obraFuturoGuionParaLaObraDelFuturoTxt {
+                    display: flex;
+                    flex-direction: column;
+
+                    h6 {
+                        text-align: end;
+                        font-family: 'helveticaNeueLight';
+                        font-size: 16px;
+                        color: black;
+                    }
+                }
+            }
+        }
+    }
+
+    .obraFuturoGuionParaLaObraDelFuturoRow3 {
+        margin: 50px 15px 0 30px;
+
+        .obraFuturoGuionParaLaObraDelFuturoColumn1 {
+            div {
+                display: flex;
+                flex-direction: column;
+                justify-content: end;
+                margin: 0 0 0 0;
+
+                .p1 {
+                    text-align: end;
+                    font-family: 'helveticaNeueLight';
+                    font-size: 16px;
+                    color: black;
+                    margin: 0 0 0 0;
+                }
+
+                .p2 {
+                    text-align: end;
+                    font-family: 'helveticaNeueLight';
+                    font-size: 16px;
+                    color: black;
+                    margin: 0 0 0 0;
+                }
+
+                .p3 {
+                    text-align: end;
+                    font-family: 'helveticaNeueLight';
+                    font-size: 16px;
+                    color: black;
+                }
+
+            }
+        }
+    }
+
+    .obraFuturoGuionParaLaObraDelFuturoRow4 {
+        margin: 50px 15px 0 30px;
+
+        .obraFuturoGuionParaLaObraDelFuturoColumn1 {
+            div {
+                margin: 0 0 0 0;
+                display: flex;
+                justify-content: start;
+
+                img {
+                    width: 45vw;
+                    height: auto;
+                }
+            }
+        }
+
+        .obraFuturoGuionParaLaObraDelFuturoColumn2 {
+            div {
+                margin: 0 0 0 0;
+                display: flex;
+                justify-content: end;
+
+                audio {
+                    width: 100%;
+                    height: auto;
+                }
+            }
+        }
+    }
+
+    .obraFuturoGuionParaLaObraDelFuturoRow5 {
+        margin: 150px 15px 0 30px;
+
+        .obraFuturoGuionParaLaObraDelFuturoColumn1 {
+            div {
+                margin: 0 0 0 0;
+                display: flex;
+                justify-content: start;
+
+                img {
+                    width: 35vw;
+                    height: auto;
+                    margin: 0 30px 0 0;
+                }
+            }
+        }
+    }
+
+    .obraFuturoGuionParaLaObraDelFuturoRow6 {
+        margin: 150px 15px 0 30px;
+
+        .obraFuturoGuionParaLaObraDelFuturoColumn1 {
+            div {
+                margin: 0 0 0 0;
+                display: flex;
+                justify-content: end;
+
+                img {
+                    width: 35vw;
+                    height: auto;
+                    margin: 0 0 0 0;
+                }
+            }
+        }
+    }
+
+    .obraFuturoGuionParaLaObraDelFuturoRow7 {
+        margin: 150px 15px 0 30px;
+
+        .obraFuturoGuionParaLaObraDelFuturoColumn1 {
+            div {
+                margin: 0 0 0 0;
+                display: flex;
+                justify-content: center;
+
+                img {
+                    width: 80vw;
+                    height: auto;
+                    margin: 0 0 0 0;
+                }
+            }
+        }
+    }
+}

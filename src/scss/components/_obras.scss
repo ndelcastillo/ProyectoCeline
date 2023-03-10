@@ -21,11 +21,14 @@
 }
 
 .obrasRow1 {
+    margin-top: 50px;
+
     .obrasColumn1 {
-        margin-top: 50px;
+        margin-top: 200px;
 
         .container1 {
-            width: 100%;
+            width: 380px;
+            height: auto;
             font-family: 'retron2000';
             position: relative;
             overflow: hidden;
@@ -33,7 +36,7 @@
         }
 
         .container1:hover {
-         //   transform: scale(1.05);
+            //   transform: scale(1.05);
         }
 
         .container1 .img1 {
@@ -43,7 +46,7 @@
         }
 
         .container1:hover .img1 {
-            transform: scale(1.05);
+            // transform: scale(1.05);
         }
 
         .container1 .content1 {
@@ -66,7 +69,7 @@
             text-align: center;
             font-family: 'retron2000';
             font-size: 12px;
-            color:$greenColor
+            color: $greenColor
         }
 
         .container1:hover .content1 {
@@ -87,7 +90,7 @@
         .container2 {
             width: 200px;
             height: auto;
-            margin: 150px auto;
+            margin: 50px auto;
             font-family: 'retron2000';
             position: relative;
             overflow: hidden;
@@ -95,17 +98,17 @@
         }
 
         .container2:hover {
-            transform: scale(1.05);
+            // transform: scale(1.05);
         }
 
         .container2 .img2 {
-            width: 200px;
+            width: 100%;
             height: auto;
             transition: all .5s;
         }
 
         .container2:hover .img2 {
-        //    transform: scale(1.05);
+            //    transform: scale(1.05);
         }
 
         .container2 .content2 {
@@ -128,7 +131,7 @@
             text-align: center;
             font-family: 'retron2000';
             font-size: 12px;
-            color:$greenColor
+            color: $greenColor
         }
 
         .container2:hover .content2 {
@@ -144,99 +147,34 @@
             text-decoration: none;
         }
     }
-
-    .obrasColumn3 {
-        .container3 {
-            width: auto;
-            height: 500px;
-            font-family: 'retron2000';
-            position: relative;
-            overflow: hidden;
-            transition: all .1s;
-            position: relative;
-            top: 220px;
-        }
-
-        .container3:hover {
-            transform: scale(1.05);
-        }
-
-        .container3 .img3 {
-            width: 100%;
-            height: 500px;
-            transition: all .5s;
-        }
-
-        .container3:hover .img3 {
-            transform: scale(1.1);
-        }
-
-        .container3 .content3 {
-            background-color: rgba(0, 0, 0, .7);
-            position: absolute;
-            top: -150%;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            text-align: justify;
-            height: 100%;
-            color: #fff;
-            box-sizing: border-box;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-
-        .content3 .txt3 {
-            text-align: center;
-            font-family: 'retron2000';
-            font-size: 12px;
-            color:$greenColor
-        }
-
-        .container3:hover .content3 {
-            position: absolute;
-            top: 0;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            background-color: rgba(0, 0, 0, .9);
-        }
-
-        .link3 {
-            text-decoration: none;
-        }
-    }
-
 }
 
 
 .obrasRow2 {
     .obrasColumn1 {
         .container1 {
-            width: 180px;
-            height: 100%;
+            width: 400px;
+            height: auto;
             font-family: 'retron2000';
             position: relative;
             overflow: hidden;
             transition: all .1s;
             position: relative;
-            bottom: 50px;
-            left: 80px;
+            top: 130px
         }
 
         .container1:hover {
-          //  transform: scale(1.05);
+            //  transform: scale(1.05);
         }
 
         .container1 .img1 {
-            width: 180px;
+            width: 100%;
             height: auto;
             transition: all .5s;
         }
 
         .container1:hover .img1 {
-            transform: scale(1.1);
+            // transform: scale(1.1);
         }
 
         .container1 .content1 {
@@ -259,72 +197,7 @@
             text-align: center;
             font-family: 'retron2000';
             font-size: 12px;
-            color:$greenColor
-        }
-
-        .container1:hover .content1 {
-            position: absolute;
-            top: 0;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            background-color: rgba(0, 0, 0, .9);
-        }
-
-        .link1 {
-            text-decoration: none;
-        }
-    }
-}
-
-.obrasRow3 {
-    .obrasColumn1 {
-        .container1 {
-            width: 300px;
-            height: auto;
-            font-family: 'retron2000';
-            position: relative;
-            overflow: hidden;
-            transition: all .1s;
-            position: relative;
-            top: 150px;
-        }
-
-        .container1:hover {
-          //  transform: scale(1.05);
-        }
-
-        .container1 .img1 {
-            width: 300px;
-            height: auto;
-            transition: all .5s;
-        }
-
-        .container1:hover .img1 {
-            transform: scale(1.1);
-        }
-
-        .container1 .content1 {
-            background-color: rgba(0, 0, 0, .7);
-            position: absolute;
-            top: -150%;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            text-align: justify;
-            height: 100%;
-            color: #fff;
-            box-sizing: border-box;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-
-        .content1 .txt1 {
-            text-align: center;
-            font-family: 'retron2000';
-            font-size: 12px;
-            color:$greenColor
+            color: $greenColor
         }
 
         .container1:hover .content1 {
@@ -343,20 +216,18 @@
 
     .obrasColumn2 {
         .container2 {
-            width: 100%;
+            width: 300px;
             height: auto;
-            margin: 100px auto;
             font-family: 'retron2000';
             position: relative;
             overflow: hidden;
             transition: all .1s;
             position: relative;
-            bottom: 50px;
-            left: 100px;
+            bottom: 50px
         }
 
         .container2:hover {
-         //   transform: scale(1.05);
+            // transform: scale(1.05);
         }
 
         .container2 .img2 {
@@ -366,7 +237,7 @@
         }
 
         .container2:hover .img2 {
-           // transform: scale(1.1);
+            // transform: scale(1.1);
         }
 
         .container2 .content2 {
@@ -389,7 +260,137 @@
             text-align: center;
             font-family: 'retron2000';
             font-size: 12px;
-            color:$greenColor
+            color: $greenColor
+        }
+
+        .container2:hover .content2 {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background-color: rgba(0, 0, 0, .9);
+        }
+
+        .link2 {
+            text-decoration: none;
+        }
+    }
+}
+
+.obrasRow3 {
+    .obrasColumn1 {
+        .container1 {
+            width: 300px;
+            height: auto;
+            margin: 100px auto;
+            font-family: 'retron2000';
+            position: relative;
+            overflow: hidden;
+            transition: all .1s;
+            position: relative;
+            top: 80px;
+        }
+
+        .container1:hover {
+            //  transform: scale(1.05);
+        }
+
+        .container1 .img1 {
+            width: 300px;
+            height: auto;
+            transition: all .5s;
+        }
+
+        .container1:hover .img1 {
+            transform: scale(1.1);
+        }
+
+        .container1 .content1 {
+            background-color: rgba(0, 0, 0, .7);
+            position: absolute;
+            top: -150%;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            text-align: justify;
+            height: 100%;
+            color: #fff;
+            box-sizing: border-box;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .content1 .txt1 {
+            text-align: center;
+            font-family: 'retron2000';
+            font-size: 12px;
+            color: $greenColor
+        }
+
+        .container1:hover .content1 {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background-color: rgba(0, 0, 0, .9);
+        }
+
+        .link1 {
+            text-decoration: none;
+        }
+    }
+
+    .obrasColumn2 {
+        .container2 {
+            width: 250px;
+            height: auto;
+            margin: 150px auto;
+            font-family: 'retron2000';
+            position: relative;
+            overflow: hidden;
+            transition: all .1s;
+            position: relative;
+            top: 50px;
+        }
+
+        .container2:hover {
+            //   transform: scale(1.05);
+        }
+
+        .container2 .img2 {
+            width: 100%;
+            height: auto;
+            transition: all .5s;
+        }
+
+        .container2:hover .img2 {
+            // transform: scale(1.1);
+        }
+
+        .container2 .content2 {
+            background-color: rgba(0, 0, 0, .7);
+            position: absolute;
+            top: -150%;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            text-align: justify;
+            height: 100%;
+            color: #fff;
+            box-sizing: border-box;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .content2 .txt2 {
+            text-align: center;
+            font-family: 'retron2000';
+            font-size: 12px;
+            color: $greenColor
         }
 
         .container2:hover .content2 {
@@ -410,29 +411,30 @@
 .obrasRow4 {
     .obrasColumn1 {
         .container1 {
-            width: 600px;
+            width: 350px;
             height: auto;
+            margin: 50px auto;
             font-family: 'retron2000';
             position: relative;
             overflow: hidden;
             transition: all .2s;
             position: relative;
-            left: 350px;
-            top: 0px;
+            left: 0px;
+            top: 90px;
         }
 
         .container1:hover {
-           // transform: scale(1.05);
+            // transform: scale(1.05);
         }
 
         .container1 .img1 {
-            width: 600px;
+            width: 100%;
             height: auto;
             transition: all .5s;
         }
 
         .container1:hover .img1 {
-          //  transform: scale(1.1);
+            //  transform: scale(1.1);
         }
 
         .container1 .content1 {
@@ -455,10 +457,75 @@
             text-align: center;
             font-family: 'retron2000';
             font-size: 12px;
-            color:$greenColor
+            color: $greenColor
         }
 
         .container1:hover .content1 {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background-color: rgba(0, 0, 0, .9);
+        }
+
+        .link1 {
+            text-decoration: none;
+        }
+    }
+
+    .obrasColumn2 {
+        .container2 {
+            width: 500px;
+            height: auto;
+            margin: 50px auto;
+            font-family: 'retron2000';
+            position: relative;
+            overflow: hidden;
+            transition: all .2s;
+            position: relative;
+            left: 0px;
+            top: 0px;
+        }
+
+        .container2:hover {
+            // transform: scale(1.05);
+        }
+
+        .container2 .img2 {
+            width: 100%;
+            height: auto;
+            transition: all .5s;
+        }
+
+        .container2:hover .img2 {
+            //  transform: scale(1.1);
+        }
+
+        .container2 .content2 {
+            background-color: rgba(0, 0, 0, .7);
+            position: absolute;
+            top: -150%;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            text-align: justify;
+            height: 100%;
+            color: #fff;
+            box-sizing: border-box;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .content2 .txt2 {
+            text-align: center;
+            font-family: 'retron2000';
+            font-size: 12px;
+            color: $greenColor
+        }
+
+        .container2:hover .content2 {
             position: absolute;
             top: 0;
             bottom: 0;
@@ -476,28 +543,29 @@
 .obrasRow5 {
     .obrasColumn1 {
         .container1 {
-            width: 500px;
+            width: 600px;
             height: auto;
+            margin: 180px auto;
             font-family: 'retron2000';
             position: relative;
             overflow: hidden;
             transition: all .1s;
             position: relative;
-            bottom: 150px;
+            bottom: 0px;
         }
 
         .container1:hover {
-         //   transform: scale(1.05);
+            //   transform: scale(1.05);
         }
 
         .container1 .img1 {
-            width: 500px;
+            width: 100%;
             height: auto;
             transition: all .5s;
         }
 
         .container1:hover .img1 {
-            transform: scale(1.1);
+            // transform: scale(1.1);
         }
 
         .container1 .content1 {
@@ -520,7 +588,7 @@
             text-align: center;
             font-family: 'retron2000';
             font-size: 12px;
-            color:$greenColor
+            color: $greenColor
         }
 
         .container1:hover .content1 {
@@ -544,8 +612,12 @@
 
 .obrasRow6 {
     .obrasColumn1 {
+        display: flex;
+        align-items: center;
+        justify-content: end;
+
         .container1 {
-            width: 350px;
+            width: 300px;
             height: auto;
             font-family: 'retron2000';
             position: relative;
@@ -553,21 +625,21 @@
             transition: all .1s;
             position: relative;
             bottom: 180px;
-            left: 300px;
+            right: 100px
         }
 
         .container1:hover {
-         //   transform: scale(1.05);
+            //   transform: scale(1.05);
         }
 
         .container1 .img1 {
-            width: 350px;
+            width: 100%;
             height: auto;
             transition: all .5s;
         }
 
         .container1:hover .img1 {
-            transform: scale(1.1);
+            // transform: scale(1.1);
         }
 
         .container1 .content1 {
@@ -590,7 +662,144 @@
             text-align: center;
             font-family: 'retron2000';
             font-size: 12px;
-            color:$greenColor
+            color: $greenColor
+        }
+
+        .container1:hover .content1 {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background-color: rgba(0, 0, 0, .9);
+        }
+
+        .link1 {
+            text-decoration: none;
+        }
+    }
+}
+
+
+.obrasRow7 {
+    .obrasColumn1 {
+        .container1 {
+            width: 250px;
+            height: auto;
+            font-family: 'retron2000';
+            position: relative;
+            overflow: hidden;
+            transition: all .1s;
+            position: relative;
+            bottom: 180px;
+            left: 200px;
+        }
+
+        .container1:hover {
+            //   transform: scale(1.05);
+        }
+
+        .container1 .img1 {
+            width: 100%;
+            height: auto;
+            transition: all .5s;
+        }
+
+        .container1:hover .img1 {
+            // transform: scale(1.1);
+        }
+
+        .container1 .content1 {
+            background-color: rgba(0, 0, 0, .7);
+            position: absolute;
+            top: -150%;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            text-align: justify;
+            height: 100%;
+            color: #fff;
+            box-sizing: border-box;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .content1 .txt1 {
+            text-align: center;
+            font-family: 'retron2000';
+            font-size: 12px;
+            color: $greenColor
+        }
+
+        .container1:hover .content1 {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background-color: rgba(0, 0, 0, .9);
+        }
+
+        .link1 {
+            text-decoration: none;
+        }
+    }
+}
+
+
+.obrasRow8 {
+    .obrasColumn1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .container1 {
+            width: 400px;
+            height: auto;
+            font-family: 'retron2000';
+            position: relative;
+            overflow: hidden;
+            transition: all .1s;
+            position: relative;
+            bottom: 80px;
+        }
+
+        .container1:hover {
+            //   transform: scale(1.05);
+        }
+
+        .container1 .img1 {
+            width: 100%;
+            height: auto;
+            transition: all .5s;
+        }
+
+        .container1:hover .img1 {
+            // transform: scale(1.1);
+        }
+
+        .container1 .content1 {
+            background-color: rgba(0, 0, 0, .7);
+            position: absolute;
+            top: -150%;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            text-align: justify;
+            height: 100%;
+            color: #fff;
+            box-sizing: border-box;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .content1 .txt1 {
+            text-align: center;
+            font-family: 'retron2000';
+            font-size: 12px;
+            color: $greenColor
         }
 
         .container1:hover .content1 {
