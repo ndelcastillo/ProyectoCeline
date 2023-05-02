@@ -1,0 +1,233 @@
+.obraArteObjetoContainer1 {
+    background-color: white;
+
+    .obraArteObjetoRow1 {
+        margin: 0 0 0 0;
+
+        .obraArteObjetoColumn1 {
+            div {
+                margin: 20px 15px 0 0;
+                display: flex;
+                flex-direction: row;
+                justify-content: end;
+
+                h1 {
+                    font-family: 'retron2000';
+                    font-size: 32px;
+                    color: rgb(55, 55, 55);
+                }
+            }
+        }
+    }
+
+    .obraArteObjetoRow2 {
+        margin: 0 15px 0 15px;
+
+        .obraArteObjetoColumn1 {
+            hr {
+                color: black;
+                margin: 0 0 10px 0;
+            }
+
+            div {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+
+                .obraArteObjetoLink {
+                    text-decoration: none;
+
+                    h6 {
+                        list-style: none;
+                        transition: all .1s;
+                        cursor: pointer;
+                        font-family: 'helveticaNeueLight';
+                        font-size: 16px;
+                        color: rgb(55, 55, 55);
+
+                        &:hover {
+                            color: $greenColor;
+                        }
+                    }
+                }
+
+                .obraArteObjetoTxt {
+                    display: flex;
+                    flex-direction: column;
+
+                    h6 {
+                        text-align: end;
+                        font-family: 'helveticaNeueLight';
+                        font-size: 16px;
+                        color: rgb(55, 55, 55);
+                    }
+                }
+            }
+        }
+    }
+
+    .obraArteObjetoRow3 {
+        margin: 0px 15px 0 15px;
+
+        .obraArteObjetoColumn1 {
+            div {
+                margin: 0 0 0 0;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                margin-right: auto;
+                margin-left: auto;
+
+                img {
+                    width: 70%;
+                    height: auto;
+                }
+
+                div {
+                    // margin: 0 0 0 0;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: end;
+                    justify-content: end;
+                    width: 60%;
+                    height: auto;
+
+                    .p1 {
+                        text-align: end;
+                        font-family: 'retron2000';
+                        font-size: 16px;
+                        color: rgb(55, 55, 55);
+                        margin: 20px 0 0 0;
+                    }
+
+                    p {
+                        text-align: end;
+                        font-family: 'helveticaNeueLight';
+                        font-size: 16px;
+                        color: rgb(55, 55, 55);
+                        margin: 0 0 0 0;
+                    }
+                }
+            }
+        }
+    }
+
+    .obraArteObjetoRow4 {
+        margin: 0px 15px 0 15px;
+
+        .obraArteObjetoColumn1 {
+            div {
+                margin: 0 0 0 0;
+                display: flex;
+                flex-direction: column;
+                align-items: end;
+                justify-content: end;
+
+                img {
+                    width: 100%;
+                    height: auto;
+                }
+
+                .p1 {
+                    text-align: end;
+                    font-family: 'retron2000';
+                    font-size: 16px;
+                    color: rgb(55, 55, 55);
+                    margin: 0 0 0 0;
+                }
+
+                p {
+                    text-align: end;
+                    font-family: 'helveticaNeueLight';
+                    font-size: 16px;
+                    color: rgb(55, 55, 55);
+                    margin: 0 0 0 0;
+                }
+            }
+        }
+
+        .obraArteObjetoColumn2 {
+            div {
+                height: 110vh;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                margin: 0 0 0 0;
+                align-items: end;
+
+                .p1 {
+                    text-align: end;
+                    font-family: 'helveticaNeueLight';
+                    font-size: 16px;
+                    color: rgb(55, 55, 55);
+                    margin: 0 0 0 0;
+                }
+
+                .p2 {
+                    text-align: end;
+                    font-family: 'helveticaNeueLight';
+                    font-size: 16px;
+                    color: rgb(55, 55, 55);
+                    margin: 0 0 0 0;
+                }
+
+                .p3 {
+                    text-align: end;
+                    font-family: 'helveticaNeueLight';
+                    font-size: 16px;
+                    color: rgb(55, 55, 55);
+                    margin: 0 0 0 0;
+                }
+
+            }
+        }
+    }
+
+    .obraArteObjetoRow5 {
+        margin: 150px 15px 150px 15px;
+
+        .obraArteObjetoColumn1 {
+            div {
+                margin: 0 0 0 0;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                margin-right: auto;
+                margin-left: auto;
+
+                img {
+                    width: 80%;
+                    height: auto;
+                }
+
+                div {
+                    // margin: 0 0 0 0;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: end;
+                    justify-content: end;
+                    width: 60%;
+                    height: auto;
+
+                    .p1 {
+                        text-align: end;
+                        font-family: 'retron2000';
+                        font-size: 16px;
+                        color: rgb(55, 55, 55);
+                        margin: 20px 0 0 0;
+                    }
+
+                    p {
+                        text-align: end;
+                        font-family: 'helveticaNeueLight';
+                        font-size: 16px;
+                        color: rgb(55, 55, 55);
+                        margin: 0 0 0 0;
+                    }
+                }
+            }
+        }
+    }
+}

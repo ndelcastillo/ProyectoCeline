@@ -1,47 +1,162 @@
 .statementContainer1 {
     background-color: white;
     width: 100%;
-    min-height: 87vh;
-}
+    min-height: 88vh;
+    cursor: cell;
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
 
-.statementRow1 {
-    background-color: none;
-    min-height: 45vh;
-    width: 100%;
-    padding: 0px 60px 0px 60px;
-    display: flex;
-    align-items: end;
-
-    .statementColumn1 {
+    .statementRow1 {
         background-color: none;
+        min-height: 45vh;
+        width: 100%;
+        padding: 0px 100px 0px 100px;
+        display: flex;
+        align-items: end;
 
-        p {
-            font-size: 14px;
-            text-align: justify;
-            font-family: 'helveticaNeueLight';
-            color: $greyColor;
+        .statementColumn1 {
+            background-color: none;
+
+            p {
+                font-size: 14px;
+                text-align: justify;
+                font-family: 'helveticaNeueLight';
+                color: rgb(55, 55, 55);
+            }
         }
     }
-}
 
-.statementRow2 {
-    background-color: none;
-    min-height: 15vh;
-    width: 100%;
-    display: flex;
-    align-items: center;
-
-    .statementColumn1 {
+    .statementRow2 {
         background-color: none;
+        min-height: 15vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        // margin-left: auto;
+        // margin-right: auto;
 
-        p {
-            font-size: 14px;
-            text-align: center;
-            font-family: 'helveticaNeueLight';
-            color: $greyColor;
+        .statementColumn1 {
+            background-color: none;
 
-            &:hover {
-                color: $orangeColor;
+            .statementEstudio {
+                // padding: 20px;
+                // display: flex;
+                // flex-direction: column;
+                // justify-content: center;
+                // border: 1px dashed;
+                // border-color: $orangeColor;
+
+                .statementEstudioRow1 {
+                    width: 100%;
+                    display: flex;
+                    flex-direction: row;
+                    align-items: start;
+                    justify-content: space-between;
+                    padding: 40px 0px 60px 100px;
+
+                    .statementEstudioCol1 {
+                        div {
+                            width: 400px;
+                            height: auto;
+                            display: flex;
+                            justify-content: start;
+                            flex-direction: column;
+                            align-items: start;
+
+                            .pTit {
+                                text-align: left;
+                                font-size: 14px;
+                                font-family: 'helveticaNeueLight';
+                                color: rgb(55, 55, 55);
+                            }
+
+                            p {
+                                margin: 0 0 0 0;
+                                text-align: left;
+                                font-size: 14px;
+                                font-family: 'helveticaNeueLight';
+                                color: rgb(55, 55, 55);
+                            }
+                        }
+                    }
+
+                    .statementEstudioCol2 {
+                        div {
+                            width: 100%;
+                            height: auto;
+                            display: flex;
+                            justify-content: start;
+                            flex-direction: column;
+                            align-items: start;
+                            // margin-left: 30px;
+
+                            .pTit {
+                                text-align: left;
+                                font-size: 14px;
+                                font-family: 'helveticaNeueLight';
+                                color: rgb(55, 55, 55);
+                            }
+
+                            p {
+                                margin: 0 0 0 0;
+                                text-align: left;
+                                font-size: 14px;
+                                font-family: 'helveticaNeueLight';
+                                color: rgb(55, 55, 55);
+                            }
+                        }
+                    }
+
+                    .statementEstudioCol3 {
+                        div {
+                            width: 200px;
+                            height: auto;
+                            display: flex;
+                            justify-content: start;
+                            flex-direction: column;
+                            align-items: start;
+
+                            .pTit {
+                                text-align: left;
+                                font-size: 14px;
+                                font-family: 'helveticaNeueLight';
+                                color: rgb(55, 55, 55);
+                            }
+
+                            p {
+                                margin: 0 0 0 0;
+                                text-align: left;
+                                font-size: 14px;
+                                font-family: 'helveticaNeueLight';
+                                color: rgb(55, 55, 55);
+
+                                a {
+                                    color: blue($color: #000000);
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .statementVerMas {
+                display: flex;
+                flex-direction: column;
+                justify-content: left;
+                cursor: crosshair;
+
+                p {
+                    text-align: center;
+                    font-size: 14px;
+                    font-family: 'helveticaNeueLight';
+                    color: rgb(55, 55, 55);
+
+                    &:hover {
+                        color: $orangeColor;
+                    }
+                }
             }
         }
     }

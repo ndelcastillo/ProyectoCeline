@@ -1,0 +1,140 @@
+@media screen and (max-width: 576px) {
+
+    .obraVisualesContainer1 {
+        // background-color: black;
+        height: auto;
+    
+        .obraVisualesRow1 {
+            // margin: 0 0 0 0;
+    
+            .obraVisualesColumn1 {
+                div {
+                    // margin: 20px 15px 0 0;
+                    // display: flex;
+                    // flex-direction: row;
+                    // justify-content: end;
+    
+                    h1 {
+                        // font-family: 'retron2000';
+                        font-size: 16px;
+                        // color: white;
+                        margin: 0 0 5px 0;
+                    }
+                }
+            }
+        }
+    
+        .obraVisualesRow2 {
+            // margin: 0 15px 0 15px;
+    
+            .obraVisualesColumn1 {
+                hr {
+                    // color: white;
+                    margin: 0 0 8px 0;
+                }
+    
+                div {
+                    // display: flex;
+                    // flex-direction: row;
+                    // justify-content: space-between;
+    
+                    .obraVisualesLink {
+                        // text-decoration: none;
+    
+                        h6 {
+                            // list-style: none;
+                            // transition: all .1s;
+                            // cursor: pointer;
+                            // font-family: 'helveticaNeueLight';
+                            font-size: 6px;
+                            // color: white;
+                            line-height: 0;
+    
+                            &:hover {
+                                // color: $greenColor;
+                            }
+                        }
+                    }
+    
+                    .obraVisualesTxt {
+                        // display: flex;
+                        // flex-direction: column;
+    
+                        h6 {
+                            // text-align: end;
+                            // font-family: 'helveticaNeueLight';
+                            font-size: 6px;
+                            // color: white;
+                            line-height: 0;
+                        }
+                    }
+                }
+            }
+        }
+    
+        .obraVisualesRow3 {
+            margin: 20px 15px 0 15px;
+    
+            .obraVisualesColumn1 {
+                width: 100%;
+                margin-left: auto;
+                margin-right: auto;
+
+                div {
+                    // margin: 0 0 0 0;
+                    // display: flex;
+                    // flex-direction: column;
+                    // align-items: center;
+                    // justify-content: center;
+                    // margin-right: auto;
+                    // margin-left: auto;
+                    // width: 100%;
+                    // height: auto;
+    
+                    iframe {
+                        width: 100%;
+                        height: auto;
+                    }
+                }
+            }
+        }
+    
+        .obraVisualesRow4 {
+            margin: 40px 15px 40px 15px;
+            height: 50vh;
+    
+            .obraVisualesColumn1 {
+                width: 70%;
+                margin-left: auto;
+                margin-right: auto;
+
+                div {
+                    // margin: 0 0 0 0;
+                    // display: flex;
+                    // flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+    
+                    p {
+                        text-align: center;
+                        // font-family: 'helveticaNeueLight';
+                        font-size: 8px;
+                        // color: white;
+                        // margin: 0 0 0 0;
+                    }
+
+                    .p1{
+                        width: 100%;
+                        margin-left: auto;
+                        margin-right: auto;
+                        text-align: center;
+                        // font-family: 'helveticaNeueLight';
+                        font-size: 6px;
+                        // color: white;
+                        // margin: 0 0 0 0;
+                    }
+                }
+            }
+        }
+    }
+}

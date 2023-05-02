@@ -3,11 +3,28 @@
     padding: 0px;
     box-sizing: border-box;
     scroll-behavior: smooth;
+    // cursor: none;
+    // cursor: cell;
+
+    // &:hover{
+    //     cursor: crosshair;
+    // }
 }
 
 .App {
     text-align: center;
     background-color: white;
-    height: 100vh;
+    // height: 100vh;
     width: 100%;
 }
+
+// .cursor{
+//     // background-image: url('../../../public/assets/images/obras/aleph-pandemico/recurso1.png');
+//     background-color: aquamarine;
+//     border-radius: 50px;
+//     height: 52px;
+//     width: 52px;
+//     position: fixed;
+//     top: 0;
+//     left: 0;
+// }

@@ -17,7 +17,7 @@ import ObraIdiotique from '../Obras/ObraIdiotique';
 import ObraVisuales from '../Obras/ObraVisuales';
 import ObraCuore from '../Obras/ObraCuore';
 import ObraInfinito from '../Obras/ObraInfinito';
-import ObraIntensidadEfimera from '../Obras/ObraIntensidadEfimera';
+import ObraIntesidadEfim from '../Obras/ObraIntensidadEfim';
 
 
 function AnimatedRoutes() {
@@ -29,7 +29,6 @@ function AnimatedRoutes() {
                 <Route path='/' element={<Inicio />} />
                 <Route path='/obras' element={<Obras />} />
                 <Route path='/obras/futuro-guion-para-la-obra-del-futuro' element={<ObraFuturoGuionParaLaObraDelFuturo />} />
-                <Route path='/obras/intensidad-efimera' element={<ObraIntensidadEfimera />} />
                 <Route path='/obras/unomasunotres' element={<ObraUnoMasUnoTres />} />
                 <Route path='/obras/arte-objeto' element={<ObraArteObjeto />} />
                 <Route path='/obras/panoptico' element={<ObraPanoptico />} />
@@ -39,9 +38,8 @@ function AnimatedRoutes() {
                 <Route path='/obras/idiotique' element={<ObraIdiotique />} />
                 <Route path='/obras/visuales' element={<ObraVisuales />} />
                 <Route path='/obras/cuore' element={<ObraCuore />} />
+                <Route path='/obras/intensidad-efim' element={<ObraIntesidadEfim/>}  />
                 <Route path='/obras/infinito' element={<ObraInfinito />} />
-                <Route path='/obras/intensidad-efimera' element={<ObraIntensidadEfimera />} />
-
                 <Route path='/statement' element={<Statement />} />
                 <Route path='/arquitectura' element={<ArquitecturaContainer />} />
                 <Route path='/contacto' element={<Contacto />} />

@@ -62,8 +62,15 @@ function ArquitecturaContainer() {
                         <Arquitectura className="sliderImg" bookimg={book} />
                     </Col>
                 </Row>
+                <Row className='arquitecturaContainerRow2'>
+                    <Col className='arquitecturaContainerColumn1' xs={{ span: 12, offset: 0 }} sm={{ span: 12, offset: 0 }} md={{ span: 12, offset: 0 }} lg={{ span: 12, offset: 0 }}>
+                        <p>
+                        La tesis hace una investigación acerca de la monumentalidad y la ciudad productiva. Se habla sobre los nuevos monumentos; poniendo en fricción el concepto y dandole una re-significación al mismo. Haciendo de los monumentos nuevos nodos en la ciudad, creando una nueva trama urbana, descentralizando el centro y asi romper la periferia. En sus paginas, se trabaja en un ejemplo en particular, el desarrollo de un nuevo monumento en el Puerto de Buenos Aires, asi conectar la ciudad con el rio devolviendo el derecho al agua que se habia perdido a traves de las barreras urbanas impuestas durante los años.
+                        </p>
+                    </Col>
+                </Row>
             </div>
-            <Footer/>
+            <Footer />
         </motion.div>
     )
 }

@@ -1,0 +1,113 @@
+.obraVisualesContainer1 {
+    background-color: black;
+
+    .obraVisualesRow1 {
+        margin: 0 0 0 0;
+
+        .obraVisualesColumn1 {
+            div {
+                margin: 20px 15px 0 0;
+                display: flex;
+                flex-direction: row;
+                justify-content: end;
+
+                h1 {
+                    font-family: 'retron2000';
+                    font-size: 32px;
+                    color: white;
+                }
+            }
+        }
+    }
+
+    .obraVisualesRow2 {
+        margin: 0 15px 0 15px;
+
+        .obraVisualesColumn1 {
+            hr {
+                color: white;
+                margin: 0 0 10px 0;
+            }
+
+            div {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+
+                .obraVisualesLink {
+                    text-decoration: none;
+
+                    h6 {
+                        list-style: none;
+                        transition: all .1s;
+                        cursor: pointer;
+                        font-family: 'helveticaNeueLight';
+                        font-size: 16px;
+                        color: white;
+
+                        &:hover {
+                            color: $greenColor;
+                        }
+                    }
+                }
+
+                .obraVisualesTxt {
+                    display: flex;
+                    flex-direction: column;
+
+                    h6 {
+                        text-align: end;
+                        font-family: 'helveticaNeueLight';
+                        font-size: 16px;
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+
+    .obraVisualesRow3 {
+        margin: 50px 15px 0 15px;
+
+        .obraVisualesColumn1 {
+            div {
+                margin: 0 0 0 0;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                margin-right: auto;
+                margin-left: auto;
+                width: 100%;
+                height: auto;
+
+                iframe {
+                    width: 95vw;
+                    height: 90vh;
+                }
+            }
+        }
+    }
+
+    .obraVisualesRow4 {
+        margin: 150px 70px 150px 15px;
+
+        .obraVisualesColumn1 {
+            div {
+                margin: 0 0 0 0;
+                display: flex;
+                flex-direction: column;
+                align-items: end;
+                justify-content: end;
+
+                p {
+                    text-align: end;
+                    font-family: 'helveticaNeueLight';
+                    font-size: 16px;
+                    color: white;
+                    margin: 0 0 0 0;
+                }
+            }
+        }
+    }
+}

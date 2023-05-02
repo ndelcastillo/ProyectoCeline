@@ -1,10 +1,11 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Container, Col, Row } from 'react-bootstrap'
 import Header from '../Header/Header'
 import { motion } from 'framer-motion'
 import Footer from '../Footer/Footer'
 
 function Contacto() {
+
     return (
         <motion.div
             inital={{ opacity: 0 }}
@@ -30,7 +31,7 @@ function Contacto() {
                             lg={{ span: 3, offset: 0 }}
                         >
                             <p>
-                                CELIHUERGO@GMAIL.COM
+                                celihuergo@gmail.com
                             </p>
                         </Col>
                         <Col className='contactoColumn3'
@@ -73,8 +74,8 @@ function Contacto() {
                             md={{ span: 3, offset: 0 }}
                             lg={{ span: 3, offset: 0 }}
                         >
-                            <a href="https://www.instagram.com/celine.art__/" target="_blank">
-                                <p>@CELINE_</p>
+                            <a href="https://www.instagram.com/celine.__________________/" target="_blank">
+                                <p>@celine.________________</p>
                             </a>
                         </Col>
                         <Col className='contactoColumn4'
@@ -88,7 +89,7 @@ function Contacto() {
                     </Row>
                 </Container>
             </div>
-            <Footer/>
+            <Footer />
         </motion.div>
     )
 }

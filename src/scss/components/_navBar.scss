@@ -1,30 +1,53 @@
 .navBarRow1 {
+    cursor: crosshair;
 
     .navBarColumn1 {
         hr {
-            margin: 30px 30px 0px 30px;
+            margin: 0px 30px 0px 30px;
+            padding: 0;
             color: black;
+            position: relative;
+            bottom: 15px;
         }
 
         ul {
             display: flex;
             flex-direction: row;
             justify-content: space-between;
+            margin-top: 30px;
 
-            .navBarLink{
+            .navBarLink0 {
                 text-decoration: none;
+                cursor: crosshair;
+            }
+
+            .navBarLink1 {
+                text-decoration: none;
+                cursor: crosshair;
+            }
+            .navBarLink2 {
+                text-decoration: none;
+                cursor: crosshair;
+            }
+            .navBarLink3 {
+                text-decoration: none;
+                cursor: crosshair;
+            }
+            .navBarLink4 {
+                text-decoration: none;
+                cursor: crosshair;
             }
 
             li {
                 list-style: none;
                 transition: all .1s;
-                cursor: pointer;
+                cursor: crosshair;
             }
 
             .navBarInicio {
                 font-family: 'helveticaNeueLight';
                 font-size: calc(0.3rem + 1vw);
-                color: black;
+                color: rgb(55, 55, 55);
 
                 &:hover {
                     color: $greyColor;
@@ -34,7 +57,7 @@
             .navBarStatement {
                 font-family: 'helveticaNeueLight';
                 font-size: calc(0.3rem + 1vw);
-                color: black;
+                color: rgb(55, 55, 55);
 
                 &:hover {
                     color: $orangeColor;
@@ -44,7 +67,7 @@
             .navBarObras {
                 font-family: 'helveticaNeueLight';
                 font-size: calc(0.3rem + 1vw);
-                color: black;
+                color: rgb(55, 55, 55);
 
                 &:hover {
                     color: $greenColor;
@@ -54,7 +77,7 @@
             .navBarArquitectura {
                 font-family: 'helveticaNeueLight';
                 font-size: calc(0.3rem + 1vw);
-                color: black;
+                color: rgb(55, 55, 55);
 
                 &:hover {
                     color: $yellowColor;
@@ -65,7 +88,7 @@
                 font-family: 'helveticaNeueLight';
                 font-size: calc(0.3rem + 1vw);
                 margin-right: 30px;
-                color: black;
+                color: rgb(55, 55, 55);
 
                 &:hover {
                     color: $blueColor;
@@ -74,3 +97,54 @@
         }
     }
 }
+
+// .navBarStatement.activeTit {
+//     background-color: yellow;
+// }
+
+// .navBarObras.activeTit {
+//     text-decoration: underline;
+// }
+
+// .navBarArquitectura.activeTit {
+//     background-color: yellow;
+// }
+
+// .navBarContacto.activeT {
+//     background-color: yellow;
+// }
+
+// .navBarLink li.activeTit {
+//     background-color: #cccccc;
+//     color: yellow; /* Cambia este valor al color deseado */
+//   }
+
+.navBarLink0 li.activeTit {
+    padding: 0 10px 0 10px;
+    // background-color:rgb(146, 146, 146);
+    text-decoration:overline;
+  }
+  
+.navBarLink1 li.activeTit {
+    padding: 0 10px 0 10px;
+    // background-color:rgb(255, 98, 4);
+    text-decoration:overline;
+  }
+
+  .navBarLink2 li.activeTit {
+    padding: 0 10px 0 10px;
+    // background-color:rgb(110, 169, 120);
+    text-decoration:overline;
+  }
+
+  .navBarLink3 li.activeTit {
+    padding: 0 10px 0 10px;
+    // background-color: rgb(225, 229, 27);
+    text-decoration:overline;
+  }
+
+  .navBarLink4 li.activeTit {
+    padding: 0 10px 0 10px;
+    // background-color: rgb(96, 134, 240);
+    text-decoration:overline;
+  }

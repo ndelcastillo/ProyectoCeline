@@ -1,7 +1,8 @@
 .contactoContainer1 {
     background-color: white;
     width: 100%;
-    min-height: 87vh;
+    min-height: 88vh;
+    cursor: cell;
 }
 
 .contactoRow1 {
@@ -41,6 +42,7 @@
                 text-align: center;
                 font-family: 'helveticaNeueLight';
                 color: $greyColor;
+                cursor: crosshair;
 
                 &:hover {
                     color: $blueColor;

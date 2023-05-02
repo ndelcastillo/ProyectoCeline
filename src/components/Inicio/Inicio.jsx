@@ -11,22 +11,27 @@ function Inicio() {
             exit={{ opacity: 0 }}
         >
             <div className='inicioContainer1'>
-                <Row className='inicioRow1'>
-                    <Col className='inicioColumn1'
-                        xs={12}
-                        sm={12}
-                        md={12}
-                        lg={12}
-                    >
-                        <div>
-                            <h1 >CELINE_</h1>
-                            <hr />
-                        </div>
-                        <div>
+                <Container fluid>
+                    <Row className='inicioRow1'>
+                        <Col className='inicioColumn1' xs={12} sm={12} md={12} lg={12}>
+                            <div>
+                                {/* <h1 >CELINE_</h1> */}
+                                <img src="/assets/images/inicio/celineTitCom2.gif" alt="" />
+                                <hr />
+                            </div>
+                        </Col>
+                    </Row>
+                    <Row className='inicioRow2'>
+                        <Col className='inicioColumn1' xs={12} sm={12} md={12} lg={12}>
+                            <div></div>
+                        </Col>
+                    </Row>
+                    <Row className='inicioRow3'>
+                        <Col className='inicioColumn1' xs={12} sm={12} md={12} lg={12}>
                             <hr />
                             <ul>
                                 <Link className='inicioLink' to={"/statement"}>
-                                    <li className='homeStatement'>STATEMENT</li>
+                                    <li className='homeStatement'>ABOUT</li>
                                 </Link>
                                 <Link className='inicioLink' to={"/obras"}>
                                     <li className='homeObras'>OBRAS</li>
@@ -38,9 +43,9 @@ function Inicio() {
                                     <li className='homeContacto'>CONTACTO</li>
                                 </Link>
                             </ul>
-                        </div>
-                    </Col>
-                </Row>
+                        </Col>
+                    </Row>
+                </Container>
             </div>
         </motion.div>
     )

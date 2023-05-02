@@ -1,0 +1,175 @@
+.obraTuVenenoContainer1 {
+    background-color: white;
+
+    .obraTuVenenoRow1 {
+        margin: 0 0 0 0;
+
+        .obraTuVenenoColumn1 {
+            div {
+                margin: 20px 15px 0 0;
+                display: flex;
+                flex-direction: row;
+                justify-content: end;
+
+                h1 {
+                    font-family: 'retron2000';
+                    font-size: 32px;
+                    color: rgb(55, 55, 55);
+                }
+            }
+        }
+    }
+
+    .obraTuVenenoRow2 {
+        margin: 0 15px 0 15px;
+
+        .obraTuVenenoColumn1 {
+            hr {
+                color: black;
+                margin: 0 0 10px 0;
+            }
+
+            div {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+
+                .obraTuVenenoLink {
+                    text-decoration: none;
+
+                    h6 {
+                        list-style: none;
+                        transition: all .1s;
+                        cursor: pointer;
+                        font-family: 'helveticaNeueLight';
+                        font-size: 16px;
+                        color: rgb(55, 55, 55);
+
+                        &:hover {
+                            color: $greenColor;
+                        }
+                    }
+                }
+
+                .obraTuVenenoTxt {
+                    display: flex;
+                    flex-direction: column;
+
+                    h6 {
+                        text-align: end;
+                        font-family: 'helveticaNeueLight';
+                        font-size: 16px;
+                        color: rgb(55, 55, 55);
+                    }
+                }
+            }
+        }
+    }
+
+    .obraTuVenenoRow3 {
+        margin: 50px 15px 0 15px;
+
+        .obraTuVenenoColumn1 {
+            div {
+                margin: 0 0 0 0;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                margin-right: auto;
+                margin-left: auto;
+                width: 100%;
+                height: auto;
+
+                iframe {
+                    width: 95vw;
+                    height: 90vh;
+                }
+            }
+        }
+    }
+
+    .obraTuVenenoRow5 {
+        margin: 150px 15px 0 15px;
+
+        .obraTuVenenoColumn1 {
+            div {
+                margin: 0 0 0 0;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                margin-right: auto;
+                margin-left: auto;
+
+                img {
+                    width: 100%;
+                    height: auto;
+                }
+            }
+        }
+    }
+
+    .obraTuVenenoRow6 {
+        margin: 150px 15px 0 15px;
+
+        .obraTuVenenoColumn1 {
+            div {
+                margin: 0 0 0 0;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                margin-right: auto;
+                margin-left: auto;
+
+                img {
+                    width: 100%;
+                    height: auto;
+                }
+            }
+        }
+    }
+
+    .obraTuVenenoRow7 {
+        margin: 150px 15px 0 15px;
+
+        .obraTuVenenoColumn1 {
+            div {
+                margin: 0 0 0 0;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                margin-right: auto;
+                margin-left: auto;
+
+                img {
+                    width: 90%;
+                    height: auto;
+                }
+            }
+        }
+    }
+
+    .obraTuVenenoRow8 {
+        margin: 150px 15px 150px 15px;
+
+        .obraTuVenenoColumn1 {
+            div {
+                margin: 0 0 0 0;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                margin-right: auto;
+                margin-left: auto;
+
+                img {
+                    width: 100%;
+                    height: auto;
+                }
+            }
+        }
+    }
+}

@@ -36,3 +36,27 @@
 @import './subcomponents/obraVuelveTodoASuLugar';
 
 //Utilities
+@import './base/reset';
+
+//Queries
+@import './queries/components/arquitectura';
+@import './queries/components/contacto';
+@import './queries/components/footer';
+@import './queries/components/header';
+@import './queries/components/inicio';
+@import './queries/components/navBar';
+@import './queries/components/obras';
+@import './queries/components/statement';
+
+@import './queries/subcomponents/obraAlephPandemico';
+@import './queries/subcomponents/obraArteObjeto';
+@import './queries/subcomponents/obraCuore';
+@import './queries/subcomponents/obraFuturoGuionParaLaObraDelFuturo';
+@import './queries/subcomponents/obraIdiotique';
+@import './queries/subcomponents/obraInfinito';
+@import './queries/subcomponents/obraIntesidadEfimera';
+@import './queries/subcomponents/obraPanoptico';
+@import './queries/subcomponents/obraTuVeneno';
+@import './queries/subcomponents/obraUnoMasUnoTres';
+@import './queries/subcomponents/obraVisuales';
+@import './queries/subcomponents/obraVuelveTodoASuLugar';
