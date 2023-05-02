@@ -23,7 +23,7 @@ function ObraIntesidadEfim() {
           <hr />
           <div>
             <Link className='obraIntensidadEfimeraLink' to={"/obras"}>
-              <h6>← atras</h6>
+              <h6>← atrás</h6>
             </Link>
             <div className='obraIntensidadEfimeraTxt'>
               <h6>

@@ -49,9 +49,10 @@
         margin-right: auto;
 
         .iconLeft {
-            width: 10px;
+            width: 20px;
+            font-size: 6px;
             // height: auto;
-            margin: 0 0 0 0;
+            margin: 0 0 0 5px;
             // cursor: crosshair;
             color: rgb(55, 55, 55);
             opacity: (.8);
@@ -74,9 +75,10 @@
         }
 
         .iconRight {
-            width: 10px;
+            width: 20px;
+            font-size: 6px;
             // height: auto;
-            margin: 0 0 0 0;
+            margin: 0 0 0 5px;
             // cursor: crosshair;
             color: rgb(55, 55, 55);
             opacity: (.8);

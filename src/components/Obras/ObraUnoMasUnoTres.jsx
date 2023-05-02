@@ -24,7 +24,7 @@ function ObraUnoMasUnoTres() {
           <hr />
           <div>
             <Link className='obraUnoMasUnoTresLink' to={"/obras"}>
-              <h6>← atras</h6>
+              <h6>← atrás</h6>
             </Link>
             <div className='obraUnoMasUnoTresTxt'>
               <h6>

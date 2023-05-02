@@ -23,7 +23,7 @@ function ObraPanoptico() {
           <hr />
           <div>
             <Link className='obraPanopticoLink' to={"/obras"}>
-              <h6>← atras</h6>
+              <h6>← atrás</h6>
             </Link>
             <div className='obraPanopticoTxt'>
               <h6>

@@ -228,7 +228,7 @@
 .inicioContainer1 {
   width: 100%;
   height: 100vh;
-  background-image: url(../../../public/assets/images/inicio/gifCelineComp1.gif);
+  background-image: url(../../../public/assets/images/inicio/gifCelineComp2.gif);
   background-repeat: no-repeat;
   background-size: cover;
   cursor: cell;
@@ -2910,8 +2910,9 @@ li.active {
     margin-right: auto;
   }
   .arquitetcuraSliderColumn1 .iconLeft {
-    width: 10px;
-    margin: 0 0 0 0;
+    width: 20px;
+    font-size: 6px;
+    margin: 0 0 0 5px;
     color: rgb(55, 55, 55);
     opacity: 0.8;
   }
@@ -2929,8 +2930,9 @@ li.active {
     opacity: 1;
   }
   .arquitetcuraSliderColumn1 .iconRight {
-    width: 10px;
-    margin: 0 0 0 0;
+    width: 20px;
+    font-size: 6px;
+    margin: 0 0 0 5px;
     color: rgb(55, 55, 55);
     opacity: 0.8;
   }
@@ -2956,7 +2958,7 @@ li.active {
 }
 @media screen and (max-width: 576px) {
   .inicioContainer1 {
-    background-image: url(../../../../public/assets/images/inicio/gifCelineComp1.gif);
+    background-image: url(../../../../public/assets/images/inicio/gifCelineComp2.gif);
   }
   .inicioContainer1 .inicioRow1 .inicioColumn1 img {
     width: 140px;
@@ -3464,6 +3466,7 @@ li.active {
 }
 @media screen and (max-width: 576px) {
   .statementContainer1 {
+    width: 100%;
     min-height: 87vh;
     display: flex;
     justify-content: center;
@@ -3471,18 +3474,26 @@ li.active {
   }
   .statementContainer1 .statementRow1 {
     min-height: 0vh;
+    width: 100%;
     padding: 0 6px 0 30px;
   }
   .statementContainer1 .statementRow1 .statementColumn1 p {
     font-size: 8px;
   }
+  .statementContainer1 .statementRow2 {
+    width: 100%;
+  }
+  .statementContainer1 .statementRow2 .statementColumn1 .statementEstudio {
+    width: 100%;
+  }
   .statementContainer1 .statementRow2 .statementColumn1 .statementEstudio .statementEstudioRow1 {
-    padding: 20px 0 0 30px;
+    padding: 20px 0 0 20px;
   }
   .statementContainer1 .statementRow2 .statementColumn1 .statementEstudio .statementEstudioRow1 .statementEstudioCol1 {
-    height: 37vh;
+    height: 240px;
   }
   .statementContainer1 .statementRow2 .statementColumn1 .statementEstudio .statementEstudioRow1 .statementEstudioCol1 div {
+    width: 100%;
     line-height: 12px;
   }
   .statementContainer1 .statementRow2 .statementColumn1 .statementEstudio .statementEstudioRow1 .statementEstudioCol1 div .pTit {
@@ -3493,9 +3504,10 @@ li.active {
     font-size: 8px;
   }
   .statementContainer1 .statementRow2 .statementColumn1 .statementEstudio .statementEstudioRow1 .statementEstudioCol2 {
-    height: 23.5vh;
+    height: 150px;
   }
   .statementContainer1 .statementRow2 .statementColumn1 .statementEstudio .statementEstudioRow1 .statementEstudioCol2 div {
+    width: 100%;
     line-height: 12px;
   }
   .statementContainer1 .statementRow2 .statementColumn1 .statementEstudio .statementEstudioRow1 .statementEstudioCol2 div .pTit {
@@ -3505,7 +3517,11 @@ li.active {
   .statementContainer1 .statementRow2 .statementColumn1 .statementEstudio .statementEstudioRow1 .statementEstudioCol2 div p {
     font-size: 8px;
   }
+  .statementContainer1 .statementRow2 .statementColumn1 .statementEstudio .statementEstudioRow1 .statementEstudioCol3 {
+    height: 120px;
+  }
   .statementContainer1 .statementRow2 .statementColumn1 .statementEstudio .statementEstudioRow1 .statementEstudioCol3 div {
+    width: 100%;
     line-height: 12px;
   }
   .statementContainer1 .statementRow2 .statementColumn1 .statementEstudio .statementEstudioRow1 .statementEstudioCol3 div .pTit {
@@ -3736,7 +3752,7 @@ li.active {
     height: auto;
   }
   .obraFuturoGuionParaLaObraDelFuturoContainer1 .obraFuturoGuionParaLaObraDelFuturoRow4 .obraFuturoGuionParaLaObraDelFuturoColumn2 div {
-    width: 80%;
+    width: 62%;
     margin-left: auto;
     margin-right: auto;
     height: auto;
@@ -4181,7 +4197,7 @@ li.active {
     margin: 40px 15px 0 15px;
   }
   .obraTuVenenoContainer1 .obraTuVenenoRow5 .obraTuVenenoColumn1 {
-    width: 70%;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
   }
@@ -4193,7 +4209,7 @@ li.active {
     margin: 40px 15px 0 15px;
   }
   .obraTuVenenoContainer1 .obraTuVenenoRow6 .obraTuVenenoColumn1 {
-    width: 60%;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
   }
@@ -4205,7 +4221,7 @@ li.active {
     margin: 40px 15px 0 15px;
   }
   .obraTuVenenoContainer1 .obraTuVenenoRow7 .obraTuVenenoColumn1 {
-    width: 70%;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
   }
@@ -4217,7 +4233,7 @@ li.active {
     margin: 40px 15px 40px 15px;
   }
   .obraTuVenenoContainer1 .obraTuVenenoRow8 .obraTuVenenoColumn1 {
-    width: 60%;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
   }
@@ -4408,7 +4424,7 @@ li.active {
     margin: 40px 15px 0 15px;
   }
   .obraVuelveTodoASuLugarContainer1 .obraVuelveTodoASuLugarRow5 .obraVuelveTodoASuLugarColumn1 {
-    width: 70%;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
   }
@@ -4420,7 +4436,7 @@ li.active {
     margin: 40px 15px 0 15px;
   }
   .obraVuelveTodoASuLugarContainer1 .obraVuelveTodoASuLugarRow6 .obraVuelveTodoASuLugarColumn1 {
-    width: 60%;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
   }
@@ -4441,7 +4457,7 @@ li.active {
     margin: 40px 15px 0 15px;
   }
   .obraVuelveTodoASuLugarContainer1 .obraVuelveTodoASuLugarRow7 .obraVuelveTodoASuLugarColumn1 {
-    width: 70%;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
   }
@@ -4453,7 +4469,7 @@ li.active {
     margin: 40px 15px 40px 15px;
   }
   .obraVuelveTodoASuLugarContainer1 .obraVuelveTodoASuLugarRow8 .obraVuelveTodoASuLugarColumn1 {
-    width: 60%;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
   }

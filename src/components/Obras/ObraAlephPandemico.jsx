@@ -23,7 +23,7 @@ function ObraAlephPandemico() {
           <hr />
           <div>
             <Link className='obraAlephPandemicoLink' to={"/obras"}>
-              <h6>← atras</h6>
+              <h6>← atrás</h6>
             </Link>
             <div className='obraAlephPandemicoTxt'>
               <h6>

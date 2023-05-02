@@ -5,9 +5,9 @@ import { Link } from 'react-router-dom'
 function EstudioStatement() {
     return (
         <div className='statementEstudioContainer1'>
-            {/* <Container> */}
+            <Container fluid>
                 <Row className='statementEstudioRow1'>
-                    <Col className='statementEstudioCol1' xs={12} sm={14} md={12} lg={3} >
+                    <Col className='statementEstudioCol1' xs={12} sm={12} md={12} lg={3} >
                         <div>
                             <p className='pTit'> ESTUDIOS</p>
                             <br />
@@ -61,7 +61,7 @@ function EstudioStatement() {
                         </div>
                     </Col>
                 </Row >
-            {/* </Container> */}
+            </Container>
         </div>
     )
 }

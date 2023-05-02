@@ -2,7 +2,7 @@
 
     .statementContainer1 {
         // background-color: white;
-        // width: 100%;
+        width: 100%;
         min-height: 87vh;
         // cursor: cell;
         display: flex;
@@ -12,7 +12,7 @@
         .statementRow1 {
             // background-color: none;
             min-height: 0vh;
-            // width: 100%;
+            width: 100%;
             padding: 0 6px 0 30px;
 
             .statementColumn1 {
@@ -31,7 +31,7 @@
         .statementRow2 {
             // background-color: none;
             // min-height: 15vh;
-            // width: 100%;
+            width: 100%;
             // display: flex;
             // justify-content: center;
             // align-items: center;
@@ -40,19 +40,21 @@
                 // background-color: none;
 
                 .statementEstudio {
+                    width: 100%;
+
                     .statementEstudioRow1 {
                         // width: 100%;
                         // display: flex;
                         // flex-direction: row;
                         // align-items: start;
                         // justify-content: space-between;
-                        padding: 20px 0 0 30px;
+                        padding: 20px 0 0 20px;
 
                         .statementEstudioCol1 {
-                            height: 37vh;
+                            height: 240px;
 
                             div {
-                                // width: 300px;
+                                width: 100%;
                                 // height: auto;
                                 line-height: 12px;
                                 // display: flex;
@@ -79,9 +81,10 @@
                         }
 
                         .statementEstudioCol2 {
-                            height: 23.5vh;
+                            height: 150px;
+                            
                             div {
-                                // width: 300px;
+                                width: 100%;
                                 // height: auto;
                                 line-height: 12px;
                                 // display: flex;
@@ -109,10 +112,11 @@
                         }
 
                         .statementEstudioCol3 {
+                            height: 120px;
 
-                            // height: 38vh;
+
                             div {
-                                // width: 100%;
+                                width: 100%;
                                 // height: auto;
                                 line-height: 12px;
                                 // display: flex;

@@ -23,7 +23,7 @@ function ObraVisuales() {
           <hr />
           <div>
             <Link className='obraVisualesLink' to={"/obras"}>
-              <h6>← atras</h6>
+              <h6>← atrás</h6>
             </Link>
             <div className='obraVisualesTxt'>
               <h6>

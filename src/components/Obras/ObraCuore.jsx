@@ -23,7 +23,7 @@ function ObraCuore() {
           <hr />
           <div>
             <Link className='obraCuoreLink' to={"/obras"}>
-              <h6>← atras</h6>
+              <h6>← atrás</h6>
             </Link>
             <div className='obraCuoreTxt'>
               <h6>

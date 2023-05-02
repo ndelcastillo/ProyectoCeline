@@ -23,7 +23,7 @@ function ObraVuelveTodoASuLugar() {
           <hr />
           <div>
             <Link className='obraVuelveTodoASuLugarLink' to={"/obras"}>
-              <h6>← atras</h6>
+              <h6>← atrás</h6>
             </Link>
             <div className='obraVuelveTodoASuLugarTxt'>
               <h6>

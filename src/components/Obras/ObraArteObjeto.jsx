@@ -23,7 +23,7 @@ function ObraArteObjeto() {
           <hr />
           <div>
             <Link className='obraArteObjetoLink' to={"/obras"}>
-              <h6>← atras</h6>
+              <h6>← atrás</h6>
             </Link>
             <div className='obraArteObjetoTxt'>
               <h6>

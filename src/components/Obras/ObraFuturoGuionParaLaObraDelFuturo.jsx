@@ -24,7 +24,7 @@ function ObraFuturoGuionParaLaObraDelFuturo() {
           {/* <div className='lineBlack'></div> */}
           <div>
             <Link className='obraFuturoGuionParaLaObraDelFuturoLink' to={"/obras"}>
-              <h6>← atras</h6>
+              <h6>← atrás</h6>
             </Link>
             <div className='obraFuturoGuionParaLaObraDelFuturoTxt'>
               <h6>

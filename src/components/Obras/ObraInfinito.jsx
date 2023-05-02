@@ -24,7 +24,7 @@ function ObraInfinito() {
           <hr />
           <div>
             <Link className='obraInfinitoLink' to={"/obras"}>
-              <h6>← atras</h6>
+              <h6>← atrás</h6>
             </Link>
             <div className='obraInfinitoTxt'>
               <h6>
@@ -57,7 +57,7 @@ function ObraInfinito() {
       <Row className='obraInfinitoRow4'>
         <Col className='obraInfinitoColumn1' xs={12} lg={6}>
           <div>
-            <img src="/assets/images/obras/infinito/Recurso 19.png" alt="" />
+            <img src="/assets/images/obras/infinito/Recurso 18.png" alt="" />
           </div>
         </Col>
         <Col className='obraInfinitoColumn2' xs={12} lg={6}>
@@ -79,7 +79,7 @@ function ObraInfinito() {
       <Row className='obraInfinitoRow6'>
         <Col className='obraInfinitoColumn1' xs={12} lg={6}>
           <div>
-            <img src="/assets/images/obras/infinito/Recurso 18.png" alt="" />
+            <img src="/assets/images/obras/infinito/Recurso 19.png" alt="" />
           </div>
         </Col>
       </Row>

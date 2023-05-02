@@ -23,7 +23,7 @@ function ObraTuVeneno() {
           <hr />
           <div>
             <Link className='obraTuVenenoLink' to={"/obras"}>
-              <h6>← atras</h6>
+              <h6>← atrás</h6>
             </Link>
             <div className='obraTuVenenoTxt'>
               <h6>
@@ -39,7 +39,7 @@ function ObraTuVeneno() {
       <Row className='obraTuVenenoRow3'>
         <Col className='obraTuVenenoColumn1' xs={12} lg={12}>
           <div>
-            <iframe src="https://www.youtube-nocookie.com/embed/3ZFEgWQNXRU?controls=0&amp;start=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <iframe src="https://www.youtube.com/embed/3ZFEgWQNXRU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
           </div>
         </Col>
       </Row>
