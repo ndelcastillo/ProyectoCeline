@@ -228,7 +228,7 @@
 .inicioContainer1 {
   width: 100%;
   height: 100vh;
-  background-image: url(../../../public/assets/images/inicio/gifCelineComp2.gif);
+  background-image: url(../../../public/assets/images/inicio/gifCelineComp3.gif);
   background-repeat: no-repeat;
   background-size: cover;
   cursor: cell;
@@ -2958,7 +2958,11 @@ li.active {
 }
 @media screen and (max-width: 576px) {
   .inicioContainer1 {
-    background-image: url(../../../../public/assets/images/inicio/gifCelineComp2.gif);
+    width: 100%;
+    height: 100vh;
+    background-image: url(../../../../public/assets/images/inicio/gifCelineComp3.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   .inicioContainer1 .inicioRow1 .inicioColumn1 img {
     width: 140px;
