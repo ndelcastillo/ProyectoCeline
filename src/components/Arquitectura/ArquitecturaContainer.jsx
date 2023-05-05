@@ -70,7 +70,7 @@ function ArquitecturaContainer() {
                                 overlayClassName="Overlay"
                             >
                                 <img className='Modal-img' src={myImage} alt="Descripción de la imagen" />
-                                <Button className='btn btn-dark btn-sm btnCerrarModal' onClick={() => setModalIsOpen(false)}>X</Button>
+                                <Button className='btn btn-dark btn-sm btnCerrarModal' onClick={() => setModalIsOpen(false)}></Button>
                             </Modal>
                         </Col>
                     </Row>

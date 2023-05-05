@@ -1223,18 +1223,17 @@ li.active {
 }
 .Modal .btnCerrarModal {
   position: fixed;
-  top: 5%;
-  left: 5%;
+  top: 4.8%;
+  left: 4.76%;
   transform: translate(-50%, -50%);
   padding: 0 0 0 0;
   overflow: auto;
-  border-radius: 100px;
   background-color: red;
-  width: 18px;
-  height: 18px;
-  border-radius: 15px;
+  border: 0 solid grey;
+  width: 12px;
+  height: 12px;
   color: white;
-  font-size: 10px;
+  font-size: 0;
 }
 
 .obraAlephPandemicoContainer1 {
@@ -3023,15 +3022,15 @@ li.active {
   }
   .Modal .btnCerrarModal {
     position: fixed;
-    top: 4.2%;
-    left: 4%;
+    top: 4.8%;
+    left: 4.76%;
     transform: translate(-50%, -50%);
     padding: 0 0 0 0;
     overflow: auto;
     background-color: red;
     border: 0 solid grey;
-    width: 8px;
-    height: 7.1px;
+    width: 8.1px;
+    height: 8px;
     color: white;
     font-size: 0;
   }
