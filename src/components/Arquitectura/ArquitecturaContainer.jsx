@@ -1,12 +1,18 @@
-import React from 'react'
-import { Container, Col, Row } from 'react-bootstrap'
+import React, { useState } from 'react'
+import Modal from 'react-modal'
+import { Container, Col, Row, Button } from 'react-bootstrap'
 import Header from '../Header/Header'
 import { motion } from 'framer-motion'
+import Swal from 'sweetalert'
+import myImage from '../../assets/images/arquitectura/popUpBook.png';
 import Arquitectura from './Arquitectura'
 import Footer from '../Footer/Footer'
+import { BiMessageRoundedError } from 'react-icons/bi';
+
 
 
 function ArquitecturaContainer() {
+    const [modalIsOpen, setModalIsOpen] = useState(false);
 
     const book = [
         "/assets/images/arquitectura/pag0.png",
@@ -52,23 +58,35 @@ function ArquitecturaContainer() {
         >
             <Header />
             <div className='arquitecturaContainer1'>
-                <Row className='arquitecturaContainerRow1'>
-                    <Col className='arquitecturaContainerColumn1'
-                        xs={{ span: 12, offset: 0 }}
-                        sm={{ span: 12, offset: 0 }}
-                        md={{ span: 12, offset: 0 }}
-                        lg={{ span: 12, offset: 0 }}
-                    >
-                        <Arquitectura className="sliderImg" bookimg={book} />
-                    </Col>
-                </Row>
-                <Row className='arquitecturaContainerRow2'>
-                    <Col className='arquitecturaContainerColumn1' xs={{ span: 12, offset: 0 }} sm={{ span: 12, offset: 0 }} md={{ span: 12, offset: 0 }} lg={{ span: 12, offset: 0 }}>
-                        <p>
-                        La tesis hace una investigación acerca de la monumentalidad y la ciudad productiva. Se habla sobre los nuevos monumentos; poniendo en fricción el concepto y dandole una re-significación al mismo. Haciendo de los monumentos nuevos nodos en la ciudad, creando una nueva trama urbana, descentralizando el centro y asi romper la periferia. En sus paginas, se trabaja en un ejemplo en particular, el desarrollo de un nuevo monumento en el Puerto de Buenos Aires, asi conectar la ciudad con el rio devolviendo el derecho al agua que se habia perdido a traves de las barreras urbanas impuestas durante los años.
-                        </p>
-                    </Col>
-                </Row>
+                <Container fluid>
+                    <Row className='arquitecturaContainerRow0 d-block d-lg-none'>
+                        <Col className='arquitecturaContainerColumn1' xs={12}>
+                            <BiMessageRoundedError size={8} color="#373737" onClick={() => setModalIsOpen(true)} />
+                            <Modal
+                                isOpen={modalIsOpen}
+                                onRequestClose={() => setModalIsOpen(false)}
+                                contentLabel="Mi imagen"
+                                className="Modal"
+                                overlayClassName="Overlay"
+                            >
+                                <img className='Modal-img' src={myImage} alt="Descripción de la imagen" />
+                                <Button className='btn btn-dark btn-sm btnCerrarModal' onClick={() => setModalIsOpen(false)}>X</Button>
+                            </Modal>
+                        </Col>
+                    </Row>
+                    <Row className='arquitecturaContainerRow1'>
+                        <Col className='arquitecturaContainerColumn1' xs={12} lg={12} >
+                            <Arquitectura className="sliderImg" bookimg={book} />
+                        </Col>
+                    </Row>
+                    <Row className='arquitecturaContainerRow2'>
+                        <Col className='arquitecturaContainerColumn1' xs={12} lg={12}>
+                            <p>
+                                La tesis hace una investigación acerca de la monumentalidad y la ciudad productiva. Se habla sobre los nuevos monumentos; poniendo en fricción el concepto y dandole una re-significación al mismo. Haciendo de los monumentos nuevos nodos en la ciudad, creando una nueva trama urbana, descentralizando el centro y asi romper la periferia. En sus paginas, se trabaja en un ejemplo en particular, el desarrollo de un nuevo monumento en el Puerto de Buenos Aires, asi conectar la ciudad con el rio devolviendo el derecho al agua que se habia perdido a traves de las barreras urbanas impuestas durante los años.
+                            </p>
+                        </Col>
+                    </Row>
+                </Container>
             </div>
             <Footer />
         </motion.div>

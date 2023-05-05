@@ -6,12 +6,7 @@ function Footer() {
     <div className='footerContainer1'>
       <Container>
         <Row className='footerRow1'>
-          <Col className='footerColumn1'
-            xs={12}
-            sm={12}
-            md={12}
-            lg={12}
-          >
+          <Col className='footerColumn1' xs={12} lg={12}>
             <h5>©2023 CELINA HUERGO</h5>
           </Col>
         </Row>

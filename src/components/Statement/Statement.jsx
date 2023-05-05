@@ -25,7 +25,7 @@ function Statement() {
             <div className='statementContainer1'>
                 <Container fluid>
                     <Row className='statementRow1'>
-                        <Col className='statementColumn1' xs={{ span: 12, offset: 0 }} sm={{ span: 12, offset: 0 }} md={{ span: 12, offset: 0 }} lg={{ span: 12, offset: 0 }}
+                        <Col className='statementColumn1' xs={12} lg={12}
                         >
                             <p>
                                 La producción en proceso explora las diferentes disciplinas trabajando conceptos e inquietudes que me intrigan a la hora de desarrollarme. Tal
@@ -39,7 +39,7 @@ function Statement() {
                         </Col>
                     </Row>
                     <Row className='statementRow2'>
-                        <Col className='statementColumn1' xs={{ span: 12, offset: 0 }} sm={{ span: 12, offset: 0 }} md={{ span: 12, offset: 0 }} lg={{ span: 12, offset: 0 }}>
+                        <Col className='statementColumn1' xs={12} lg={12}>
                             {
                                 (showImg) ?
                                     <div className='statementEstudio'>

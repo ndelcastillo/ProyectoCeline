@@ -70,7 +70,7 @@
                 color: rgb(55, 55, 55);
 
                 &:hover {
-                    color: $greenColor;
+                    color: rgb(20, 20, 230);
                 }
             }
 
@@ -91,33 +91,24 @@
                 color: rgb(55, 55, 55);
 
                 &:hover {
-                    color: $blueColor;
+                    color: $greenColor;
+                }
+            }
+
+            .navBarContactoEnContacto {
+                font-family: 'helveticaNeueLight';
+                font-size: calc(0.3rem + 1vw);
+                margin-right: 20px;
+                color: rgb(55, 55, 55);
+
+                &:hover {
+                    color: $greenColor;
                 }
             }
         }
     }
 }
 
-// .navBarStatement.activeTit {
-//     background-color: yellow;
-// }
-
-// .navBarObras.activeTit {
-//     text-decoration: underline;
-// }
-
-// .navBarArquitectura.activeTit {
-//     background-color: yellow;
-// }
-
-// .navBarContacto.activeT {
-//     background-color: yellow;
-// }
-
-// .navBarLink li.activeTit {
-//     background-color: #cccccc;
-//     color: yellow; /* Cambia este valor al color deseado */
-//   }
 
 .navBarLink0 li.activeTit {
     padding: 0 10px 0 10px;

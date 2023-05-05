@@ -15,7 +15,7 @@ function NavBar() {
     <div className='navBarContainer1'>
       <Container fluid>
         <Row className='navBarRow1'>
-          <Col className='navBarColumn1' xs={12} sm={12} md={12} lg={12}>
+          <Col className='navBarColumn1' xs={12} lg={12}>
             <ul>
               <Link className="navBarLink0" to={"/"}>
                 <li className={`navBarInicio ${isActive("/")}`}>INICIO</li>

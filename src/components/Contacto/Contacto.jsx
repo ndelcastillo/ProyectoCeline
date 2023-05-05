@@ -3,8 +3,15 @@ import { Container, Col, Row } from 'react-bootstrap'
 import Header from '../Header/Header'
 import { motion } from 'framer-motion'
 import Footer from '../Footer/Footer'
+import { Link, useLocation } from 'react-router-dom'
 
 function Contacto() {
+
+    const location = useLocation();
+
+    function isActive(path) {
+      return location.pathname === path ? "activeTit" : "";
+    }
 
     return (
         <motion.div
@@ -12,78 +19,64 @@ function Contacto() {
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
         >
-            <Header />
+            {/* <Header /> */}
+            <div className='navBarContainer1'>
+                <Container fluid>
+                    <Row className='navBarRow1'>
+                        <Col className='navBarColumn1' xs={12} sm={12} md={12} lg={12}>
+                            <ul>
+                                <Link className="navBarLink0" to={"/"}>
+                                    <li className={`navBarInicio ${isActive("/")}`}>INICIO</li>
+                                </Link>
+                                <Link className="navBarLink1" to={"/statement"}>
+                                    <li className={`navBarStatement ${isActive("/statement")}`}>ABOUT</li>
+                                </Link>
+                                <Link className="navBarLink2" to={"/obras"}>
+                                    <li className={`navBarObras ${isActive("/obras")}`}>OBRAS</li>
+                                </Link>
+                                <Link className="navBarLink3" to={"/arquitectura"}>
+                                    <li className={`navBarArquitectura ${isActive("/arquitectura")}`}>ARQUITECTURA</li>
+                                </Link>
+                                <Link className="navBarLink4" to={"/contacto"}>
+                                    <li className={`navBarContactoEnContacto ${isActive("/contacto")}`}>CONTACTO</li>
+                                </Link>
+                            </ul>
+                            <hr />
+                        </Col>
+                    </Row>
+                </Container>
+            </div>
             <div className='contactoContainer1'>
                 <Container>
                     <Row className='contactoRow1'>
-                        <Col className='contactoColumn1'
-                            xs={{ span: 3, offset: 0 }}
-                            sm={{ span: 3, offset: 0 }}
-                            md={{ span: 3, offset: 0 }}
-                            lg={{ span: 3, offset: 0 }}
-                        >
+                        <Col className='contactoColumn1'>
                             <></>
                         </Col>
-                        <Col className='contactoColumn2'
-                            xs={{ span: 3, offset: 0 }}
-                            sm={{ span: 3, offset: 0 }}
-                            md={{ span: 3, offset: 0 }}
-                            lg={{ span: 3, offset: 0 }}
-                        >
+                        <Col className='contactoColumn2'>
                             <p>
                                 celihuergo@gmail.com
                             </p>
                         </Col>
-                        <Col className='contactoColumn3'
-                            xs={{ span: 3, offset: 0 }}
-                            sm={{ span: 3, offset: 0 }}
-                            md={{ span: 3, offset: 0 }}
-                            lg={{ span: 3, offset: 0 }}
-                        >
+                        <Col className='contactoColumn3'>
                             <></>
                         </Col>
-                        <Col className='contactoColumn4'
-                            xs={{ span: 3, offset: 0 }}
-                            sm={{ span: 3, offset: 0 }}
-                            md={{ span: 3, offset: 0 }}
-                            lg={{ span: 3, offset: 0 }}
-                        >
+                        <Col className='contactoColumn4'>
                             <></>
                         </Col>
                     </Row>
                     <Row className='contactoRow2'>
-                        <Col className='contactoColumn1'
-                            xs={{ span: 3, offset: 0 }}
-                            sm={{ span: 3, offset: 0 }}
-                            md={{ span: 3, offset: 0 }}
-                            lg={{ span: 3, offset: 0 }}
-                        >
+                        <Col className='contactoColumn1'>
                             <></>
                         </Col>
-                        <Col className='contactoColumn2'
-                            xs={{ span: 3, offset: 0 }}
-                            sm={{ span: 3, offset: 0 }}
-                            md={{ span: 3, offset: 0 }}
-                            lg={{ span: 3, offset: 0 }}
-                        >
+                        <Col className='contactoColumn2'>
                             <></>
                         </Col>
-                        <Col className='contactoColumn3'
-                            xs={{ span: 3, offset: 0 }}
-                            sm={{ span: 3, offset: 0 }}
-                            md={{ span: 3, offset: 0 }}
-                            lg={{ span: 3, offset: 0 }}
-                        >
+                        <Col className='contactoColumn3'>
                             <a href="https://www.instagram.com/celine.__________________/" target="_blank">
                                 <p>@celine.________________</p>
                             </a>
                         </Col>
-                        <Col className='contactoColumn4'
-                            xs={{ span: 3, offset: 0 }}
-                            sm={{ span: 3, offset: 0 }}
-                            md={{ span: 3, offset: 0 }}
-                            lg={{ span: 3, offset: 0 }}
-                        >
+                        <Col className='contactoColumn4'>
                             <></>
                         </Col>
                     </Row>

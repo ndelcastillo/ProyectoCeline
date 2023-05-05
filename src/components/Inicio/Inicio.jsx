@@ -13,7 +13,7 @@ function Inicio() {
             <div className='inicioContainer1'>
                 <Container fluid>
                     <Row className='inicioRow1'>
-                        <Col className='inicioColumn1' xs={12} sm={12} md={12} lg={12}>
+                        <Col className='inicioColumn1' xs={12} lg={12}>
                             <div>
                                 {/* <h1 >CELINE_</h1> */}
                                 <img src="/assets/images/inicio/celineTitCom2.gif" alt="" />

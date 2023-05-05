@@ -30,7 +30,7 @@ function Obras() {
                             <div className=''>
                                 <ul>
                                     <li className={activeElement === "categoria-texto" ? "active categoryTexto" : "inactive categoryTexto"} onClick={() => handleClick("categoria-texto", "texto")}>texto</li>
-                                    <li className={activeElement === "categoria-programacion" ? "active categoryProgramacion" : "inactive categoryProgramacion"} onClick={() => handleClick("categoria-programacion", "programación")}>programación</li>
+                                    <li className={activeElement === "categoria-programacion" ? "active categoryProgramacion" : "inactive categoryProgramacion"} onClick={() => handleClick("categoria-programacion", "programación")}>video</li>
                                     <li className={activeElement === "categoria-instalacion" ? "active categoryInstalacion" : "inactive categoryInstalacion"} onClick={() => handleClick("categoria-instalacion", "instalación")}>instalación</li>
                                     <li className={activeElement === "categoria-pintura" ? "active categoryPintura" : "inactive categoryPintura"} onClick={() => handleClick("categoria-pintura", "pintura")}>pintura</li>
                                     <li className={activeElement === "categoria-direccion" ? "active categoryDireccion" : "inactive categoryDireccion"} onClick={() => handleClick("categoria-direccion", "direccion")}>dirección</li>
@@ -43,7 +43,7 @@ function Obras() {
                 <Container>
                     <Row className='obrasRow1'>
                         <Col className='obrasColumn1 animate__animated animate__fadeInUp animate__slower' xs={12} sm={{ span: 2, offset: 0 }} lg={{ span: 4, offset: 0 }}>
-                            <div id="categoria-instalacion" className={`container1 ${activeElement === "categoria-instalacion" ? "borde-azul" : ""}`}>
+                            <div id="categoria-texto" className={`container1 ${activeElement === "categoria-texto" ? "borde-azul" : ""}`}>
                                 <img className='img1' src="/assets/images/obras/futuroGuion.png" alt="" />
                                 <div className='content1'>
                                     <Link style={{ textDecoration: "none" }} to={"/obras/futuro-guion-para-la-obra-del-futuro"}>
@@ -53,7 +53,7 @@ function Obras() {
                             </div>
                             <div className='boxTitle1 d-block d-lg-none d-flex justify-content-end'>
                                 <h3>FUTURO GUIÓN PARA OBRA DEL FUTURO</h3>
-                                <p>[INSTALACIÓN]</p>
+                                <p>[TEXTO]</p>
                             </div>
                         </Col>
                         <Col className='obrasColumn2 animate__animated animate__fadeInUp animate__slower' xs={12} lg={{ span: 4, offset: 1 }}>

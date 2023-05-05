@@ -7,17 +7,12 @@ function EstudioStatement() {
         <div className='statementEstudioContainer1'>
             <Container fluid>
                 <Row className='statementEstudioRow1'>
-                    <Col className='statementEstudioCol1' xs={12} sm={12} md={12} lg={3} >
+                    <Col className='statementEstudioCol1' xs={12} lg={3} >
                         <div>
                             <p className='pTit'> ESTUDIOS</p>
                             <br />
                             <p>Universitarios:</p>
                             <p>2016 - 2022: Arquitectura - Universidad Buenos Aires</p>
-                            <br />
-                            <p>Cursos:</p>
-                            <p>2021: Programación Touchdesigner - Panikkk</p>
-                            <p>2020: Collage Digital - Domestika</p>
-                            <p>2019: Fotografía - Universidad de Buenos Aires</p>
                             <br />
                             <p>Talleres:</p>
                             {/* <p>2023: Taller Compartido - Galería CRUDO</p> */}
@@ -29,10 +24,16 @@ function EstudioStatement() {
                             <p>2023: Proyecto PAC - Galería Gachi Prieto</p>
                             <p>2023: Proyecto PÚRPURA - Galería Púrpura</p>
                             <p>2021 - 2022: Taller Cabos Sueltos - Valeria Rovatti</p>
+                            <br />
+                            <p>Cursos:</p>
+                            <p>2021: Programación Touchdesigner - Panikkk</p>
+                            <p>2020: Collage Digital - Domestika</p>
+                            <p>2019: Fotografía - Universidad de Buenos Aires</p>
+
                         </div >
                         <br /><br />
                     </Col>
-                    <Col className='statementEstudioCol2' xs={12} sm={12} md={12} lg={3} >
+                    <Col className='statementEstudioCol2' xs={12} lg={3} >
                         <div>
                             <p className='pTit'>EXPOSICIONES</p>
                             <br />

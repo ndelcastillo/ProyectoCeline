@@ -17,13 +17,13 @@ function Arquitectura({ bookimg }) {
     setImagenActual(imagenActual === cantidad - 1 ? 0 : imagenActual + 1);
   }
   const anteriorImagen = () => {
-    setImagenActual(imagenActual === 0 ? cantidad -1 : imagenActual - 1);
+    setImagenActual(imagenActual === 0 ? cantidad - 1 : imagenActual - 1);
   }
 
   return (
     <div className='arquitetcuraSliderColumn1'
     >
-      <p className='iconLeft' icon={faArrowLeft} onClick={anteriorImagen} >←</p>
+      <p className='iconLeft d-none d-lg-block' icon={faArrowLeft} onClick={anteriorImagen} >←</p>
       {bookimg.map((imagen, index) => {
         return (
           <div className={imagenActual === index ? `${"arquitecturaSliderImg"} ${"arquitecturaSliderImgActive"}` : "arquitecturaSliderImg"}>
@@ -33,7 +33,10 @@ function Arquitectura({ bookimg }) {
           </div>
         )
       })}
-      <p className='iconRight' icon={faArrowRight} onClick={siguienteImagen} >→</p>
+      <div className='iconsSliders d-flex'>
+        <p className='iconLeft d-block d-lg-none' icon={faArrowLeft} onClick={anteriorImagen} >←</p>
+        <p className='iconRight' icon={faArrowRight} onClick={siguienteImagen} >→</p>
+      </div>
     </div>
   )
 }

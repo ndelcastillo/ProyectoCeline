@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*---------- HELVETICA NEUE ----------*/
 @font-face {
   font-family: "helveticaNeueBlackItalic";
@@ -124,7 +125,7 @@
   color: rgb(55, 55, 55);
 }
 .navBarRow1 .navBarColumn1 ul .navBarObras:hover {
-  color: rgb(110, 169, 120);
+  color: rgb(20, 20, 230);
 }
 .navBarRow1 .navBarColumn1 ul .navBarArquitectura {
   font-family: "helveticaNeueLight";
@@ -141,7 +142,16 @@
   color: rgb(55, 55, 55);
 }
 .navBarRow1 .navBarColumn1 ul .navBarContacto:hover {
-  color: rgb(96, 134, 240);
+  color: rgb(110, 169, 120);
+}
+.navBarRow1 .navBarColumn1 ul .navBarContactoEnContacto {
+  font-family: "helveticaNeueLight";
+  font-size: calc(0.3rem + 1vw);
+  margin-right: 20px;
+  color: rgb(55, 55, 55);
+}
+.navBarRow1 .navBarColumn1 ul .navBarContactoEnContacto:hover {
+  color: rgb(110, 169, 120);
 }
 
 .navBarLink0 li.activeTit {
@@ -222,7 +232,7 @@
   cursor: crosshair;
 }
 .contactoRow2 .contactoColumn3 a p:hover {
-  color: rgb(96, 134, 240);
+  color: rgb(110, 169, 120);
 }
 
 .inicioContainer1 {
@@ -305,7 +315,7 @@
 }
 .inicioContainer1 .inicioRow3 .inicioColumn1 ul .homeObras:hover {
   cursor: crosshair;
-  color: rgb(110, 169, 120);
+  color: rgb(20, 20, 230);
 }
 .inicioContainer1 .inicioRow3 .inicioColumn1 ul .homeArquitectura {
   font-family: "helveticaNeueLight";
@@ -331,7 +341,7 @@
 }
 .inicioContainer1 .inicioRow3 .inicioColumn1 ul .homeContacto:hover {
   cursor: crosshair;
-  color: rgb(96, 134, 240);
+  color: rgb(110, 169, 120);
 }
 
 .obrasContainer1 {
@@ -368,20 +378,21 @@
   font-family: "helveticaNeueLight";
   font-size: calc(0.3rem + 1vw);
   color: rgb(20, 20, 230);
-  margin: 0 80px 0 0;
+  margin: 0 0 0 0;
+  position: relative;
+  right: 12px;
 }
 .obrasRow0 .obrasColumn1 ul .categoryPintura {
   font-family: "helveticaNeueLight";
   font-size: calc(0.3rem + 1vw);
   color: rgb(20, 20, 230);
-  margin: 0 65px 0 0;
-  position: relative;
-  right: 25px;
+  margin: 0 0 0 0;
 }
 .obrasRow0 .obrasColumn1 ul .categoryDireccion {
   font-family: "helveticaNeueLight";
   font-size: calc(0.3rem + 1vw);
   color: rgb(20, 20, 230);
+  margin: 0 0 0 50px;
 }
 
 .obrasRow1 {
@@ -1118,6 +1129,17 @@ li.active {
   min-height: 88vh;
   cursor: cell;
 }
+.arquitecturaContainer1 .arquitecturaContainerRow0 {
+  margin: 0 0 0 0;
+}
+.arquitecturaContainer1 .arquitecturaContainerRow0 .arquitecturaContainerColumn1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+}
 .arquitecturaContainer1 .arquitecturaContainerRow1 {
   margin: 0 0 0 0;
 }
@@ -1126,6 +1148,45 @@ li.active {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+}
+.arquitecturaContainer1 .arquitecturaContainerRow1 .arquitecturaContainerColumn1 .arquitetcuraSliderColumn1 {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 73%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.arquitecturaContainer1 .arquitecturaContainerRow1 .arquitecturaContainerColumn1 .arquitetcuraSliderColumn1 .iconLeft {
+  width: 20px;
+  height: auto;
+  cursor: crosshair;
+  color: rgb(55, 55, 55);
+  opacity: 0.8;
+  margin: 0 10px 0 0;
+}
+.arquitecturaContainer1 .arquitecturaContainerRow1 .arquitecturaContainerColumn1 .arquitetcuraSliderColumn1 .arquitecturaSliderImg {
+  max-width: 100vw;
+  height: auto;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+.arquitecturaContainer1 .arquitecturaContainerRow1 .arquitecturaContainerColumn1 .arquitetcuraSliderColumn1 .arquitecturaSliderImg img {
+  width: 100%;
+  height: auto;
+}
+.arquitecturaContainer1 .arquitecturaContainerRow1 .arquitecturaContainerColumn1 .arquitetcuraSliderColumn1 .arquitecturaSliderImgActive {
+  opacity: 1;
+}
+.arquitecturaContainer1 .arquitecturaContainerRow1 .arquitecturaContainerColumn1 .arquitetcuraSliderColumn1 .iconRight {
+  width: 20px;
+  height: auto;
+  cursor: crosshair;
+  color: rgb(55, 55, 55);
+  opacity: 0.8;
+  margin: 0 0 0 12px;
 }
 .arquitecturaContainer1 .arquitecturaContainerRow2 {
   background-color: none;
@@ -1142,42 +1203,38 @@ li.active {
   color: rgb(55, 55, 55);
 }
 
-.arquitetcuraSliderColumn1 {
-  margin-top: 20px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  width: 70%;
-  margin-left: auto;
-  margin-right: auto;
+.Modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 0 0 0 0;
+  max-width: 500px;
+  /* Ancho máximo del modal */
+  max-height: 500px;
+  /* Altura máxima del modal */
+  overflow: auto;
 }
-.arquitetcuraSliderColumn1 .iconLeft {
-  width: 20px;
-  height: auto;
-  cursor: crosshair;
-  color: rgb(55, 55, 55);
-  opacity: 0.8;
+.Modal img {
+  max-width: 100%;
+  /* Ancho máximo de la imagen */
+  max-height: 400px;
+  /* Altura máxima de la imagen */
 }
-.arquitetcuraSliderColumn1 .arquitecturaSliderImg {
-  max-width: 100vw;
-  height: auto;
-  opacity: 0;
-  transition: opacity 0.5s ease-in-out;
-}
-.arquitetcuraSliderColumn1 .arquitecturaSliderImg img {
-  width: 100%;
-  height: auto;
-}
-.arquitetcuraSliderColumn1 .arquitecturaSliderImgActive {
-  opacity: 1;
-}
-.arquitetcuraSliderColumn1 .iconRight {
-  width: 20px;
-  height: auto;
-  cursor: crosshair;
-  color: rgb(55, 55, 55);
-  opacity: 0.8;
+.Modal .btnCerrarModal {
+  position: fixed;
+  top: 5%;
+  left: 5%;
+  transform: translate(-50%, -50%);
+  padding: 0 0 0 0;
+  overflow: auto;
+  border-radius: 100px;
+  background-color: red;
+  width: 18px;
+  height: 18px;
+  border-radius: 15px;
+  color: white;
+  font-size: 10px;
 }
 
 .obraAlephPandemicoContainer1 {
@@ -2877,8 +2934,19 @@ li.active {
   .arquitecturaContainer1 {
     min-height: 74vh;
   }
+  .arquitecturaContainer1 .arquitecturaContainerRow0 {
+    margin: 80px 0 0 0;
+  }
+  .arquitecturaContainer1 .arquitecturaContainerRow0 .arquitecturaContainerColumn1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+  }
   .arquitecturaContainer1 .arquitecturaContainerRow1 {
-    margin: 85px 0 0 0;
+    margin: 0 0 0 0;
   }
   .arquitecturaContainer1 .arquitecturaContainerRow1 .arquitecturaContainerColumn1 {
     display: flex;
@@ -2886,10 +2954,50 @@ li.active {
     align-items: center;
     justify-content: space-between;
   }
+  .arquitecturaContainer1 .arquitecturaContainerRow1 .arquitecturaContainerColumn1 .arquitetcuraSliderColumn1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .arquitecturaContainer1 .arquitecturaContainerRow1 .arquitecturaContainerColumn1 .arquitetcuraSliderColumn1 .iconLeft {
+    width: 20px;
+    font-size: 10px;
+    color: rgb(55, 55, 55);
+    opacity: 0.8;
+    margin: 0 0 0 0;
+    position: relative;
+    right: 120px;
+  }
+  .arquitecturaContainer1 .arquitecturaContainerRow1 .arquitecturaContainerColumn1 .arquitetcuraSliderColumn1 .arquitecturaSliderImg {
+    max-width: 100%;
+    height: auto;
+    opacity: 0;
+    transition: opacity 0.8s ease-in-out;
+  }
+  .arquitecturaContainer1 .arquitecturaContainerRow1 .arquitecturaContainerColumn1 .arquitetcuraSliderColumn1 .arquitecturaSliderImg img {
+    width: 100%;
+    height: auto;
+  }
+  .arquitecturaContainer1 .arquitecturaContainerRow1 .arquitecturaContainerColumn1 .arquitetcuraSliderColumn1 .arquitecturaSliderImgActive {
+    opacity: 1;
+  }
+  .arquitecturaContainer1 .arquitecturaContainerRow1 .arquitecturaContainerColumn1 .arquitetcuraSliderColumn1 .iconRight {
+    width: 20px;
+    font-size: 10px;
+    color: rgb(55, 55, 55);
+    opacity: 0.8;
+    margin: 0 0 0 0;
+    position: relative;
+    left: 120px;
+  }
   .arquitecturaContainer1 .arquitecturaContainerRow2 {
     background-color: none;
     width: 100%;
-    padding: 40px 30px 0 50px;
+    padding: 30px 16px 0 40px;
   }
   .arquitecturaContainer1 .arquitecturaContainerRow2 .arquitecturaContainerColumn1 {
     background-color: none;
@@ -2900,45 +3008,40 @@ li.active {
     font-family: "helveticaNeueLight";
     color: rgb(55, 55, 55);
   }
-  .arquitetcuraSliderColumn1 {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .arquitetcuraSliderColumn1 .iconLeft {
-    width: 20px;
-    font-size: 6px;
-    margin: 0 0 0 5px;
-    color: rgb(55, 55, 55);
-    opacity: 0.8;
-  }
-  .arquitetcuraSliderColumn1 .arquitecturaSliderImg {
-    max-width: 100%;
+  .Modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 290px;
     height: auto;
-    opacity: 0;
-    transition: opacity 0.8s ease-in-out;
+    overflow: auto;
   }
-  .arquitetcuraSliderColumn1 .arquitecturaSliderImg img {
+  .Modal img {
     width: 100%;
     height: auto;
   }
-  .arquitetcuraSliderColumn1 .arquitecturaSliderImgActive {
-    opacity: 1;
+  .Modal .btnCerrarModal {
+    position: fixed;
+    top: 4.2%;
+    left: 4%;
+    transform: translate(-50%, -50%);
+    padding: 0 0 0 0;
+    overflow: auto;
+    background-color: red;
+    border: 0 solid grey;
+    width: 8px;
+    height: 7.1px;
+    color: white;
+    font-size: 0;
   }
-  .arquitetcuraSliderColumn1 .iconRight {
-    width: 20px;
-    font-size: 6px;
-    margin: 0 0 0 5px;
-    color: rgb(55, 55, 55);
-    opacity: 0.8;
+  .Modal .btnCerrarModal:hover {
+    background-color: rgb(252, 100, 100);
   }
 }
 @media screen and (max-width: 576px) {
   .contactoContainer1 {
+    width: 100%;
     min-height: 87vh;
   }
   .contactoRow1 .contactoColumn2 p {
@@ -2946,6 +3049,9 @@ li.active {
   }
   .contactoRow2 .contactoColumn3 a p {
     font-size: 8px;
+  }
+  .contactoRow2 .contactoColumn3 a p:hover {
+    color: rgb(110, 169, 120);
   }
 }
 @media screen and (max-width: 576px) {
@@ -2988,12 +3094,111 @@ li.active {
   .inicioContainer1 .inicioRow3 .inicioColumn1 ul .homeObras {
     font-size: 16px;
   }
+  .inicioContainer1 .inicioRow3 .inicioColumn1 ul .homeObras:hover {
+    color: rgb(20, 20, 230);
+  }
   .inicioContainer1 .inicioRow3 .inicioColumn1 ul .homeArquitectura {
     font-size: 16px;
   }
   .inicioContainer1 .inicioRow3 .inicioColumn1 ul .homeContacto {
     font-size: 16px;
     margin: 0px 0px 0px 0px;
+  }
+  .inicioContainer1 .inicioRow3 .inicioColumn1 ul .homeContacto:hover {
+    color: rgb(110, 169, 120);
+  }
+}
+@media screen and (max-width: 576px) {
+  .navBarRow1 {
+    cursor: crosshair;
+  }
+  .navBarRow1 .navBarColumn1 hr {
+    margin: 0px 30px 0px 30px;
+    padding: 0;
+    color: black;
+    position: relative;
+    bottom: 15px;
+  }
+  .navBarRow1 .navBarColumn1 ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
+  }
+  .navBarRow1 .navBarColumn1 ul .navBarLink0 {
+    text-decoration: none;
+    cursor: crosshair;
+  }
+  .navBarRow1 .navBarColumn1 ul .navBarLink1 {
+    text-decoration: none;
+    cursor: crosshair;
+  }
+  .navBarRow1 .navBarColumn1 ul .navBarLink2 {
+    text-decoration: none;
+    cursor: crosshair;
+  }
+  .navBarRow1 .navBarColumn1 ul .navBarLink3 {
+    text-decoration: none;
+    cursor: crosshair;
+  }
+  .navBarRow1 .navBarColumn1 ul .navBarLink4 {
+    text-decoration: none;
+    cursor: crosshair;
+  }
+  .navBarRow1 .navBarColumn1 ul li {
+    list-style: none;
+    transition: all 0.1s;
+    cursor: crosshair;
+  }
+  .navBarRow1 .navBarColumn1 ul .navBarInicio {
+    font-family: "helveticaNeueLight";
+    font-size: calc(0.3rem + 1vw);
+    color: rgb(55, 55, 55);
+  }
+  .navBarRow1 .navBarColumn1 ul .navBarInicio:hover {
+    color: rgb(146, 146, 146);
+  }
+  .navBarRow1 .navBarColumn1 ul .navBarStatement {
+    font-family: "helveticaNeueLight";
+    font-size: calc(0.3rem + 1vw);
+    color: rgb(55, 55, 55);
+  }
+  .navBarRow1 .navBarColumn1 ul .navBarStatement:hover {
+    color: rgb(255, 98, 4);
+  }
+  .navBarRow1 .navBarColumn1 ul .navBarObras {
+    font-family: "helveticaNeueLight";
+    font-size: calc(0.3rem + 1vw);
+    color: rgb(55, 55, 55);
+  }
+  .navBarRow1 .navBarColumn1 ul .navBarObras:hover {
+    color: rgb(20, 20, 230);
+  }
+  .navBarRow1 .navBarColumn1 ul .navBarArquitectura {
+    font-family: "helveticaNeueLight";
+    font-size: calc(0.3rem + 1vw);
+    color: rgb(55, 55, 55);
+  }
+  .navBarRow1 .navBarColumn1 ul .navBarArquitectura:hover {
+    color: rgb(225, 229, 27);
+  }
+  .navBarRow1 .navBarColumn1 ul .navBarContacto {
+    font-family: "helveticaNeueLight";
+    font-size: calc(0.3rem + 1vw);
+    margin-right: 30px;
+    color: rgb(55, 55, 55);
+  }
+  .navBarRow1 .navBarColumn1 ul .navBarContacto:hover {
+    color: rgb(110, 169, 120);
+  }
+  .navBarRow1 .navBarColumn1 ul .navBarContactoEnContacto {
+    font-family: "helveticaNeueLight";
+    font-size: calc(0.3rem + 1vw);
+    margin-right: 20px;
+    color: rgb(55, 55, 55);
+  }
+  .navBarRow1 .navBarColumn1 ul .navBarContactoEnContacto:hover {
+    color: rgb(110, 169, 120);
   }
 }
 @media screen and (max-width: 576px) {
