@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import Modal from 'react-modal'
 import { Container, Col, Row, Button } from 'react-bootstrap'
 import Header from '../Header/Header'
@@ -50,6 +50,14 @@ function ArquitecturaContainer() {
         "/assets/images/arquitectura/pag32.png",
     ]
 
+    useEffect(() => {
+        const timer = setTimeout(() => {
+          setModalIsOpen(true);
+        }, 2000); // Retraso de 2 segundos
+    
+        return () => clearTimeout(timer); // Limpiar el temporizador en la salida del componente
+      }, []);
+
     return (
         <motion.div
             inital={{ opacity: 0 }}
@@ -59,9 +67,9 @@ function ArquitecturaContainer() {
             <Header />
             <div className='arquitecturaContainer1'>
                 <Container fluid>
-                    <Row className='arquitecturaContainerRow0 d-block d-lg-none'>
+                    <Row className='arquitecturaContainerRow0'>
                         <Col className='arquitecturaContainerColumn1' xs={12}>
-                            <BiMessageRoundedError size={8} color="#373737" onClick={() => setModalIsOpen(true)} />
+                            {/* <BiMessageRoundedError size={8} color="#373737" onClick={() => setModalIsOpen(true)} /> */}
                             <Modal
                                 isOpen={modalIsOpen}
                                 onRequestClose={() => setModalIsOpen(false)}
