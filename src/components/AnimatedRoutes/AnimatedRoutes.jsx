@@ -33,7 +33,7 @@ function AnimatedRoutes() {
                 <Route path='/obras/arte-objeto' element={<ObraArteObjeto />} />
                 <Route path='/obras/panoptico' element={<ObraPanoptico />} />
                 <Route path='/obras/vuelve-todo-a-su-lugar' element={<ObraVuelveTodoASuLugar />} />
-                <Route path='/obras/aleph-pandemico' element={<ObraAlephPandemico />} />
+                <Route path='/obras/aleph' element={<ObraAlephPandemico />} />
                 <Route path='/obras/tu-veneno' element={<ObraTuVeneno />} />
                 <Route path='/obras/idiotique' element={<ObraIdiotique />} />
                 <Route path='/obras/visuales' element={<ObraVisuales />} />

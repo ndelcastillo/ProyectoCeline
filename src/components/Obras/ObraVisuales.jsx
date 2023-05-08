@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react'
+import React, { useEffect } from 'react'
 import { Container, Col, Row } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 import Footer from '../Footer/Footer'

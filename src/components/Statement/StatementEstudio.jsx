@@ -9,21 +9,20 @@ function EstudioStatement() {
                 <Row className='statementEstudioRow1'>
                     <Col className='statementEstudioCol1' xs={12} lg={3} >
                         <div>
-                            <p className='pTit'> ESTUDIOS</p>
+                            <p className='pTit'>ESTUDIOS</p>
                             <br />
                             <p>Universitarios:</p>
                             <p>2016 - 2022: Arquitectura - Universidad Buenos Aires</p>
                             <br />
+                            <p>Clínicas:</p>
+                            <p>2023: Proyecto PAC - Galería Gachi Prieto</p>
+                            <p>2023: El Oraculo - Proyecto PÚRPURA </p>
+                            <p>2021 - 2022: Cabos Sueltos - Valeria Rovatti</p>
+                            <br />
                             <p>Talleres:</p>
-                            {/* <p>2023: Taller Compartido - Galería CRUDO</p> */}
                             <p>2020: Taller de Kit de Supervivencia para Artistas - Diana Aisenberg</p>
                             <p>2020: Seminario en Profundizacion en el Arte - UNA</p>
                             <p>2016-2017: Taller - Patricia Vaneiro</p>
-                            <br />
-                            <p>Clínicas:</p>
-                            <p>2023: Proyecto PAC - Galería Gachi Prieto</p>
-                            <p>2023: Proyecto PÚRPURA - Galería Púrpura</p>
-                            <p>2021 - 2022: Taller Cabos Sueltos - Valeria Rovatti</p>
                             <br />
                             <p>Cursos:</p>
                             <p>2021: Programación Touchdesigner - Panikkk</p>
@@ -39,10 +38,11 @@ function EstudioStatement() {
                             <br />
                             <p>Galerías</p>
                             <p>2023: AMULETO Galería - Exposición Colectiva</p>
+                            <p>2022: Departamento 112 - Cabos Sueltos</p>
                             <p>2022: Galerías ABRIR - Cabos Sueltos</p>
                             <br />
                             <p>Centros Culturales:</p>
-                            <p>2021: Vedia, Nuñez - exposición</p>
+                            <p>2020: Cotxeres de Sants, Bacelona, España - Exposición Colectiva</p>
                             <p>2019: Pilará Evento Solidario - pintura en vivo</p>
                             <p>2018: Ciudad Cultural Konex - pintura en vivo</p>
                             <p>2018: Hipodromo de Palermo - exposición</p>
@@ -55,10 +55,10 @@ function EstudioStatement() {
                             <p className='pTit'>PUBLICACIONES</p>
                             <br />
                             <p>2022: Relieve Contemporáneo:</p>
-                            <p><a href="http://relievecontemporaneo.com/cabos-sueltos-en-abrir">http://relievecontemporaneo.com/cabos-sueltos-en-abrir</a></p>
+                            <p><a href="http://relievecontemporaneo.com/cabos-sueltos-en-abrir" target='_blank'>http://relievecontemporaneo.com/cabos-sueltos-en-abrir</a></p>
                             <br />
                             <p>2022: Terremoto Magazine:</p>
-                            <p><a href="https://terremoto.mx/online/cabos-sueltos-exhibicion-colectiva-en-abrir-galeria-peru/">https://terremoto.mx/online/cabos-sueltos-exhibicion-colectiva-en-abrir-galeria-peru/</a></p>
+                            <p><a href="https://terremoto.mx/online/cabos-sueltos-exhibicion-colectiva-en-abrir-galeria-peru/" target='_blank'>https://terremoto.mx/online/cabos-sueltos-exhibicion-colectiva-en-abrir-galeria-peru/</a></p>
                         </div>
                     </Col>
                 </Row >

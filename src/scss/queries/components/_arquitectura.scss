@@ -16,10 +16,6 @@
                 justify-content: center;
                 width: 100%;
                 height: auto;
-
-                .btnOpenModal{
-
-                }
             }
         }
 
@@ -111,7 +107,7 @@
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        width: 290px;
+        width: 360px;
         height: auto;
         overflow: auto;
 
@@ -129,8 +125,8 @@
             overflow: auto;
             background-color: red;
             border: 0 solid grey;
-            width: 8.1px;
-            height: 8px;
+            width: 10px;
+            height: 9px;
             color: white;
             font-size: 0;
 

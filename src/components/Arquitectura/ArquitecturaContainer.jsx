@@ -3,11 +3,9 @@ import Modal from 'react-modal'
 import { Container, Col, Row, Button } from 'react-bootstrap'
 import Header from '../Header/Header'
 import { motion } from 'framer-motion'
-import Swal from 'sweetalert'
 import myImage from '../../assets/images/arquitectura/popUpBook.png';
 import Arquitectura from './Arquitectura'
 import Footer from '../Footer/Footer'
-import { BiMessageRoundedError } from 'react-icons/bi';
 
 
 
@@ -69,7 +67,6 @@ function ArquitecturaContainer() {
                 <Container fluid>
                     <Row className='arquitecturaContainerRow0'>
                         <Col className='arquitecturaContainerColumn1' xs={12}>
-                            {/* <BiMessageRoundedError size={8} color="#373737" onClick={() => setModalIsOpen(true)} /> */}
                             <Modal
                                 isOpen={modalIsOpen}
                                 onRequestClose={() => setModalIsOpen(false)}

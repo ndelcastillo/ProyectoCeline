@@ -10,7 +10,7 @@ function Contacto() {
     const location = useLocation();
 
     function isActive(path) {
-      return location.pathname === path ? "activeTit" : "";
+        return location.pathname === path ? "activeTit" : "";
     }
 
     return (
@@ -53,9 +53,9 @@ function Contacto() {
                             <></>
                         </Col>
                         <Col className='contactoColumn2'>
-                            <p>
-                                celihuergo@gmail.com
-                            </p>
+                            <a href="mailto:celihuergo@gmail.com">
+                                <p>celihuergo@gmail.com</p>
+                            </a>
                         </Col>
                         <Col className='contactoColumn3'>
                             <></>

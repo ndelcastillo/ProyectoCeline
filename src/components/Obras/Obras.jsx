@@ -102,7 +102,7 @@ function Obras() {
                         </Col>
                     </Row>
                     <Row className='obrasRow3'>
-                        <Col className='obrasColumn1 wow animate__animated animate__fadeInUp animate__slower' xs={12} lg={{ span: 4, offset: 1 }}>
+                        <Col className='obrasColumn1 wow animate__animated animate__fadeInUp animate__slower' xs={12} lg={{ span: 4, offset: 0 }}>
                             <div id="categoria-programacion" className={`container1 ${activeElement === "categoria-programacion" ? "borde-azul" : ""}`}>
                                 <img className='img1' src="/assets/images/obras/idiotique.png" alt="" />
                                 <div className='content1'>
@@ -116,11 +116,11 @@ function Obras() {
                                 <p>[PROGRAMACIÓN]</p>
                             </div>
                         </Col>
-                        <Col className='obrasColumn2 wow animate__animated animate__fadeInUp animate__slower' xs={12} lg={{ span: 5, offset: 2 }}>
+                        <Col className='obrasColumn2 wow animate__animated animate__fadeInUp animate__slower' xs={12} lg={{ span: 5, offset: 3 }}>
                             <div id="categoria-texto" className={`container2 ${activeElement === "categoria-texto" ? "borde-azul" : ""}`}>
                                 <img className='img2' src="/assets/images/obras/elAleph3.gif" alt="" />
                                 <div className='content2'>
-                                    <Link style={{ textDecoration: "none" }} to={"/obras/aleph-pandemico"}>
+                                    <Link style={{ textDecoration: "none" }} to={"/obras/aleph"}>
                                         <h3 className='txt2'>EL ALEPH PANDÉMICO</h3>
                                     </Link>
                                 </div>
@@ -132,7 +132,7 @@ function Obras() {
                         </Col>
                     </Row>
                     <Row className='obrasRow4'>
-                        <Col className='obrasColumn1 wow animate__animated animate__fadeInUp animate__slower' xs={12} lg={{ span: 5, offset: 1 }}>
+                        <Col className='obrasColumn1 wow animate__animated animate__fadeInUp animate__slower' xs={12} lg={{ span: 4, offset: 1 }}>
                             <div id="categoria-direccion" className={`container1 ${activeElement === "categoria-direccion" ? "borde-azul" : ""}`}>
                                 <img className='img1' src="/assets/images/obras/tuVeneno.png" alt="" />
                                 <div className='content1'>
@@ -146,7 +146,7 @@ function Obras() {
                                 <p>[DIRECCIÓN]</p>
                             </div>
                         </Col>
-                        <Col className='obrasColumn2 wow animate__animated animate__fadeInUp animate__slower' xs={12} lg={{ span: 4, offset: 2 }}>
+                        <Col className='obrasColumn2 wow animate__animated animate__fadeInUp animate__slower' xs={12} lg={{ span: 4, offset: 3 }}>
                             <div id="categoria-direccion" className={`container2 ${activeElement === "categoria-direccion" ? "borde-azul" : ""}`}>
                                 <img className='img2' src="/assets/images/obras/vuelveTodoASuLugar1.gif" alt="" />
                                 <div className='content2'>
@@ -162,7 +162,7 @@ function Obras() {
                         </Col>
                     </Row>
                     <Row className='obrasRow5'>
-                        <Col className='obrasColumn1 wow animate__animated animate__fadeInUp animate__slower' xs={12} sm={4} md={4} lg={{ span: 5, offset: 1 }} >
+                        <Col className='obrasColumn1 wow animate__animated animate__fadeInUp animate__slower' xs={12} sm={4} md={4} lg={{ span: 5, offset: 0 }} >
                             <div id="categoria-programacion" className={`container1 ${activeElement === "categoria-programacion" ? "borde-azul" : ""}`}>
                                 <img className='img1' src="/assets/images/obras/visuales1.gif" alt="" />
                                 <div className='content1'>
@@ -176,7 +176,7 @@ function Obras() {
                                 <p>[PROGRAMACIÓN]</p>
                             </div>
                         </Col>
-                        <Col className='obrasColumn2 wow animate__animated animate__fadeInUp animate__slower' xs={12} lg={{ span: 4, offset: 2 }}>
+                        <Col className='obrasColumn2 wow animate__animated animate__fadeInUp animate__slower' xs={12} lg={{ span: 4, offset: 3 }}>
                             <div id="categoria-pintura" className={`container2 ${activeElement === "categoria-pintura" ? "borde-azul" : ""}`}>
                                 <img className='img2' src="/assets/images/obras/arteObjeto.png" alt="" />
                                 <div className='content2'>
@@ -206,7 +206,7 @@ function Obras() {
                                 <p>[PINTURA]</p>
                             </div>
                         </Col>
-                        <Col className='obrasColumn2 wow animate__animated animate__fadeInUp animate__slower' xs={12} lg={{ span: 5, offset: 3 }}>
+                        <Col className='obrasColumn2 wow animate__animated animate__fadeInUp animate__slower' xs={12} lg={{ span: 5, offset: 2 }}>
                             <div id="categoria-pintura" className={`container2 ${activeElement === "categoria-pintura" ? "borde-azul" : ""}`}>
                                 <img className='img2' src="/assets/images/obras/intensidadEfimera.png" alt="" />
                                 <div className='content2'>

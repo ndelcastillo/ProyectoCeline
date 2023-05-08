@@ -355,9 +355,9 @@
 .obrasRow3 {
     .obrasColumn1 {
         .container1 {
-            width: 500px;
+            width: 600px;
             height: auto;
-            margin: 100px auto;
+            margin: 100px 0 0 0px;
             font-family: 'retron2000';
             position: relative;
             overflow: hidden;
@@ -420,9 +420,10 @@
 
     .obrasColumn2 {
         .container2 {
-            width: 250px;
+            width: 280px;
             height: auto;
-            margin: 150px auto;
+            margin: 170px auto;
+            margin-left: 160px;
             font-family: 'retron2000';
             position: relative;
             overflow: hidden;
@@ -487,16 +488,16 @@
 .obrasRow4 {
     .obrasColumn1 {
         .container1 {
-            width: 400px;
+            width: 430px;
             height: auto;
-            margin: 50px auto;
+            margin: 50px 0 0 0;
             font-family: 'retron2000';
             position: relative;
             overflow: hidden;
             transition: all .2s;
             position: relative;
-            left: 0px;
-            top: 90px;
+            right: 20px;
+            top: 70px;
             cursor: crosshair;
         }
 
@@ -556,6 +557,7 @@
             width: 350px;
             height: auto;
             margin: 50px auto;
+            margin-right: 55px;
             font-family: 'retron2000';
             position: relative;
             overflow: hidden;
@@ -621,7 +623,7 @@
 .obrasRow5 {
     .obrasColumn1 {
         .container1 {
-            width: 600px;
+            width: 650px;
             height: auto;
             margin: 140px auto;
             font-family: 'retron2000';
@@ -629,7 +631,6 @@
             overflow: hidden;
             transition: all .1s;
             position: relative;
-            right: 30px;
             cursor: crosshair;
         }
 
@@ -694,8 +695,8 @@
             overflow: hidden;
             transition: all .2s;
             position: relative;
-            left: 0px;
-            top: 0px;
+            right: 20px;
+            top: 20px;
             cursor: crosshair;
         }
 
@@ -754,7 +755,7 @@
 .obrasRow6 {
     .obrasColumn1 {
         .container1 {
-            width: 60%;
+            width: 250px;
             height: auto;
             font-family: 'retron2000';
             position: relative;
@@ -762,8 +763,8 @@
             transition: all .1s;
             cursor: crosshair;
             position: relative;
-            left: 250px;
-            top: 100px;
+            left: 200px;
+            top: 140px;
         }
 
         .container1:hover {
@@ -819,15 +820,16 @@
 
     .obrasColumn2 {
         .container2 {
-            width: 500px;
+            width: 600px;
             height: auto;
-            margin: 40px auto;
+            margin: 30px auto;
+            margin-bottom: 100px;
             font-family: 'retron2000';
             position: relative;
             overflow: hidden;
             transition: all .2s;
             position: relative;
-            left: 0px;
+            left: 50px;
             top: 0px;
             cursor: crosshair;
         }

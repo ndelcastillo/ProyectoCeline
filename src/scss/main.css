@@ -205,10 +205,18 @@
 .contactoRow1 .contactoColumn2 {
   background-color: none;
 }
-.contactoRow1 .contactoColumn2 p {
+.contactoRow1 .contactoColumn2 a {
+  text-decoration: none;
+}
+.contactoRow1 .contactoColumn2 a p {
   font-size: 14px;
+  text-align: center;
   font-family: "helveticaNeueLight";
   color: rgb(146, 146, 146);
+  cursor: crosshair;
+}
+.contactoRow1 .contactoColumn2 a p:hover {
+  color: rgb(110, 169, 120);
 }
 
 .contactoRow2 {
@@ -595,9 +603,9 @@
 }
 
 .obrasRow3 .obrasColumn1 .container1 {
-  width: 500px;
+  width: 600px;
   height: auto;
-  margin: 100px auto;
+  margin: 100px 0 0 0px;
   font-family: "retron2000";
   position: relative;
   overflow: hidden;
@@ -642,9 +650,10 @@
   text-decoration: none;
 }
 .obrasRow3 .obrasColumn2 .container2 {
-  width: 250px;
+  width: 280px;
   height: auto;
-  margin: 150px auto;
+  margin: 170px auto;
+  margin-left: 160px;
   font-family: "retron2000";
   position: relative;
   overflow: hidden;
@@ -690,16 +699,16 @@
 }
 
 .obrasRow4 .obrasColumn1 .container1 {
-  width: 400px;
+  width: 430px;
   height: auto;
-  margin: 50px auto;
+  margin: 50px 0 0 0;
   font-family: "retron2000";
   position: relative;
   overflow: hidden;
   transition: all 0.2s;
   position: relative;
-  left: 0px;
-  top: 90px;
+  right: 20px;
+  top: 70px;
   cursor: crosshair;
 }
 .obrasRow4 .obrasColumn1 .container1 .img1 {
@@ -743,6 +752,7 @@
   width: 350px;
   height: auto;
   margin: 50px auto;
+  margin-right: 55px;
   font-family: "retron2000";
   position: relative;
   overflow: hidden;
@@ -791,7 +801,7 @@
 }
 
 .obrasRow5 .obrasColumn1 .container1 {
-  width: 600px;
+  width: 650px;
   height: auto;
   margin: 140px auto;
   font-family: "retron2000";
@@ -799,7 +809,6 @@
   overflow: hidden;
   transition: all 0.1s;
   position: relative;
-  right: 30px;
   cursor: crosshair;
 }
 .obrasRow5 .obrasColumn1 .container1 .img1 {
@@ -848,8 +857,8 @@
   overflow: hidden;
   transition: all 0.2s;
   position: relative;
-  left: 0px;
-  top: 0px;
+  right: 20px;
+  top: 20px;
   cursor: crosshair;
 }
 .obrasRow5 .obrasColumn2 .container2 .img2 {
@@ -891,7 +900,7 @@
 }
 
 .obrasRow6 .obrasColumn1 .container1 {
-  width: 60%;
+  width: 250px;
   height: auto;
   font-family: "retron2000";
   position: relative;
@@ -899,8 +908,8 @@
   transition: all 0.1s;
   cursor: crosshair;
   position: relative;
-  left: 250px;
-  top: 100px;
+  left: 200px;
+  top: 140px;
 }
 .obrasRow6 .obrasColumn1 .container1 .img1 {
   width: 100%;
@@ -940,15 +949,16 @@
   text-decoration: none;
 }
 .obrasRow6 .obrasColumn2 .container2 {
-  width: 500px;
+  width: 600px;
   height: auto;
-  margin: 40px auto;
+  margin: 30px auto;
+  margin-bottom: 100px;
   font-family: "retron2000";
   position: relative;
   overflow: hidden;
   transition: all 0.2s;
   position: relative;
-  left: 0px;
+  left: 50px;
   top: 0px;
   cursor: crosshair;
 }
@@ -1039,10 +1049,10 @@ li.active {
   flex-direction: row;
   align-items: start;
   justify-content: space-between;
-  padding: 40px 0px 60px 100px;
+  padding: 40px 0px 60px 90px;
 }
 .statementContainer1 .statementRow2 .statementColumn1 .statementEstudio .statementEstudioRow1 .statementEstudioCol1 div {
-  width: 400px;
+  width: 450px;
   height: auto;
   display: flex;
   justify-content: start;
@@ -1063,7 +1073,7 @@ li.active {
   color: rgb(55, 55, 55);
 }
 .statementContainer1 .statementRow2 .statementColumn1 .statementEstudio .statementEstudioRow1 .statementEstudioCol2 div {
-  width: 100%;
+  width: 420px;
   height: auto;
   display: flex;
   justify-content: start;
@@ -2931,7 +2941,7 @@ li.active {
 
 @media screen and (max-width: 576px) {
   .arquitecturaContainer1 {
-    min-height: 74vh;
+    min-height: 75vh;
   }
   .arquitecturaContainer1 .arquitecturaContainerRow0 {
     margin: 80px 0 0 0;
@@ -3012,7 +3022,7 @@ li.active {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 290px;
+    width: 360px;
     height: auto;
     overflow: auto;
   }
@@ -3029,8 +3039,8 @@ li.active {
     overflow: auto;
     background-color: red;
     border: 0 solid grey;
-    width: 8.1px;
-    height: 8px;
+    width: 10px;
+    height: 9px;
     color: white;
     font-size: 0;
   }
@@ -3259,8 +3269,11 @@ li.active {
   }
   .obrasContainer1 .obrasRow1 .obrasColumn1 .container1 .content1 {
     background-color: rgba(0, 0, 0, 0);
+    width: 100%;
+    height: 100%;
   }
   .obrasContainer1 .obrasRow1 .obrasColumn1 .content1 .txt1 {
+    font-size: 28px;
     opacity: 0;
   }
   .obrasContainer1 .obrasRow1 .obrasColumn1 .boxTitle1 {
@@ -3285,8 +3298,11 @@ li.active {
   }
   .obrasContainer1 .obrasRow1 .obrasColumn2 .container2 .content2 {
     background-color: rgba(0, 0, 0, 0);
+    width: 100%;
+    height: 100%;
   }
   .obrasContainer1 .obrasRow1 .obrasColumn2 .content2 .txt2 {
+    font-size: 88px;
     opacity: 0;
   }
   .obrasContainer1 .obrasRow1 .obrasColumn2 .boxTitle2 {
@@ -3319,8 +3335,11 @@ li.active {
   }
   .obrasContainer1 .obrasRow2 .obrasColumn1 .container1 .content1 {
     background-color: rgba(0, 0, 0, 0);
+    width: 100%;
+    height: 100%;
   }
   .obrasContainer1 .obrasRow2 .obrasColumn1 .content1 .txt1 {
+    font-size: 188px;
     opacity: 0;
   }
   .obrasContainer1 .obrasRow2 .obrasColumn1 .container1:hover .content1 {
@@ -3353,8 +3372,11 @@ li.active {
   }
   .obrasContainer1 .obrasRow2 .obrasColumn2 .container2 .content2 {
     background-color: rgba(0, 0, 0, 0);
+    width: 100%;
+    height: 100%;
   }
   .obrasContainer1 .obrasRow2 .obrasColumn2 .content2 .txt2 {
+    font-size: 228px;
     opacity: 0;
   }
   .obrasContainer1 .obrasRow2 .obrasColumn2 .container2:hover .content2 {
@@ -3387,8 +3409,11 @@ li.active {
   }
   .obrasRow3 .obrasColumn1 .container1 .content1 {
     background-color: rgba(0, 0, 0, 0);
+    width: 100%;
+    height: 100%;
   }
   .obrasRow3 .obrasColumn1 .content1 .txt1 {
+    font-size: 178px;
     opacity: 0;
   }
   .obrasRow3 .obrasColumn1 .container1:hover .content1 {
@@ -3421,8 +3446,11 @@ li.active {
   }
   .obrasRow3 .obrasColumn2 .container2 .content2 {
     background-color: rgba(0, 0, 0, 0);
+    width: 100%;
+    height: 100%;
   }
   .obrasRow3 .obrasColumn2 .content2 .txt2 {
+    font-size: 78px;
     opacity: 0;
   }
   .obrasRow3 .obrasColumn2 .container2:hover .content2 {
@@ -3457,8 +3485,11 @@ li.active {
   }
   .obrasRow4 .obrasColumn1 .container1 .content1 {
     background-color: rgba(0, 0, 0, 0.9);
+    width: 100%;
+    height: 100%;
   }
   .obrasRow4 .obrasColumn1 .content1 .txt1 {
+    font-size: 58px;
     opacity: 0;
   }
   .obrasRow4 .obrasColumn1 .container1:hover .content1 {
@@ -3492,8 +3523,11 @@ li.active {
   }
   .obrasRow4 .obrasColumn2 .container2 .content2 {
     background-color: rgba(0, 0, 0, 0);
+    width: 100%;
+    height: 100%;
   }
   .obrasRow4 .obrasColumn2 .content2 .txt2 {
+    font-size: 68px;
     opacity: 0;
   }
   .obrasRow4 .obrasColumn2 .container2:hover .content2 {
@@ -3530,8 +3564,11 @@ li.active {
   }
   .obrasRow5 .obrasColumn1 .container1 .content1 {
     background-color: rgba(0, 0, 0, 0);
+    width: 100%;
+    height: 100%;
   }
   .obrasRow5 .obrasColumn1 .content1 .txt1 {
+    font-size: 128px;
     opacity: 0;
   }
   .obrasRow5 .obrasColumn1 .container1:hover .content1 {
@@ -3565,8 +3602,11 @@ li.active {
   }
   .obrasRow5 .obrasColumn2 .container2 .content2 {
     background-color: rgba(0, 0, 0, 0);
+    width: 100%;
+    height: 100%;
   }
   .obrasRow5 .obrasColumn2 .content2 .txt2 {
+    font-size: 128px;
     opacity: 0;
   }
   .obrasRow5 .obrasColumn2 .container2:hover .content2 {
@@ -3601,8 +3641,11 @@ li.active {
   }
   .obrasRow6 .obrasColumn1 .container1 .content1 {
     background-color: rgba(0, 0, 0, 0);
+    width: 100%;
+    height: 100%;
   }
   .obrasRow6 .obrasColumn1 .content1 .txt1 {
+    font-size: 218px;
     opacity: 0;
   }
   .obrasRow6 .obrasColumn1 .container1:hover .content1 {
@@ -3637,8 +3680,11 @@ li.active {
   }
   .obrasRow6 .obrasColumn2 .container2 .content2 {
     background-color: rgba(0, 0, 0, 0);
+    width: 100%;
+    height: 100%;
   }
   .obrasRow6 .obrasColumn2 .content2 .txt2 {
+    font-size: 100px;
     opacity: 0;
   }
   .obrasRow6 .obrasColumn2 .container2:hover .content2 {
@@ -3712,7 +3758,7 @@ li.active {
     font-size: 8px;
   }
   .statementContainer1 .statementRow2 .statementColumn1 .statementEstudio .statementEstudioRow1 .statementEstudioCol2 {
-    height: 150px;
+    height: 160px;
   }
   .statementContainer1 .statementRow2 .statementColumn1 .statementEstudio .statementEstudioRow1 .statementEstudioCol2 div {
     width: 100%;
@@ -3729,7 +3775,7 @@ li.active {
     height: 120px;
   }
   .statementContainer1 .statementRow2 .statementColumn1 .statementEstudio .statementEstudioRow1 .statementEstudioCol3 div {
-    width: 100%;
+    width: 300px;
     line-height: 12px;
   }
   .statementContainer1 .statementRow2 .statementColumn1 .statementEstudio .statementEstudioRow1 .statementEstudioCol3 div .pTit {
@@ -3738,6 +3784,10 @@ li.active {
   }
   .statementContainer1 .statementRow2 .statementColumn1 .statementEstudio .statementEstudioRow1 .statementEstudioCol3 div p {
     font-size: 8px;
+  }
+  .statementContainer1 .statementRow2 .statementColumn1 .statementEstudio .statementEstudioRow1 .statementEstudioCol3 div p a {
+    color: 0;
+    font-size: 7px;
   }
   .statementContainer1 .statementRow2 .statementColumn1 .statementVerMas p {
     font-size: 8px;
@@ -3892,15 +3942,13 @@ li.active {
     line-height: 0;
   }
   .obraCuoreContainer1 .obraCuoreRow3 {
-    margin: 80px 15px 145px 15px;
+    margin: 80px 15px 0px 15px;
+    height: 76.5vh;
   }
   .obraCuoreContainer1 .obraCuoreRow3 .obraCuoreColumn1 {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-  }
-  .obraCuoreContainer1 .obraCuoreRow3 .obraCuoreColumn1 div {
-    height: 51vh;
   }
   .obraCuoreContainer1 .obraCuoreRow3 .obraCuoreColumn1 div img {
     width: 90%;
@@ -4564,8 +4612,8 @@ li.active {
     height: auto;
   }
   .obraVisualesContainer1 .obraVisualesRow4 {
-    margin: 40px 15px 40px 15px;
-    height: 50vh;
+    margin: 40px 15px 33px 15px;
+    height: 61vh;
   }
   .obraVisualesContainer1 .obraVisualesRow4 .obraVisualesColumn1 {
     width: 70%;

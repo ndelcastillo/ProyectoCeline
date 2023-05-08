@@ -16,10 +16,20 @@
     .contactoColumn2 {
         background-color: none;
 
-        p {
-            font-size: 14px;
-            font-family: 'helveticaNeueLight';
-            color: $greyColor;
+        a {
+            text-decoration: none;
+
+            p {
+                font-size: 14px;
+                text-align: center;
+                font-family: 'helveticaNeueLight';
+                color: $greyColor;
+                cursor: crosshair;
+
+                &:hover {
+                    color: $greenColor;
+                }
+            }
         }
     }
 }
