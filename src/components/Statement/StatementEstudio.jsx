@@ -1,6 +1,5 @@
 import React from 'react'
 import { Container, Col, Row } from 'react-bootstrap'
-import { Link } from 'react-router-dom'
 
 function EstudioStatement() {
     return (
@@ -55,10 +54,10 @@ function EstudioStatement() {
                             <p className='pTit'>PUBLICACIONES</p>
                             <br />
                             <p>2022: Relieve Contemporáneo:</p>
-                            <p><a href="http://relievecontemporaneo.com/cabos-sueltos-en-abrir" target='_blank'>http://relievecontemporaneo.com/cabos-sueltos-en-abrir</a></p>
+                            <p><a href="http://relievecontemporaneo.com/cabos-sueltos-en-abrir" target='_blank' rel="noopener noreferrer">http://relievecontemporaneo.com/cabos-sueltos-en-abrir</a></p>
                             <br />
                             <p>2022: Terremoto Magazine:</p>
-                            <p><a href="https://terremoto.mx/online/cabos-sueltos-exhibicion-colectiva-en-abrir-galeria-peru/" target='_blank'>https://terremoto.mx/online/cabos-sueltos-exhibicion-colectiva-en-abrir-galeria-peru/</a></p>
+                            <p><a href="https://terremoto.mx/online/cabos-sueltos-exhibicion-colectiva-en-abrir-galeria-peru/" target='_blank' rel="noopener noreferrer">https://terremoto.mx/online/cabos-sueltos-exhibicion-colectiva-en-abrir-galeria-peru/</a></p>
                         </div>
                     </Col>
                 </Row >

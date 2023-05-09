@@ -1,6 +1,5 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { Container, Col, Row } from 'react-bootstrap'
-import Header from '../Header/Header'
 import { motion } from 'framer-motion'
 import Footer from '../Footer/Footer'
 import { Link, useLocation } from 'react-router-dom'
@@ -19,7 +18,6 @@ function Contacto() {
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
         >
-            {/* <Header /> */}
             <div className='navBarContainer1'>
                 <Container fluid>
                     <Row className='navBarRow1'>
@@ -72,7 +70,7 @@ function Contacto() {
                             <></>
                         </Col>
                         <Col className='contactoColumn3'>
-                            <a href="https://www.instagram.com/celine.__________________/" target="_blank">
+                            <a href="https://www.instagram.com/celine.__________________/" target="_blank" rel="noreferrer" >
                                 <p>@celine.________________</p>
                             </a>
                         </Col>

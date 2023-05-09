@@ -1,22 +1,11 @@
 @media screen and (max-width: 576px) {
 
     .obraUnoMasUnoTresContainer1 {
-        // background-color: black;
-
         .obraUnoMasUnoTresRow1 {
-            // margin: 0 0 0 0;
-
             .obraUnoMasUnoTresColumn1 {
                 div {
-                    // margin: 20px 15px 0 0;
-                    // display: flex;
-                    // flex-direction: row;
-                    // justify-content: end;
-
                     h1 {
-                        // font-family: 'retron2000';
                         font-size: 16px;
-                        // color: white;
                         margin: 0 0 5px 0;
                     }
                 }
@@ -24,46 +13,22 @@
         }
 
         .obraUnoMasUnoTresRow2 {
-            // margin: 0 15px 0 15px;
-
             .obraUnoMasUnoTresColumn1 {
                 hr {
-                    // color: white;
                     margin: 0 0 10px 0;
                 }
 
                 div {
-                    // display: flex;
-                    // flex-direction: row;
-                    // justify-content: space-between;
-
                     .obraUnoMasUnoTresLink {
-                        // text-decoration: none;
-
                         h6 {
-                            // list-style: none;
-                            // transition: all .1s;
-                            // cursor: pointer;
-                            // font-family: 'helveticaNeueLight';
                             font-size: 6px;
-                            // color: white;
                             line-height: 0;
-
-                            &:hover {
-                                // color: $greenColor;
-                            }
                         }
                     }
 
                     .obraUnoMasUnoTresTxt {
-                        // display: flex;
-                        // flex-direction: column;
-
                         h6 {
-                            // text-align: end;
-                            // font-family: 'helveticaNeueLight';
                             font-size: 6px;
-                            // color: white;
                             line-height: 0;
                         }
                     }
@@ -76,14 +41,6 @@
 
             .obraUnoMasUnoTresColumn1 {
                 div {
-                    // margin: 0 0 0 0;
-                    // display: flex;
-                    // flex-direction: column;
-                    // align-items: center;
-                    // justify-content: center;
-                    // margin-right: auto;
-                    // margin-left: auto;
-
                     iframe {
                         width: 100%;
                         height: 250px;
@@ -98,36 +55,23 @@
 
             .obraUnoMasUnoTresColumn1 {
                 div {
-                    // display: flex;
-                    // flex-direction: column;
-                    // justify-content: start;
-                    // margin: 0 0 0 0;
                     width: 80%;
                     margin-right: auto;
                     margin-left: auto;
 
                     .p1 {
                         text-align: center;
-                        // font-family: 'helveticaNeueLight';
                         font-size: 8px;
-                        // color: white;
-                        // margin: 0 0 0 0;
                     }
 
                     .p2 {
                         text-align: center;
-                        // font-family: 'helveticaNeueLight';
                         font-size: 8px;
-                        // color: white;
-                        // margin: 0 0 0 0;
                     }
 
                     .p3 {
                         text-align: center;
-                        // font-family: 'helveticaNeueLight';
                         font-size: 8px;
-                        // color: white;
-                        // margin: 0 0 0 0;
                     }
                 }
             }
@@ -140,10 +84,7 @@
             .obraUnoMasUnoTresColumn1 {
                 div {
                     h2 {
-                        // text-align: end;
-                        // font-family: 'helveticaNeueLight';
                         font-size: 6px;
-                        // color: white;
                         margin: 0 15px 0 0;
                     }
                 }
@@ -175,9 +116,7 @@
                 div {
                     h2 {
                         text-align: end;
-                        // font-family: 'helveticaNeueLight';
                         font-size: 6px;
-                        // color: white;
                         margin: 0 15px 0 0;
                     }
                 }

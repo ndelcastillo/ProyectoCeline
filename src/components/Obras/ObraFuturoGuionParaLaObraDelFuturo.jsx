@@ -1,5 +1,5 @@
 import React, {useEffect} from 'react'
-import { Container, Col, Row } from 'react-bootstrap'
+import { Col, Row } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 import Footer from '../Footer/Footer'
 
@@ -21,7 +21,6 @@ function ObraFuturoGuionParaLaObraDelFuturo() {
       <Row className='obraFuturoGuionParaLaObraDelFuturoRow2'>
         <Col className='obraFuturoGuionParaLaObraDelFuturoColumn1' lg={12}>
           <hr />
-          {/* <div className='lineBlack'></div> */}
           <div>
             <Link className='obraFuturoGuionParaLaObraDelFuturoLink' to={"/obras"}>
               <h6>← atrás</h6>

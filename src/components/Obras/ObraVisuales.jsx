@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import { Container, Col, Row } from 'react-bootstrap'
+import { Col, Row } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 import Footer from '../Footer/Footer'
 
@@ -39,7 +39,7 @@ function ObraVisuales() {
       <Row className='obraVisualesRow3'>
         <Col className='obraVisualesColumn1' lg={12}>
           <div>
-            <iframe src="https://player.vimeo.com/video/799469599?h=3387c226f3" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+            <iframe title="Video de Vimeo: Visuales Lopsis" src="https://player.vimeo.com/video/799469599?h=3387c226f3" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
           </div>
         </Col>
       </Row>

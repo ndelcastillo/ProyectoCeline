@@ -1,22 +1,6 @@
 @charset "UTF-8";
 /*---------- HELVETICA NEUE ----------*/
 @font-face {
-  font-family: "helveticaNeueBlackItalic";
-  src: url(../../../public/assets/fonts/HelveticaNeue/HelveticaNeueBlackItalic.ttf) format("truetype");
-}
-@font-face {
-  font-family: "helveticaNeueBoldItalic1";
-  src: url(../../../public/assets/fonts/HelveticaNeue/HelveticaNeueBoldItalic1.ttf) format("truetype");
-}
-@font-face {
-  font-family: "helveticaNeueBoldItalic2";
-  src: url(../../../public/assets/fonts/HelveticaNeue/HelveticaNeueBoldItalic2.ttf) format("truetype");
-}
-@font-face {
-  font-family: "helveticaNeueMedium";
-  src: url(../../../public/assets/fonts/HelveticaNeue/HelveticaNeueMedium.ttf) format("truetype");
-}
-@font-face {
   font-family: "helveticaNeueMediumItalic";
   src: url(../../../public/assets/fonts/HelveticaNeue/HelveticaNeueMediumItalic.ttf) format("truetype");
 }
@@ -48,18 +32,10 @@
 
 .row {
   height: 100%;
-  /*
-  border: 2px solid red;
-  background-color: lightblue;
-  */
 }
 
 .columns {
   height: 100%;
-  /*
-  border: 2px solid black;
-  background-color: lightgreen;
-  */
 }
 
 .navBarRow1 {
@@ -200,7 +176,7 @@
   min-height: 35vh;
   width: 100%;
   display: flex;
-  align-items: end;
+  align-items: flex-end;
 }
 .contactoRow1 .contactoColumn2 {
   background-color: none;
@@ -224,7 +200,7 @@
   min-height: 25vh;
   width: 100%;
   display: flex;
-  align-items: end;
+  align-items: flex-end;
 }
 .contactoRow2 .contactoColumn3 {
   background-color: none;
@@ -1021,7 +997,7 @@ li.active {
   width: 100%;
   padding: 0px 100px 0px 100px;
   display: flex;
-  align-items: end;
+  align-items: flex-end;
 }
 .statementContainer1 .statementRow1 .statementColumn1 {
   background-color: none;
@@ -1047,7 +1023,7 @@ li.active {
   width: 100%;
   display: flex;
   flex-direction: row;
-  align-items: start;
+  align-items: flex-start;
   justify-content: space-between;
   padding: 40px 0px 60px 90px;
 }
@@ -1055,9 +1031,9 @@ li.active {
   width: 450px;
   height: auto;
   display: flex;
-  justify-content: start;
+  align-items: flex-start;
   flex-direction: column;
-  align-items: start;
+  align-items: flex-start;
 }
 .statementContainer1 .statementRow2 .statementColumn1 .statementEstudio .statementEstudioRow1 .statementEstudioCol1 div .pTit {
   text-align: left;
@@ -1097,9 +1073,9 @@ li.active {
   width: 200px;
   height: auto;
   display: flex;
-  justify-content: start;
+  justify-content: flex-start;
   flex-direction: column;
-  align-items: start;
+  align-items: flex-start;
 }
 .statementContainer1 .statementRow2 .statementColumn1 .statementEstudio .statementEstudioRow1 .statementEstudioCol3 div .pTit {
   text-align: left;
@@ -1181,7 +1157,7 @@ li.active {
   max-width: 100vw;
   height: auto;
   opacity: 0;
-  transition: opacity 0.5s ease-in-out;
+  transition: opacity 0.8s ease-in-out;
 }
 .arquitecturaContainer1 .arquitecturaContainerRow1 .arquitecturaContainerColumn1 .arquitetcuraSliderColumn1 .arquitecturaSliderImg img {
   width: 100%;
@@ -1256,7 +1232,7 @@ li.active {
   margin: 20px 15px 0 0;
   display: flex;
   flex-direction: row;
-  justify-content: end;
+  justify-content: flex-end;
 }
 .obraAlephPandemicoContainer1 .obraAlephPandemicoRow1 .obraAlephPandemicoColumn1 div h1 {
   font-family: "retron2000";
@@ -1328,7 +1304,7 @@ li.active {
   margin: 20px 15px 0 0;
   display: flex;
   flex-direction: row;
-  justify-content: end;
+  justify-content: flex-end;
 }
 .obraArteObjetoContainer1 .obraArteObjetoRow1 .obraArteObjetoColumn1 div h1 {
   font-family: "retron2000";
@@ -1390,8 +1366,8 @@ li.active {
 .obraArteObjetoContainer1 .obraArteObjetoRow3 .obraArteObjetoColumn1 div div {
   display: flex;
   flex-direction: column;
-  align-items: end;
-  justify-content: end;
+  align-items: flex-end;
+  justify-content: flex-end;
   width: 60%;
   height: auto;
 }
@@ -1416,8 +1392,8 @@ li.active {
   margin: 0 0 0 0;
   display: flex;
   flex-direction: column;
-  align-items: end;
-  justify-content: end;
+  align-items: flex-end;
+  justify-content: flex-end;
 }
 .obraArteObjetoContainer1 .obraArteObjetoRow4 .obraArteObjetoColumn1 div img {
   width: 100%;
@@ -1443,7 +1419,7 @@ li.active {
   flex-direction: column;
   justify-content: center;
   margin: 0 0 0 0;
-  align-items: end;
+  align-items: flex-end;
 }
 .obraArteObjetoContainer1 .obraArteObjetoRow4 .obraArteObjetoColumn2 div .p1 {
   text-align: end;
@@ -1485,8 +1461,8 @@ li.active {
 .obraArteObjetoContainer1 .obraArteObjetoRow5 .obraArteObjetoColumn1 div div {
   display: flex;
   flex-direction: column;
-  align-items: end;
-  justify-content: end;
+  align-items: flex-end;
+  justify-content: flex-end;
   width: 60%;
   height: auto;
 }
@@ -1515,7 +1491,7 @@ li.active {
   margin: 20px 15px 0 0;
   display: flex;
   flex-direction: row;
-  justify-content: end;
+  justify-content: flex-end;
 }
 .obraCuoreContainer1 .obraCuoreRow1 .obraCuoreColumn1 div h1 {
   font-family: "retron2000";
@@ -1587,7 +1563,7 @@ li.active {
   margin: 20px 15px 0 0;
   display: flex;
   flex-direction: row;
-  justify-content: end;
+  justify-content: flex-end;
 }
 .obraFuturoGuionParaLaObraDelFuturoContainer1 .obraFuturoGuionParaLaObraDelFuturoRow1 .obraFuturoGuionParaLaObraDelFuturoColumn1 div h1 {
   font-family: "retron2000";
@@ -1638,7 +1614,7 @@ li.active {
 .obraFuturoGuionParaLaObraDelFuturoContainer1 .obraFuturoGuionParaLaObraDelFuturoRow3 .obraFuturoGuionParaLaObraDelFuturoColumn1 div {
   display: flex;
   flex-direction: column;
-  justify-content: end;
+  justify-content: flex-end;
   margin: 0 0 0 0;
 }
 .obraFuturoGuionParaLaObraDelFuturoContainer1 .obraFuturoGuionParaLaObraDelFuturoRow3 .obraFuturoGuionParaLaObraDelFuturoColumn1 div .p1 {
@@ -1694,7 +1670,7 @@ li.active {
 .obraFuturoGuionParaLaObraDelFuturoContainer1 .obraFuturoGuionParaLaObraDelFuturoRow5 .obraFuturoGuionParaLaObraDelFuturoColumn1 div {
   margin: 0 0 0 0;
   display: flex;
-  justify-content: start;
+  justify-content: flex-start;
 }
 .obraFuturoGuionParaLaObraDelFuturoContainer1 .obraFuturoGuionParaLaObraDelFuturoRow5 .obraFuturoGuionParaLaObraDelFuturoColumn1 div img {
   width: 35vw;
@@ -1707,7 +1683,7 @@ li.active {
 .obraFuturoGuionParaLaObraDelFuturoContainer1 .obraFuturoGuionParaLaObraDelFuturoRow6 .obraFuturoGuionParaLaObraDelFuturoColumn1 div {
   margin: 0 0 0 0;
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
 }
 .obraFuturoGuionParaLaObraDelFuturoContainer1 .obraFuturoGuionParaLaObraDelFuturoRow6 .obraFuturoGuionParaLaObraDelFuturoColumn1 div img {
   width: 35vw;
@@ -1737,7 +1713,7 @@ li.active {
   margin: 20px 15px 0 0;
   display: flex;
   flex-direction: row;
-  justify-content: end;
+  justify-content: flex-end;
 }
 .obraIdiotiqueContainer1 .obraIdiotiqueRow1 .obraIdiotiqueColumn1 div h1 {
   font-family: "retron2000";
@@ -1815,8 +1791,8 @@ li.active {
   margin: 0 0 0 0;
   display: flex;
   flex-direction: column;
-  align-items: start;
-  justify-content: start;
+  align-items: flex-start;
+  justify-content: flex-start;
 }
 .obraIdiotiqueContainer1 .obraIdiotiqueRow4 .obraIdiotiqueColumn1 div p {
   text-align: start;
@@ -1871,7 +1847,7 @@ li.active {
   margin: 20px 15px 0 0;
   display: flex;
   flex-direction: row;
-  justify-content: end;
+  justify-content: flex-end;
 }
 .obraInfintioContainer1 .obraInfinitoRow1 .obraInfinitoColumn1 div h1 {
   font-family: "retron2000";
@@ -1933,8 +1909,8 @@ li.active {
 .obraInfintioContainer1 .obraInfinitoRow3 .obraInfinitoColumn1 div div {
   display: flex;
   flex-direction: column;
-  align-items: start;
-  justify-content: start;
+  align-items: flex-start;
+  justify-content: flex-start;
   width: 100%;
   height: auto;
 }
@@ -1959,8 +1935,8 @@ li.active {
   margin: 0 0 0 0;
   display: flex;
   flex-direction: column;
-  align-items: end;
-  justify-content: end;
+  align-items: flex-end;
+  justify-content: flex-end;
 }
 .obraInfintioContainer1 .obraInfinitoRow4 .obraInfinitoColumn1 div img {
   width: 100%;
@@ -1972,7 +1948,7 @@ li.active {
   flex-direction: column;
   justify-content: center;
   margin: 0 0 0 0;
-  align-items: end;
+  align-items: flex-end;
 }
 .obraInfintioContainer1 .obraInfinitoRow4 .obraInfinitoColumn2 div .p1 {
   text-align: end;
@@ -2009,8 +1985,8 @@ li.active {
   margin: 0 0 0 0;
   display: flex;
   flex-direction: column;
-  align-items: end;
-  justify-content: end;
+  align-items: flex-end;
+  justify-content: flex-end;
   margin-right: auto;
   margin-left: auto;
 }
@@ -2025,8 +2001,8 @@ li.active {
   margin: 0 0 0 0;
   display: flex;
   flex-direction: column;
-  align-items: start;
-  justify-content: start;
+  align-items: flex-start;
+  justify-content: flex-start;
   margin-right: auto;
   margin-left: auto;
 }
@@ -2045,7 +2021,7 @@ li.active {
   margin: 20px 15px 0 0;
   display: flex;
   flex-direction: row;
-  justify-content: end;
+  justify-content: flex-end;
 }
 .obraIntensidadEfimeraContainer1 .obraIntensidadEfimeraRow1 .obraIntensidadEfimeraColumn1 div h1 {
   font-family: "retron2000";
@@ -2111,8 +2087,8 @@ li.active {
   margin: 0 0 0 0;
   display: flex;
   flex-direction: column;
-  align-items: end;
-  justify-content: end;
+  align-items: flex-end;
+  justify-content: flex-end;
 }
 .obraIntensidadEfimeraContainer1 .obraIntensidadEfimeraRow4 .obraIntensidadEfimeraColumn1 div img {
   width: 100%;
@@ -2121,8 +2097,8 @@ li.active {
 .obraIntensidadEfimeraContainer1 .obraIntensidadEfimeraRow4 .obraIntensidadEfimeraColumn1 div div {
   display: flex;
   flex-direction: column;
-  align-items: end;
-  justify-content: end;
+  align-items: flex-end;
+  justify-content: flex-end;
   width: 60%;
   height: auto;
 }
@@ -2140,8 +2116,8 @@ li.active {
   margin: 0 0 0 0;
   display: flex;
   flex-direction: column;
-  align-items: end;
-  justify-content: end;
+  align-items: flex-end;
+  justify-content: flex-end;
   margin-right: auto;
   margin-left: auto;
 }
@@ -2152,8 +2128,8 @@ li.active {
 .obraIntensidadEfimeraContainer1 .obraIntensidadEfimeraRow5 .obraIntensidadEfimeraColumn1 div div {
   display: flex;
   flex-direction: column;
-  align-items: end;
-  justify-content: end;
+  align-items: flex-end;
+  justify-content: flex-end;
   width: 100%;
   height: auto;
 }
@@ -2171,8 +2147,8 @@ li.active {
   margin: 0 0 0 0;
   display: flex;
   flex-direction: column;
-  align-items: start;
-  justify-content: start;
+  align-items: flex-start;
+  justify-content: flex-start;
   margin-right: auto;
   margin-left: auto;
 }
@@ -2183,8 +2159,8 @@ li.active {
 .obraIntensidadEfimeraContainer1 .obraIntensidadEfimeraRow6 .obraIntensidadEfimeraColumn1 div div {
   display: flex;
   flex-direction: column;
-  align-items: end;
-  justify-content: end;
+  align-items: flex-end;
+  justify-content: flex-end;
   width: 100%;
   height: auto;
 }
@@ -2206,7 +2182,7 @@ li.active {
   margin: 20px 15px 0 0;
   display: flex;
   flex-direction: row;
-  justify-content: end;
+  justify-content: flex-end;
 }
 .obraPanopticoContainer1 .obraPanopticoRow1 .obraPanopticoColumn1 div h1 {
   font-family: "retron2000";
@@ -2256,8 +2232,8 @@ li.active {
   margin: 0 0 0 0;
   display: flex;
   flex-direction: column;
-  align-items: end;
-  justify-content: end;
+  align-items: flex-end;
+  justify-content: flex-end;
 }
 .obraPanopticoContainer1 .obraPanopticoRow3 .obraPanopticoColumn1 div img {
   width: 100%;
@@ -2276,7 +2252,7 @@ li.active {
   flex-direction: column;
   justify-content: center;
   margin: 0 0 0 0;
-  align-items: end;
+  align-items: flex-end;
 }
 .obraPanopticoContainer1 .obraPanopticoRow3 .obraPanopticoColumn2 div .p1 {
   text-align: end;
@@ -2324,8 +2300,8 @@ li.active {
 .obraPanopticoContainer1 .obraPanopticoRow4 .obraPanopticoColumn1 div div {
   display: flex;
   flex-direction: column;
-  align-items: end;
-  justify-content: end;
+  align-items: flex-end;
+  justify-content: flex-end;
   width: 100%;
   height: 100%;
 }
@@ -2347,8 +2323,8 @@ li.active {
   margin: 0 0 0 0;
   display: flex;
   flex-direction: column;
-  align-items: end;
-  justify-content: end;
+  align-items: flex-end;
+  justify-content: flex-end;
 }
 .obraPanopticoContainer1 .obraPanopticoRow4 .obraPanopticoColumn2 div img {
   width: 100%;
@@ -2357,8 +2333,8 @@ li.active {
 .obraPanopticoContainer1 .obraPanopticoRow4 .obraPanopticoColumn2 div div {
   display: flex;
   flex-direction: column;
-  align-items: end;
-  justify-content: end;
+  align-items: flex-end;
+  justify-content: flex-end;
   width: 100%;
   height: 100%;
 }
@@ -2395,8 +2371,8 @@ li.active {
 .obraPanopticoContainer1 .obraPanopticoRow5 .obraPanopticoColumn1 div div {
   display: flex;
   flex-direction: column;
-  align-items: end;
-  justify-content: end;
+  align-items: flex-end;
+  justify-content: flex-end;
   width: 50%;
   height: auto;
 }
@@ -2425,7 +2401,7 @@ li.active {
   margin: 20px 15px 0 0;
   display: flex;
   flex-direction: row;
-  justify-content: end;
+  justify-content: flex-end;
 }
 .obraTuVenenoContainer1 .obraTuVenenoRow1 .obraTuVenenoColumn1 div h1 {
   font-family: "retron2000";
@@ -2561,7 +2537,7 @@ li.active {
   margin: 20px 15px 0 0;
   display: flex;
   flex-direction: row;
-  justify-content: end;
+  justify-content: flex-end;
 }
 .obraUnoMasUnoTresContainer1 .obraUnoMasUnoTresRow1 .obraUnoMasUnoTresColumn1 div h1 {
   font-family: "retron2000";
@@ -2626,7 +2602,7 @@ li.active {
 .obraUnoMasUnoTresContainer1 .obraUnoMasUnoTresRow4 .obraUnoMasUnoTresColumn1 div {
   display: flex;
   flex-direction: column;
-  justify-content: start;
+  justify-content: flex-start;
   margin: 0 0 0 0;
   width: 40vw;
 }
@@ -2696,7 +2672,7 @@ li.active {
   margin: 20px 15px 0 0;
   display: flex;
   flex-direction: row;
-  justify-content: end;
+  justify-content: flex-end;
 }
 .obraVisualesContainer1 .obraVisualesRow1 .obraVisualesColumn1 div h1 {
   font-family: "retron2000";
@@ -2764,8 +2740,8 @@ li.active {
   margin: 0 0 0 0;
   display: flex;
   flex-direction: column;
-  align-items: end;
-  justify-content: end;
+  align-items: flex-end;
+  justify-content: flex-end;
 }
 .obraVisualesContainer1 .obraVisualesRow4 .obraVisualesColumn1 div p {
   text-align: end;
@@ -2785,7 +2761,7 @@ li.active {
   margin: 20px 15px 0 0;
   display: flex;
   flex-direction: row;
-  justify-content: end;
+  justify-content: flex-end;
 }
 .obraVuelveTodoASuLugarContainer1 .obraVuelveTodoASuLugarRow1 .obraVuelveTodoASuLugarColumn1 div h1 {
   font-family: "retron2000";
@@ -2851,8 +2827,8 @@ li.active {
   margin: 0 0 0 0;
   display: flex;
   flex-direction: column;
-  align-items: end;
-  justify-content: end;
+  align-items: flex-end;
+  justify-content: flex-end;
 }
 .obraVuelveTodoASuLugarContainer1 .obraVuelveTodoASuLugarRow4 .obraVuelveTodoASuLugarColumn1 div p {
   text-align: end;
@@ -2941,108 +2917,51 @@ li.active {
 
 @media screen and (max-width: 576px) {
   .arquitecturaContainer1 {
-    min-height: 75vh;
+    min-height: 75.5vh;
   }
   .arquitecturaContainer1 .arquitecturaContainerRow0 {
     margin: 80px 0 0 0;
   }
   .arquitecturaContainer1 .arquitecturaContainerRow0 .arquitecturaContainerColumn1 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
     width: 100%;
     height: auto;
   }
-  .arquitecturaContainer1 .arquitecturaContainerRow1 {
-    margin: 0 0 0 0;
-  }
-  .arquitecturaContainer1 .arquitecturaContainerRow1 .arquitecturaContainerColumn1 {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-  }
   .arquitecturaContainer1 .arquitecturaContainerRow1 .arquitecturaContainerColumn1 .arquitetcuraSliderColumn1 {
-    display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
     width: 85%;
-    margin-left: auto;
-    margin-right: auto;
   }
   .arquitecturaContainer1 .arquitecturaContainerRow1 .arquitecturaContainerColumn1 .arquitetcuraSliderColumn1 .iconLeft {
-    width: 20px;
     font-size: 10px;
-    color: rgb(55, 55, 55);
-    opacity: 0.8;
     margin: 0 0 0 0;
     position: relative;
     right: 120px;
   }
   .arquitecturaContainer1 .arquitecturaContainerRow1 .arquitecturaContainerColumn1 .arquitetcuraSliderColumn1 .arquitecturaSliderImg {
     max-width: 100%;
-    height: auto;
-    opacity: 0;
-    transition: opacity 0.8s ease-in-out;
-  }
-  .arquitecturaContainer1 .arquitecturaContainerRow1 .arquitecturaContainerColumn1 .arquitetcuraSliderColumn1 .arquitecturaSliderImg img {
-    width: 100%;
-    height: auto;
-  }
-  .arquitecturaContainer1 .arquitecturaContainerRow1 .arquitecturaContainerColumn1 .arquitetcuraSliderColumn1 .arquitecturaSliderImgActive {
-    opacity: 1;
   }
   .arquitecturaContainer1 .arquitecturaContainerRow1 .arquitecturaContainerColumn1 .arquitetcuraSliderColumn1 .iconRight {
-    width: 20px;
     font-size: 10px;
-    color: rgb(55, 55, 55);
     opacity: 0.8;
     margin: 0 0 0 0;
     position: relative;
     left: 120px;
   }
   .arquitecturaContainer1 .arquitecturaContainerRow2 {
-    background-color: none;
-    width: 100%;
     padding: 30px 16px 0 40px;
-  }
-  .arquitecturaContainer1 .arquitecturaContainerRow2 .arquitecturaContainerColumn1 {
-    background-color: none;
   }
   .arquitecturaContainer1 .arquitecturaContainerRow2 .arquitecturaContainerColumn1 p {
     font-size: 8px;
-    text-align: justify;
-    font-family: "helveticaNeueLight";
-    color: rgb(55, 55, 55);
   }
   .Modal {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     width: 360px;
     height: auto;
-    overflow: auto;
   }
   .Modal img {
-    width: 100%;
     height: auto;
   }
   .Modal .btnCerrarModal {
-    position: fixed;
-    top: 4.8%;
-    left: 4.76%;
-    transform: translate(-50%, -50%);
-    padding: 0 0 0 0;
-    overflow: auto;
-    background-color: red;
-    border: 0 solid grey;
     width: 10px;
     height: 9px;
-    color: white;
-    font-size: 0;
   }
   .Modal .btnCerrarModal:hover {
     background-color: rgb(252, 100, 100);
@@ -3053,8 +2972,11 @@ li.active {
     width: 100%;
     min-height: 87vh;
   }
-  .contactoRow1 .contactoColumn2 p {
+  .contactoRow1 .contactoColumn2 a p {
     font-size: 8px;
+  }
+  .contactoRow1 .contactoColumn2 a p:hover {
+    color: rgb(110, 169, 120);
   }
   .contactoRow2 .contactoColumn3 a p {
     font-size: 8px;
@@ -3073,11 +2995,7 @@ li.active {
 }
 @media screen and (max-width: 576px) {
   .inicioContainer1 {
-    width: 100%;
-    height: 100vh;
     background-image: url(../../../../public/assets/images/inicio/gifCelineComp3.gif);
-    background-repeat: no-repeat;
-    background-size: cover;
   }
   .inicioContainer1 .inicioRow1 .inicioColumn1 img {
     width: 140px;
@@ -3090,7 +3008,6 @@ li.active {
     display: none;
   }
   .inicioContainer1 .inicioRow3 .inicioColumn1 ul {
-    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -3103,111 +3020,12 @@ li.active {
   .inicioContainer1 .inicioRow3 .inicioColumn1 ul .homeObras {
     font-size: 16px;
   }
-  .inicioContainer1 .inicioRow3 .inicioColumn1 ul .homeObras:hover {
-    color: rgb(20, 20, 230);
-  }
   .inicioContainer1 .inicioRow3 .inicioColumn1 ul .homeArquitectura {
     font-size: 16px;
   }
   .inicioContainer1 .inicioRow3 .inicioColumn1 ul .homeContacto {
     font-size: 16px;
     margin: 0px 0px 0px 0px;
-  }
-  .inicioContainer1 .inicioRow3 .inicioColumn1 ul .homeContacto:hover {
-    color: rgb(110, 169, 120);
-  }
-}
-@media screen and (max-width: 576px) {
-  .navBarRow1 {
-    cursor: crosshair;
-  }
-  .navBarRow1 .navBarColumn1 hr {
-    margin: 0px 30px 0px 30px;
-    padding: 0;
-    color: black;
-    position: relative;
-    bottom: 15px;
-  }
-  .navBarRow1 .navBarColumn1 ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-top: 30px;
-  }
-  .navBarRow1 .navBarColumn1 ul .navBarLink0 {
-    text-decoration: none;
-    cursor: crosshair;
-  }
-  .navBarRow1 .navBarColumn1 ul .navBarLink1 {
-    text-decoration: none;
-    cursor: crosshair;
-  }
-  .navBarRow1 .navBarColumn1 ul .navBarLink2 {
-    text-decoration: none;
-    cursor: crosshair;
-  }
-  .navBarRow1 .navBarColumn1 ul .navBarLink3 {
-    text-decoration: none;
-    cursor: crosshair;
-  }
-  .navBarRow1 .navBarColumn1 ul .navBarLink4 {
-    text-decoration: none;
-    cursor: crosshair;
-  }
-  .navBarRow1 .navBarColumn1 ul li {
-    list-style: none;
-    transition: all 0.1s;
-    cursor: crosshair;
-  }
-  .navBarRow1 .navBarColumn1 ul .navBarInicio {
-    font-family: "helveticaNeueLight";
-    font-size: calc(0.3rem + 1vw);
-    color: rgb(55, 55, 55);
-  }
-  .navBarRow1 .navBarColumn1 ul .navBarInicio:hover {
-    color: rgb(146, 146, 146);
-  }
-  .navBarRow1 .navBarColumn1 ul .navBarStatement {
-    font-family: "helveticaNeueLight";
-    font-size: calc(0.3rem + 1vw);
-    color: rgb(55, 55, 55);
-  }
-  .navBarRow1 .navBarColumn1 ul .navBarStatement:hover {
-    color: rgb(255, 98, 4);
-  }
-  .navBarRow1 .navBarColumn1 ul .navBarObras {
-    font-family: "helveticaNeueLight";
-    font-size: calc(0.3rem + 1vw);
-    color: rgb(55, 55, 55);
-  }
-  .navBarRow1 .navBarColumn1 ul .navBarObras:hover {
-    color: rgb(20, 20, 230);
-  }
-  .navBarRow1 .navBarColumn1 ul .navBarArquitectura {
-    font-family: "helveticaNeueLight";
-    font-size: calc(0.3rem + 1vw);
-    color: rgb(55, 55, 55);
-  }
-  .navBarRow1 .navBarColumn1 ul .navBarArquitectura:hover {
-    color: rgb(225, 229, 27);
-  }
-  .navBarRow1 .navBarColumn1 ul .navBarContacto {
-    font-family: "helveticaNeueLight";
-    font-size: calc(0.3rem + 1vw);
-    margin-right: 30px;
-    color: rgb(55, 55, 55);
-  }
-  .navBarRow1 .navBarColumn1 ul .navBarContacto:hover {
-    color: rgb(110, 169, 120);
-  }
-  .navBarRow1 .navBarColumn1 ul .navBarContactoEnContacto {
-    font-family: "helveticaNeueLight";
-    font-size: calc(0.3rem + 1vw);
-    margin-right: 20px;
-    color: rgb(55, 55, 55);
-  }
-  .navBarRow1 .navBarColumn1 ul .navBarContactoEnContacto:hover {
-    color: rgb(110, 169, 120);
   }
 }
 @media screen and (max-width: 576px) {
@@ -3223,39 +3041,23 @@ li.active {
     justify-content: start;
     margin: 0 0 0 0;
   }
-  .obrasContainer1 .obrasRow0 .obrasColumn1 ul li {
-    list-style: none;
-    transition: all 0.1s;
-    cursor: crosshair;
-  }
   .obrasContainer1 .obrasRow0 .obrasColumn1 ul .categoryTexto {
-    font-family: "helveticaNeueLight";
     font-size: 8px;
-    color: rgb(20, 20, 230);
   }
   .obrasContainer1 .obrasRow0 .obrasColumn1 ul .categoryProgramacion {
-    font-family: "helveticaNeueLight";
     font-size: 8px;
-    color: rgb(20, 20, 230);
   }
   .obrasContainer1 .obrasRow0 .obrasColumn1 ul .categoryInstalacion {
-    font-family: "helveticaNeueLight";
     font-size: 8px;
-    color: rgb(20, 20, 230);
     margin: 0 0 0 0;
   }
   .obrasContainer1 .obrasRow0 .obrasColumn1 ul .categoryPintura {
-    font-family: "helveticaNeueLight";
     font-size: 8px;
-    color: rgb(20, 20, 230);
-    margin: 0 0 0 0;
     position: relative;
     left: 0;
   }
   .obrasContainer1 .obrasRow0 .obrasColumn1 ul .categoryDireccion {
-    font-family: "helveticaNeueLight";
     font-size: 8px;
-    color: rgb(20, 20, 230);
   }
   .obrasContainer1 .obrasRow1 {
     margin: 20px 20px 0 20px;
@@ -3279,8 +3081,8 @@ li.active {
   .obrasContainer1 .obrasRow1 .obrasColumn1 .boxTitle1 {
     display: flex;
     flex-direction: column;
-    justify-content: end;
-    align-items: end;
+    justify-content: flex-end;
+    align-items: flex-end;
   }
   .obrasContainer1 .obrasRow1 .obrasColumn1 .boxTitle1 h3 {
     font-family: "retron2000";
@@ -3308,8 +3110,8 @@ li.active {
   .obrasContainer1 .obrasRow1 .obrasColumn2 .boxTitle2 {
     display: flex;
     flex-direction: column;
-    justify-content: end;
-    align-items: end;
+    justify-content: flex-end;
+    align-items: flex-end;
     margin-bottom: 0;
   }
   .obrasContainer1 .obrasRow1 .obrasColumn2 .boxTitle2 h3 {
@@ -3342,14 +3144,11 @@ li.active {
     font-size: 188px;
     opacity: 0;
   }
-  .obrasContainer1 .obrasRow2 .obrasColumn1 .container1:hover .content1 {
-    background-color: rgba(0, 0, 0, 0);
-  }
   .obrasContainer1 .obrasRow2 .obrasColumn1 .boxTitle1 {
     display: flex;
     flex-direction: column;
-    justify-content: end;
-    align-items: end;
+    justify-content: flex-end;
+    align-items: flex-end;
     width: 84%;
     margin-left: auto;
     margin-right: auto;
@@ -3385,8 +3184,8 @@ li.active {
   .obrasContainer1 .obrasRow2 .boxTitle2 {
     display: flex;
     flex-direction: column;
-    justify-content: end;
-    align-items: end;
+    justify-content: flex-end;
+    align-items: flex-end;
     width: 84%;
     margin-left: auto;
     margin-right: auto;
@@ -3422,8 +3221,8 @@ li.active {
   .obrasRow3 .obrasColumn1 .boxTitle1 {
     display: flex;
     flex-direction: column;
-    justify-content: end;
-    align-items: end;
+    justify-content: flex-end;
+    align-items: flex-end;
     width: 84%;
     margin-left: auto;
     margin-right: auto;
@@ -3459,8 +3258,8 @@ li.active {
   .obrasRow3 .obrasColumn2 .boxTitle2 {
     display: flex;
     flex-direction: column;
-    justify-content: end;
-    align-items: end;
+    justify-content: flex-end;
+    align-items: flex-end;
     margin-bottom: 0;
     width: 84%;
     margin-left: auto;
@@ -3498,8 +3297,8 @@ li.active {
   .obrasRow4 .obrasColumn1 .boxTitle1 {
     display: flex;
     flex-direction: column;
-    justify-content: end;
-    align-items: end;
+    justify-content: flex-end;
+    align-items: flex-end;
     margin-bottom: 0;
     width: 84%;
     margin-left: auto;
@@ -3539,8 +3338,8 @@ li.active {
   .obrasRow4 .obrasColumn2 .boxTitle2 {
     display: flex;
     flex-direction: column;
-    justify-content: end;
-    align-items: end;
+    justify-content: flex-end;
+    align-items: flex-end;
     margin-bottom: 0;
     width: 84%;
     margin-left: auto;
@@ -3577,8 +3376,8 @@ li.active {
   .obrasRow5 .obrasColumn1 .boxTitle1 {
     display: flex;
     flex-direction: column;
-    justify-content: end;
-    align-items: end;
+    justify-content: flex-end;
+    align-items: flex-end;
     margin-bottom: 0;
     width: 84%;
     margin-left: auto;
@@ -3615,8 +3414,8 @@ li.active {
   .obrasRow5 .obrasColumn2 .boxTitle2 {
     display: flex;
     flex-direction: column;
-    justify-content: end;
-    align-items: end;
+    justify-content: flex-end;
+    align-items: flex-end;
     margin-bottom: 0;
     width: 84%;
     margin-left: auto;
@@ -3654,8 +3453,8 @@ li.active {
   .obrasRow6 .obrasColumn1 .boxTitle1 {
     display: flex;
     flex-direction: column;
-    justify-content: end;
-    align-items: end;
+    justify-content: flex-end;
+    align-items: flex-end;
     margin-bottom: 0;
     width: 84%;
     margin-left: auto;
@@ -3693,8 +3492,8 @@ li.active {
   .obrasRow6 .obrasColumn2 .boxTitle2 {
     display: flex;
     flex-direction: column;
-    justify-content: end;
-    align-items: end;
+    justify-content: flex-end;
+    align-items: flex-end;
     margin-bottom: 0;
     width: 84%;
     margin-left: auto;
@@ -3868,8 +3667,8 @@ li.active {
     margin-right: auto;
   }
   .obraArteObjetoContainer1 .obraArteObjetoRow4 .obraArteObjetoColumn1 div {
-    align-items: end;
-    justify-content: end;
+    align-items: flex-end;
+    justify-content: flex-end;
   }
   .obraArteObjetoContainer1 .obraArteObjetoRow4 .obraArteObjetoColumn1 div img {
     width: 90%;
@@ -4003,10 +3802,6 @@ li.active {
     margin-left: auto;
     margin-right: auto;
   }
-  .obraFuturoGuionParaLaObraDelFuturoContainer1 .obraFuturoGuionParaLaObraDelFuturoRow4 .obraFuturoGuionParaLaObraDelFuturoColumn1 div img {
-    width: 100%;
-    height: auto;
-  }
   .obraFuturoGuionParaLaObraDelFuturoContainer1 .obraFuturoGuionParaLaObraDelFuturoRow4 .obraFuturoGuionParaLaObraDelFuturoColumn2 div {
     width: 62%;
     margin-left: auto;
@@ -4024,14 +3819,12 @@ li.active {
     margin-right: auto;
   }
   .obraFuturoGuionParaLaObraDelFuturoContainer1 .obraFuturoGuionParaLaObraDelFuturoRow5 .obraFuturoGuionParaLaObraDelFuturoColumn1 div {
-    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
   .obraFuturoGuionParaLaObraDelFuturoContainer1 .obraFuturoGuionParaLaObraDelFuturoRow5 .obraFuturoGuionParaLaObraDelFuturoColumn1 div img {
     width: 60%;
-    height: auto;
     margin: 25px 0 0 0;
   }
   .obraFuturoGuionParaLaObraDelFuturoContainer1 .obraFuturoGuionParaLaObraDelFuturoRow6 {
@@ -4041,13 +3834,10 @@ li.active {
     margin-right: auto;
   }
   .obraFuturoGuionParaLaObraDelFuturoContainer1 .obraFuturoGuionParaLaObraDelFuturoRow6 .obraFuturoGuionParaLaObraDelFuturoColumn1 div {
-    margin: 0 0 0 0;
-    display: flex;
     justify-content: center;
   }
   .obraFuturoGuionParaLaObraDelFuturoContainer1 .obraFuturoGuionParaLaObraDelFuturoRow6 .obraFuturoGuionParaLaObraDelFuturoColumn1 div img {
     width: 60%;
-    height: auto;
     margin: 10px 0 0 0;
   }
   .obraFuturoGuionParaLaObraDelFuturoContainer1 .obraFuturoGuionParaLaObraDelFuturoRow7 {
@@ -4057,16 +3847,12 @@ li.active {
     margin-right: auto;
   }
   .obraFuturoGuionParaLaObraDelFuturoContainer1 .obraFuturoGuionParaLaObraDelFuturoRow7 .obraFuturoGuionParaLaObraDelFuturoColumn1 div {
-    margin: 0 0 0 0;
-    display: flex;
-    justify-content: center;
     width: 90%;
     margin-left: auto;
     margin-right: auto;
   }
   .obraFuturoGuionParaLaObraDelFuturoContainer1 .obraFuturoGuionParaLaObraDelFuturoRow7 .obraFuturoGuionParaLaObraDelFuturoColumn1 div img {
     width: 100%;
-    height: auto;
   }
 }
 @media screen and (max-width: 576px) {
@@ -4090,8 +3876,6 @@ li.active {
   }
   .obraIdiotiqueContainer1 .obraIdiotiqueRow3 .obraIdiotiqueColumn1 {
     width: 80%;
-    margin-left: auto;
-    margin-right: auto;
   }
   .obraIdiotiqueContainer1 .obraIdiotiqueRow4 {
     margin: 40px 15px 80px 15px;
@@ -4180,11 +3964,6 @@ li.active {
   }
   .obraInfintioContainer1 .obraInfinitoRow4 .obraInfinitoColumn2 div {
     height: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: 0 0 0 0;
-    align-items: end;
   }
   .obraInfintioContainer1 .obraInfinitoRow4 .obraInfinitoColumn2 div .p1 {
     font-size: 8px;

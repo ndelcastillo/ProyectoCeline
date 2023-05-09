@@ -1,22 +1,11 @@
 @media screen and (max-width: 576px) {
 
     .obraFuturoGuionParaLaObraDelFuturoContainer1 {
-        // background-color: white;
-
         .obraFuturoGuionParaLaObraDelFuturoRow1 {
-            // margin: 0 0 0 0;
-
             .obraFuturoGuionParaLaObraDelFuturoColumn1 {
                 div {
-                    // margin: 20px 15px 0 15px;
-                    // display: flex;
-                    // flex-direction: row;
-                    // justify-content: end;
-
                     h1 {
-                        // font-family: 'retron2000';
                         font-size: 13px;
-                        // color: rgb(55, 55, 55);
                         margin: 0 0 5px 0;
                     }
                 }
@@ -24,55 +13,22 @@
         }
 
         .obraFuturoGuionParaLaObraDelFuturoRow2 {
-            // margin: 0 15px 0 15px;
-
             .obraFuturoGuionParaLaObraDelFuturoColumn1 {
                 hr {
-                    // color: black;
                     margin: 0 0 8px 0;
                 }
 
-                // .lineBlack {
-                //     width: auto;
-                //     height: 1px;
-                //     background-color: black;
-                //     margin: 0 0 10px 0;
-                // }
-
                 div {
-                    // display: flex;
-                    // flex-direction: row;
-                    // justify-content: space-between;
-
                     .obraFuturoGuionParaLaObraDelFuturoLink {
-                        // text-decoration: none;
-
                         h6 {
-                            // list-style: none;
-                            // transition: all .1s;
-                            // cursor: pointer;
-                            // font-family: 'helveticaNeueLight';
-                            // font-weight: 400;
                             font-size: 6px;
-                            // color: rgb(55, 55, 55);
                             line-height: 0;
-
-                            &:hover {
-                                // color: $greenColor;
-                            }
                         }
                     }
 
                     .obraFuturoGuionParaLaObraDelFuturoTxt {
-                        // display: flex;
-                        // flex-direction: column;
-
                         h6 {
-                            // text-align: end;
-                            // font-family: 'Work Sans', sans-serif;
-                            // font-weight: 400;
                             font-size: 6px;
-                            // color: rgb(55, 55, 55);
                             line-height: 0;
                         }
                     }
@@ -88,32 +44,21 @@
 
             .obraFuturoGuionParaLaObraDelFuturoColumn1 {
                 div {
-                    // display: flex;
-                    // flex-direction: column;
                     justify-content: center;
-                    // margin: 0 0 0 0;
 
                     .p1 {
                         text-align: center;
-                        // font-family: 'helveticaNeueLight';
                         font-size: 8px;
-                        // color: rgb(55, 55, 55);
-                        // margin: 0 0 0 0;
                     }
 
                     .p2 {
                         text-align: center;
-                        // font-family: 'helveticaNeueLight';
                         font-size: 8px;
-                        // color: rgb(55, 55, 55);
-                        // margin: 0 0 0 0;
                     }
 
                     .p3 {
                         text-align: center;
-                        // font-family: 'helveticaNeueLight';
                         font-size: 8px;
-                        // color: rgb(55, 55, 55);
                     }
                 }
             }
@@ -127,28 +72,14 @@
 
             .obraFuturoGuionParaLaObraDelFuturoColumn1 {
                 div {
-                    // margin: 0 0 0 0;
-                    // display: flex;
-                    // justify-content: center;
-                    // align-items: center;
                     width: 80%;
                     margin-left: auto;
                     margin-right: auto;
-                    // height: auto;
-
-                    img {
-                        width: 100%;
-                        height: auto;
-                    }
                 }
             }
 
             .obraFuturoGuionParaLaObraDelFuturoColumn2 {
                 div {
-                    // margin: 0 0 0 0;
-                    // display: flex;
-                    // justify-content: center;
-                    // align-items: center;
                     width: 62%;
                     margin-left: auto;
                     margin-right: auto;
@@ -170,15 +101,12 @@
 
             .obraFuturoGuionParaLaObraDelFuturoColumn1 {
                 div {
-                    // margin: 0 0 0 0;
-                    display: flex;
                     flex-direction: column;
                     justify-content: center;
                     align-items: center;
 
                     img {
                         width: 60%;
-                        height: auto;
                         margin: 25px 0 0 0;
                     }
                 }
@@ -193,13 +121,10 @@
 
             .obraFuturoGuionParaLaObraDelFuturoColumn1 {
                 div {
-                    margin: 0 0 0 0;
-                    display: flex;
                     justify-content: center;
 
                     img {
                         width: 60%;
-                        height: auto;
                         margin: 10px 0 0 0;
                     }
                 }
@@ -214,16 +139,12 @@
 
             .obraFuturoGuionParaLaObraDelFuturoColumn1 {
                 div {
-                    margin: 0 0 0 0;
-                    display: flex;
-                    justify-content: center;
                     width: 90%;
                     margin-left: auto;
                     margin-right: auto;
 
                     img {
                         width: 100%;
-                        height: auto;
                     }
                 }
             }

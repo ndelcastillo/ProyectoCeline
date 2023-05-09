@@ -9,7 +9,7 @@
                 margin: 20px 15px 0 0;
                 display: flex;
                 flex-direction: row;
-                justify-content: end;
+                justify-content: flex-end;
 
                 h1 {
                     font-family: 'retron2000';
@@ -105,8 +105,8 @@
                 margin: 0 0 0 0;
                 display: flex;
                 flex-direction: column;
-                align-items: start;
-                justify-content: start;
+                align-items: flex-start;
+                justify-content: flex-start;
 
                 p {
                     text-align: start;

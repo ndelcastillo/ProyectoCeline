@@ -1,5 +1,5 @@
 import React, {useEffect} from 'react'
-import { Container, Col, Row } from 'react-bootstrap'
+import { Col, Row } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 import Footer from '../Footer/Footer'
 
@@ -43,7 +43,7 @@ function ObraUnoMasUnoTres() {
       <Row className='obraUnoMasUnoTresRow3'>
         <Col className='obraUnoMasUnoTresColumn1' xs={12} lg={12}>
           <div>
-            <iframe src="https://player.vimeo.com/video/686398865?h=0e4ce50cb9" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+            <iframe title="Video de Vimeo: 1+1=3" src="https://player.vimeo.com/video/686398865?h=0e4ce50cb9" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
           </div>
         </Col>
       </Row>

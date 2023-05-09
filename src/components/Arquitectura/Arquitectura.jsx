@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faHandPointLeft, faHandPointRight, faArrowRight, faArrowLeft } from '@fortawesome/free-solid-svg-icons'
+import { faArrowRight, faArrowLeft } from '@fortawesome/free-solid-svg-icons'
 
 function Arquitectura({ bookimg }) {
 

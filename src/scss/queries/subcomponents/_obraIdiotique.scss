@@ -1,22 +1,11 @@
 @media screen and (max-width: 576px) {
 
     .obraIdiotiqueContainer1 {
-        // background-color: black;
-
         .obraIdiotiqueRow1 {
-            // margin: 0 0 0 0;
-
             .obraIdiotiqueColumn1 {
                 div {
-                    // margin: 20px 15px 0 0;
-                    // display: flex;
-                    // flex-direction: row;
-                    // justify-content: end;
-
                     h1 {
-                        // font-family: 'retron2000';
                         font-size: 16px;
-                        // color: white;
                         margin: 0 0 5px 0;
                     }
                 }
@@ -24,46 +13,22 @@
         }
 
         .obraIdiotiqueRow2 {
-            // margin: 0 15px 0 15px;
-
             .obraIdiotiqueColumn1 {
                 hr {
-                    // color: white;
                     margin: 0 0 8px 0;
                 }
 
                 div {
-                    // display: flex;
-                    // flex-direction: row;
-                    // justify-content: space-between;
-
                     .obraIdiotiqueLink {
-                        // text-decoration: none;
-
                         h6 {
-                            // list-style: none;
-                            // transition: all .1s;
-                            // cursor: pointer;
-                            // font-family: 'helveticaNeueLight';
                             font-size: 6px;
-                            // color: white;
                             line-height: 0px;
-
-                            &:hover {
-                                // color: $greenColor;
-                            }
                         }
                     }
 
                     .obraIdiotiqueTxt {
-                        // display: flex;
-                        // flex-direction: column;
-
                         h6 {
-                            // text-align: end;
-                            // font-family: 'helveticaNeueLight';
                             font-size: 6px;
-                            // color: white;
                             line-height: 0px;
                         }
                     }
@@ -76,25 +41,6 @@
 
             .obraIdiotiqueColumn1 {
                 width: 80%;
-                margin-left: auto;
-                margin-right: auto;
-
-                div {
-                    // margin: 0 0 0 0;
-                    // display: flex;
-                    // flex-direction: column;
-                    // align-items: center;
-                    // justify-content: center;
-                    // margin-right: auto;
-                    // margin-left: auto;
-                    // width: 100%;
-                    // height: auto;
-
-                    video {
-                        // width: 100%;
-                        // height: auto;
-                    }
-                }
             }
         }
 
@@ -107,65 +53,30 @@
                 margin-right: auto;
 
                 div {
-                    // margin: 0 0 0 0;
-                    // display: flex;
-                    // flex-direction: column;
-                    // align-items: start;
-                    // justify-content: start;
-
                     p {
-                        // text-align: start;
-                        // font-family: 'helveticaNeueLight';
                         font-size: 8px;
-                        // color: white;
-                        // margin: 0 0 0 0;
                     }
 
                     .p1 {
-                        // text-align: start;
-                        // font-family: 'helveticaNeueLight';
                         font-size: 8px;
-                        // color: white;
                         margin: 0 0 0 150px;
                     }
                 }
             }
 
             .obraIdiotiqueColumn2 {
-                // width: 100%;
-                // margin-left: auto;
-                // margin-right: auto;
-
                 .boxImg1 {
-                    // height: 100%;
-                    // width: auto;
                     margin: 40px 0 0 0;
-                    // display: flex;
-                    // flex-direction: column;
-                    // align-items: center;
-                    // justify-content: space-evenly;
-                    // margin-right: auto;
-                    // margin-left: auto;
-
-                    .img1 {
-                        // width: 80%;
-                        // height: auto;
-                    }
 
                     .img2 {
-                        // width: 80%;
-                        // height: auto;
                         margin: 40px 0 0 0;
                     }
 
                     .img3 {
-                        // width: 80%;
-                        // height: auto;
                         margin: 40px 0 0 0;
                     }
 
                     .img4 {
-                        // height: auto;
                         width: 80%;
                         margin: 40px 0 0 0;
                     }

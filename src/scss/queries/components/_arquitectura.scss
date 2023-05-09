@@ -1,49 +1,27 @@
 @media screen and (max-width: 576px) {
 
     .arquitecturaContainer1 {
-        // background-color: white;
-        // width: 100%;
-        min-height: 75vh;
-        // cursor: cell;
+        min-height: 75.5vh;
 
         .arquitecturaContainerRow0 {
             margin: 80px 0 0 0;
 
             .arquitecturaContainerColumn1 {
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                justify-content: center;
                 width: 100%;
                 height: auto;
             }
         }
 
         .arquitecturaContainerRow1 {
-            margin: 0 0 0 0;
 
             .arquitecturaContainerColumn1 {
-                display: flex;
-                flex-direction: row;
-                align-items: center;
-                justify-content: space-between;
 
                 .arquitetcuraSliderColumn1 {
-                    display: flex;
                     flex-direction: column;
-                    align-items: center;
-                    justify-content: space-between;
                     width: 85%;
-                    margin-left: auto;
-                    margin-right: auto;
 
                     .iconLeft {
-                        width: 20px;
                         font-size: 10px;
-                        // height: auto;
-                        // cursor: crosshair;
-                        color: rgb(55, 55, 55);
-                        opacity: (.8);
                         margin: 0 0 0 0;
                         position: relative;
                         right: 120px;
@@ -51,26 +29,10 @@
 
                     .arquitecturaSliderImg {
                         max-width: 100%;
-                        height: auto;
-                        opacity: 0;
-                        transition: opacity .8s ease-in-out;
-
-                        img {
-                            width: 100%;
-                            height: auto;
-                        }
-                    }
-
-                    .arquitecturaSliderImgActive {
-                        opacity: 1;
                     }
 
                     .iconRight {
-                        width: 20px;
                         font-size: 10px;
-                        // height: auto;
-                        // cursor: crosshair;
-                        color: rgb(55, 55, 55);
                         opacity: (.8);
                         margin: 0 0 0 0;
                         position: relative;
@@ -81,21 +43,11 @@
         }
 
         .arquitecturaContainerRow2 {
-            background-color: none;
-            // min-height: 45vh;
-            width: 100%;
             padding: 30px 16px 0 40px;
-            // display: flex;
-            // align-items: end;
 
             .arquitecturaContainerColumn1 {
-                background-color: none;
-
                 p {
                     font-size: 8px;
-                    text-align: justify;
-                    font-family: 'helveticaNeueLight';
-                    color: rgb(55, 55, 55);
                 }
             }
         }
@@ -103,32 +55,16 @@
 
 
     .Modal {
-        position: fixed;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
         width: 360px;
         height: auto;
-        overflow: auto;
 
         img {
-            width: 100%;
             height: auto;
         }
 
         .btnCerrarModal {
-            position: fixed;
-            top: 4.8%;
-            left: 4.76%;
-            transform: translate(-50%, -50%);
-            padding: 0 0 0 0;
-            overflow: auto;
-            background-color: red;
-            border: 0 solid grey;
             width: 10px;
             height: 9px;
-            color: white;
-            font-size: 0;
 
             &:hover{
                 background-color: rgb(252, 100, 100); 

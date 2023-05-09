@@ -1,30 +1,17 @@
 @media screen and (max-width: 576px) {
 
     .obraAlephPandemicoContainer1 {
-        // background-color: white;
-    
         .obraAlephPandemicoRow1 {
-            // margin: 0 0 0 0;
-    
             .obraAlephPandemicoColumn1 {
                 div {
-                    // margin: 20px 15px 0 0;
-                    // display: flex;
-                    // flex-direction: row;
-                    // justify-content: end;
-    
                     h1 {
-                        // font-family: 'retron2000';
                         font-size: 14px;
-                        // color: rgb(55, 55, 55);
                     }
                 }
             }
         }
     
         .obraAlephPandemicoRow2 {
-            // margin: 0 15px 0 15px;
-    
             .obraAlephPandemicoColumn1 {
                 hr {
                     color: black;
@@ -32,37 +19,16 @@
                 }
     
                 div {
-                    // display: flex;
-                    // flex-direction: row;
-                    // justify-content: space-between;
-    
                     .obraAlephPandemicoLink {
-                        // text-decoration: none;
-    
                         h6 {
-                            // list-style: none;
-                            // transition: all .1s;
-                            // cursor: pointer;
-                            // font-family: 'helveticaNeueLight';
                             font-size: 6px;
-                            // color: rgb(55, 55, 55);
                             line-height: 0;
-    
-                            &:hover {
-                                // color: $greenColor;
-                            }
                         }
                     }
     
                     .obraAlephPandemicoTxt {
-                        // display: flex;
-                        // flex-direction: column;
-    
                         h6 {
-                            // text-align: end;
-                            // font-family: 'helveticaNeueLight';
                             font-size: 6px;
-                            // color: rgb(55, 55, 55);
                             line-height: 0;
                         }
                     }
@@ -75,19 +41,8 @@
     
             .obraAlephPandemicoColumn1 {
                 div {
-                    // margin: 0 0 0 0;
-                    // display: flex;
-                    // flex-direction: column;
-                    // align-items: center;
-                    // justify-content: center;
-                    // margin-right: auto;
-                    // margin-left: auto;
-                    // width: 100%;
-                    // height: auto;
-    
                     img {
                         width: 110%;
-                        // height: auto;
                     }
                 }
             }
