@@ -1,12 +1,12 @@
 <h1 align="center">
   <br>
-  <a href="https://celineart.netlify.app/"><img src="" width="200"></a>
+  <a href="https://celinahuergo.com/"><img src="public/assets/images/general/celineLogo.jpg" width="200" style="border-radius:100px;"></a>
   <br>
   celine
   <br>
 </h1>
 
-<h4 align="center">A minimal online web store app built on top of <a href="https://es.reactjs.org" target="_blank">React</a>.</h4>
+<h4 align="center">A portfolio online web store app built on top of <a href="https://es.reactjs.org" target="_blank">React</a>.</h4>
 
 <p align="center">
   <a href="#how-to-use">How To Use</a> •
@@ -17,7 +17,7 @@
 </p>
 
 ## About
-This project is celine's portfolio.
+This project is celine's portfolio created in 2023. She is an aritst from Buenos Aires, Argentina. 
 
 ## How To Use
 
@@ -25,10 +25,7 @@ To clone and run this application, you'll need [Git](https://git-scm.com) and [N
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/amitmerchant1990/electron-markdownify
-
-# Go into the repository
-$ cd electron-markdownify
+$ git clone https://github.com/ndelcastillo/ProyectoCeline
 
 # Install dependencies
 $ npm install
@@ -43,7 +40,7 @@ $ npm start
 
 ## Download
 
-You can [download](https://github.com/ndelcastillo/ProyectoFinalTienda.git) the latest version of Filotaxia github project for Windows, macOS and Linux.
+You can [download](https://github.com/ndelcastillo/ProyectoCeline) the latest version of <b> celine </b> github project for Windows, macOS and Linux.
 
 ## Credits
 
@@ -53,16 +50,17 @@ This software uses the following open source packages:
 - [Node.js](https://nodejs.org/)
 - [Bootstrap](https://react-bootstrap.github.io)
 - [Fortawesome](https://fortawesome.com)
-- [Uiballloader](https://uiball.com/loaders/)
-- [Firebase](https://firebase.google.com)
+- [Framer Motion](https://www.framer.com/motion/)
 - [Animate](https://animate.style/)
-- [Framer Motion](https://www.npmjs.com/)
+- [Lazy Load](https://www.npmjs.com/package/react-lazy-load)
 - [SASS](https://sass-lang.com/)
 - Emojis are taken from [here](https://github.com/arvida/emoji-cheat-sheet.com)
 
 ## Related
 
-[celine](https://celineart.netlify.app/) - Web version of celine
+[https://www.celinahuergo.com](https://celinahuergo.com/) - Web version of celine <br>
+[hostinger](https://hostinger.com/) - Web hosting <br>
+[celinahuergo](https://hostinger.com/) - Web domain <br>
 
 
 ## License
