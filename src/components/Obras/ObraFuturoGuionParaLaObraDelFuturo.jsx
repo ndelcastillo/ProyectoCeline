@@ -1,6 +1,7 @@
-import React, {useEffect} from 'react'
+import React, { useEffect } from 'react'
 import { Col, Row } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 import Footer from '../Footer/Footer'
 
 function ObraFuturoGuionParaLaObraDelFuturo() {
@@ -51,7 +52,11 @@ function ObraFuturoGuionParaLaObraDelFuturo() {
       <Row className='obraFuturoGuionParaLaObraDelFuturoRow4'>
         <Col className='obraFuturoGuionParaLaObraDelFuturoColumn1' xs={12} lg={6}>
           <div>
-            <img src="/assets/images/obras/futuro-guion-para-una-obra-del-futuro/recurso11.png" alt="" />
+            <LazyLoadImage
+              alt='Recurso 11'
+              src="/assets/images/obras/futuro-guion-para-una-obra-del-futuro/recurso11.jpg"
+              className='img'
+            />
           </div>
         </Col>
         <Col className='obraFuturoGuionParaLaObraDelFuturoColumn2' xs={12} lg={6}>
@@ -64,22 +69,38 @@ function ObraFuturoGuionParaLaObraDelFuturo() {
       <Row className='obraFuturoGuionParaLaObraDelFuturoRow5'>
         <Col className='obraFuturoGuionParaLaObraDelFuturoColumn1' xs={12} lg={12}>
           <div>
-            <img src="/assets/images/obras/futuro-guion-para-una-obra-del-futuro/recurso8.png" alt="" />
-            <img src="/assets/images/obras/futuro-guion-para-una-obra-del-futuro/recurso10.png" alt="" />
+            <LazyLoadImage
+              alt='Recurso 8'
+              src="/assets/images/obras/futuro-guion-para-una-obra-del-futuro/recurso8.jpg"
+              className='img'
+            />
+            <LazyLoadImage
+              alt='Recurso 10'
+              src="/assets/images/obras/futuro-guion-para-una-obra-del-futuro/recurso10.jpg"
+              className='img'
+            />
           </div>
         </Col>
       </Row>
       <Row className='obraFuturoGuionParaLaObraDelFuturoRow6'>
         <Col className='obraFuturoGuionParaLaObraDelFuturoColumn1' xs={12} lg={12}>
           <div>
-            <img src="/assets/images/obras/futuro-guion-para-una-obra-del-futuro/recurso12.png" alt="" />
+            <LazyLoadImage
+              alt='Recurso 12'
+              src="/assets/images/obras/futuro-guion-para-una-obra-del-futuro/recurso12.jpg"
+              className='img'
+            />
           </div>
         </Col>
       </Row>
       <Row className='obraFuturoGuionParaLaObraDelFuturoRow7'>
         <Col className='obraFuturoGuionParaLaObraDelFuturoColumn1' xs={12} lg={12}>
           <div>
-            <img src="/assets/images/obras/futuro-guion-para-una-obra-del-futuro/recurso7.png" alt="" />
+            <LazyLoadImage
+              alt='Recurso 7'
+              src="/assets/images/obras/futuro-guion-para-una-obra-del-futuro/recurso7.png"
+              className='img'
+            />
           </div>
         </Col>
       </Row>

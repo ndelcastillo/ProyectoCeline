@@ -1,6 +1,7 @@
-import React, {useEffect} from 'react'
+import React, { useEffect } from 'react'
 import { Col, Row } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 import Footer from '../Footer/Footer'
 
 function ObraInfinito() {
@@ -46,7 +47,11 @@ function ObraInfinito() {
       <Row className='obraInfinitoRow3'>
         <Col className='obraInfinitoColumn1' xs={12} lg={12}>
           <div>
-            <img src="/assets/images/obras/infinito/Recurso 20.png" alt="" />
+            <LazyLoadImage
+              alt='Recurso 20'
+              src="/assets/images/obras/infinito/Recurso 20.jpg"
+              className='img'
+            />
             <div>
               <p className='p1'>La porosidad, el infinito, la repetición, lo metálico.</p>
               <p>El infinito vuelo de una mosca.</p>
@@ -57,7 +62,11 @@ function ObraInfinito() {
       <Row className='obraInfinitoRow4'>
         <Col className='obraInfinitoColumn1' xs={12} lg={6}>
           <div>
-            <img src="/assets/images/obras/infinito/Recurso 18.png" alt="" />
+            <LazyLoadImage
+              alt='Recurso 18'
+              src="/assets/images/obras/infinito/Recurso 18.png"
+              className='img'
+            />
           </div>
         </Col>
         <Col className='obraInfinitoColumn2' xs={12} lg={6}>
@@ -72,14 +81,22 @@ function ObraInfinito() {
       <Row className='obraInfinitoRow5'>
         <Col className='obraInfinitoColumn1' xs={12} lg={{ span: 6, offset: 6 }}>
           <div>
-            <img src="/assets/images/obras/infinito/Recurso 17.png" alt="" />
+            <LazyLoadImage
+              alt='Recurso 17'
+              src="/assets/images/obras/infinito/Recurso 17.png"
+              className='img'
+            />
           </div>
         </Col>
       </Row>
       <Row className='obraInfinitoRow6'>
         <Col className='obraInfinitoColumn1' xs={12} lg={6}>
           <div>
-            <img src="/assets/images/obras/infinito/Recurso 19.png" alt="" />
+            <LazyLoadImage
+              alt='Recurso 19'
+              src="/assets/images/obras/infinito/Recurso 19.png"
+              className='img'
+            />
           </div>
         </Col>
       </Row>

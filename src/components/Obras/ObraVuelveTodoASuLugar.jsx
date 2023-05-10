@@ -1,6 +1,7 @@
-import React, {useEffect} from 'react'
+import React, { useEffect } from 'react'
 import { Col, Row } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 import Footer from '../Footer/Footer'
 
 function ObraVuelveTodoASuLugar() {
@@ -53,28 +54,44 @@ function ObraVuelveTodoASuLugar() {
       <Row className='obraVuelveTodoASuLugarRow5'>
         <Col className='obraVuelveTodoASuLugarColumn1' xs={12} lg={{ span: 6, offset: 6 }}>
           <div>
-            <img src="/assets/images/obras/vuelve-todo-a-su-lugar/Recurso 38.png" alt="" />
+            <LazyLoadImage
+              alt='Recurso 38'
+              src="/assets/images/obras/vuelve-todo-a-su-lugar/Recurso 38.png"
+              className='img'
+            />
           </div>
         </Col>
       </Row>
       <Row className='obraVuelveTodoASuLugarRow6'>
-        <Col className='obraVuelveTodoASuLugarColumn1' xs={12} lg={{span:4, offset:1}}>
+        <Col className='obraVuelveTodoASuLugarColumn1' xs={12} lg={{ span: 4, offset: 1 }}>
           <div>
-            <img src="/assets/images/obras/vuelve-todo-a-su-lugar/Recurso 36.png" alt="" />
+            <LazyLoadImage
+              alt='Recurso 36'
+              src="/assets/images/obras/vuelve-todo-a-su-lugar/Recurso 36.png"
+              className='img'
+            />
           </div>
         </Col>
       </Row>
       <Row className='obraVuelveTodoASuLugarRow7'>
         <Col className='obraVuelveTodoASuLugarColumn1' xs={12} lg={{ span: 5, offset: 6 }}>
           <div>
-            <img src="/assets/images/obras/vuelve-todo-a-su-lugar/Recurso 37.png" alt="" />
+            <LazyLoadImage
+              alt='Recurso 37'
+              src="/assets/images/obras/vuelve-todo-a-su-lugar/Recurso 37.png"
+              className='img'
+            />
           </div>
         </Col>
       </Row>
       <Row className='obraVuelveTodoASuLugarRow8'>
-        <Col className='obraVuelveTodoASuLugarColumn1' xs={12} lg={{span:5}}>
+        <Col className='obraVuelveTodoASuLugarColumn1' xs={12} lg={{ span: 5 }}>
           <div>
-            <img src="/assets/images/obras/vuelve-todo-a-su-lugar/Recurso 35.png" alt="" />
+            <LazyLoadImage
+              alt='Recurso 35'
+              src="/assets/images/obras/vuelve-todo-a-su-lugar/Recurso 35.png"
+              className='img'
+            />
           </div>
         </Col>
       </Row>

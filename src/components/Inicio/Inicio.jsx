@@ -2,6 +2,8 @@ import React from 'react'
 import { Container, Col, Row } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 import { motion } from 'framer-motion'
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+
 
 function Inicio() {
     return (
@@ -15,8 +17,11 @@ function Inicio() {
                     <Row className='inicioRow1'>
                         <Col className='inicioColumn1' xs={12} lg={12}>
                             <div>
-                                {/* <h1 >CELINE_</h1> */}
-                                <img src="/assets/images/inicio/celineTitCom2.gif" alt="" />
+                                <LazyLoadImage
+                                    alt='mi GIF'
+                                    src='/assets/images/inicio/celineTitCom2.gif'
+                                />
+                                {/* <img src="/assets/images/inicio/celineTitCom2.gif" alt="" /> */}
                                 <hr />
                             </div>
                         </Col>

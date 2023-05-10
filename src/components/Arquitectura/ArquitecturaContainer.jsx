@@ -3,6 +3,7 @@ import Modal from 'react-modal'
 import { Container, Col, Row, Button } from 'react-bootstrap'
 import Header from '../Header/Header'
 import { motion } from 'framer-motion'
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 import myImage from '../../assets/images/arquitectura/popUpBook.png';
 import Arquitectura from './Arquitectura'
 import Footer from '../Footer/Footer'
@@ -19,22 +20,22 @@ function ArquitecturaContainer() {
         "/assets/images/arquitectura/pag3.png",
         "/assets/images/arquitectura/pag4.png",
         "/assets/images/arquitectura/pag5.png",
-        "/assets/images/arquitectura/pag6.png",
-        "/assets/images/arquitectura/pag7.png",
+        "/assets/images/arquitectura/pag6.jpg",
+        "/assets/images/arquitectura/pag7.jpg",
         "/assets/images/arquitectura/pag8.png",
         "/assets/images/arquitectura/pag9.png",
         "/assets/images/arquitectura/pag10.png",
-        "/assets/images/arquitectura/pag11.png",
+        "/assets/images/arquitectura/pag11.jpg",
         "/assets/images/arquitectura/pag12.png",
         "/assets/images/arquitectura/pag13.png",
         "/assets/images/arquitectura/pag14.png",
         "/assets/images/arquitectura/pag15.png",
         "/assets/images/arquitectura/pag16.png",
         "/assets/images/arquitectura/pag17.png",
-        "/assets/images/arquitectura/pag18.png",
+        "/assets/images/arquitectura/pag18.jpg",
         "/assets/images/arquitectura/pag19.png",
         "/assets/images/arquitectura/pag20.png",
-        "/assets/images/arquitectura/pag21.png",
+        "/assets/images/arquitectura/pag21.jpg",
         "/assets/images/arquitectura/pag22.png",
         "/assets/images/arquitectura/pag23.png",
         "/assets/images/arquitectura/pag24.png",
@@ -42,19 +43,19 @@ function ArquitecturaContainer() {
         "/assets/images/arquitectura/pag26.png",
         "/assets/images/arquitectura/pag27.png",
         "/assets/images/arquitectura/pag28.png",
-        "/assets/images/arquitectura/pag29.png",
+        "/assets/images/arquitectura/pag29.jpg",
         "/assets/images/arquitectura/pag30.png",
         "/assets/images/arquitectura/pag31.png",
-        "/assets/images/arquitectura/pag32.png",
+        "/assets/images/arquitectura/pag32.jpg",
     ]
 
     useEffect(() => {
         const timer = setTimeout(() => {
-          setModalIsOpen(true);
+            setModalIsOpen(true);
         }, 2000); // Retraso de 2 segundos
-    
+
         return () => clearTimeout(timer); // Limpiar el temporizador en la salida del componente
-      }, []);
+    }, []);
 
     return (
         <motion.div
@@ -74,7 +75,11 @@ function ArquitecturaContainer() {
                                 className="Modal"
                                 overlayClassName="Overlay"
                             >
-                                <img className='Modal-img' src={myImage} alt="Descripción de la imagen" />
+                                <LazyLoadImage
+                                    alt='Modal Sugerencia'
+                                    src={myImage}
+                                    className='Modal-img'
+                                />
                                 <Button className='btn btn-dark btn-sm btnCerrarModal' onClick={() => setModalIsOpen(false)}></Button>
                             </Modal>
                         </Col>

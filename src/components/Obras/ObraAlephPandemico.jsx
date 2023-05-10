@@ -1,6 +1,7 @@
-import React, {useEffect} from 'react'
+import React, { useEffect } from 'react'
 import { Col, Row } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 import Footer from '../Footer/Footer'
 
 function ObraAlephPandemico() {
@@ -42,7 +43,11 @@ function ObraAlephPandemico() {
       <Row className='obraAlephPandemicoRow3'>
         <Col className='obraAlephPandemicoColumn1' xs={12} lg={12}>
           <div>
-            <img src="/assets/images/obras/aleph-pandemico/recurso1.png" alt="" />
+            <LazyLoadImage
+              alt='Recurso 1'
+              src="/assets/images/obras/aleph-pandemico/recurso1.png"
+              className='img'
+            />
           </div>
         </Col>
       </Row>

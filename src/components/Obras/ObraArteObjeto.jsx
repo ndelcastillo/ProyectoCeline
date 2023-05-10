@@ -1,6 +1,7 @@
-import React, {useEffect} from 'react'
+import React, { useEffect } from 'react'
 import { Col, Row } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 import Footer from '../Footer/Footer'
 
 function ObraArteObjeto() {
@@ -39,7 +40,11 @@ function ObraArteObjeto() {
       <Row className='obraArteObjetoRow3'>
         <Col className='obraArteObjetoColumn1' xs={12} lg={12}>
           <div>
-            <img src="/assets/images/obras/arte-objeto/Recurso 5.png" alt="" />
+            <LazyLoadImage
+              alt='Recurso 5'
+              src="/assets/images/obras/arte-objeto/Recurso 5.jpg"
+              className='img'
+            />
             <div>
               <p className='p1'>#1</p>
               <p>acrílico sobre film transparente</p>
@@ -52,7 +57,11 @@ function ObraArteObjeto() {
       <Row className='obraArteObjetoRow4'>
         <Col className='obraArteObjetoColumn1' xs={12} lg={6}>
           <div>
-            <img src="/assets/images/obras/arte-objeto/Recurso 3.png" alt="" />
+            <LazyLoadImage
+              alt='Recurso 3'
+              src="/assets/images/obras/arte-objeto/Recurso 3.jpg"
+              className='img'
+            />
             <div>
               <p className='p1'>#2</p>
               <p>acrílico sobre film transparente</p>
@@ -70,9 +79,13 @@ function ObraArteObjeto() {
         </Col>
       </Row>
       <Row className='obraArteObjetoRow5'>
-        <Col className='obraArteObjetoColumn1'  xs={12} lg={12}>
+        <Col className='obraArteObjetoColumn1' xs={12} lg={12}>
           <div>
-            <img src="/assets/images/obras/arte-objeto/Recurso 4.png" alt="" />
+            <LazyLoadImage
+              alt='Recurso 4'
+              src="/assets/images/obras/arte-objeto/Recurso 4.jpg"
+              className='img'
+            />
             <div>
               <p className='p1'>#3</p>
               <p>acrílico sobre aluminio</p>

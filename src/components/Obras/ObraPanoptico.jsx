@@ -1,6 +1,7 @@
-import React, {useEffect} from 'react'
+import React, { useEffect } from 'react'
 import { Col, Row } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 import Footer from '../Footer/Footer'
 
 function ObraPanoptico() {
@@ -39,7 +40,11 @@ function ObraPanoptico() {
       <Row className='obraPanopticoRow3'>
         <Col className='obraPanopticoColumn1' xs={12} lg={6}>
           <div>
-            <img src="/assets/images/obras/panoptico/Recurso 28.png" alt="" />
+            <LazyLoadImage
+              alt='Recurso 28'
+              src="/assets/images/obras/panoptico/Recurso 28.png"
+              className='img'
+            />
             <p>INSTALACIÓN/FOTOGRAFÍA</p>
           </div>
         </Col>
@@ -53,9 +58,13 @@ function ObraPanoptico() {
         </Col>
       </Row>
       <Row className='obraPanopticoRow4'>
-        <Col className='obraPanopticoColumn1' xs={12}  lg={6}>
+        <Col className='obraPanopticoColumn1' xs={12} lg={6}>
           <div>
-            <img src="/assets/images/obras/panoptico/Recurso 26.png" alt="" />
+            <LazyLoadImage
+              alt='Recurso 26'
+              src="/assets/images/obras/panoptico/Recurso 26.png"
+              className='img'
+            />
             <div>
               <p className='p1'>"EL OBSERVADOR I"</p>
               <p>FOTOGRAFÍA</p>
@@ -65,7 +74,11 @@ function ObraPanoptico() {
         </Col>
         <Col className='obraPanopticoColumn2' xs={12} lg={6}>
           <div>
-            <img src="/assets/images/obras/panoptico/Recurso 25.png" alt="" />
+            <LazyLoadImage
+              alt='Recurso 25'
+              src="/assets/images/obras/panoptico/Recurso 25.png"
+              className='img'
+            />
             <div>
               <p className='p1'>"EL OBSERVADOR II"</p>
               <p>FOTOGRAFÍA</p>
@@ -75,9 +88,13 @@ function ObraPanoptico() {
         </Col>
       </Row>
       <Row className='obraPanopticoRow5'>
-        <Col className='obraPanopticoColumn1'xs={12} lg={12}>
+        <Col className='obraPanopticoColumn1' xs={12} lg={12}>
           <div>
-            <img src="/assets/images/obras/panoptico/Recurso 27.png" alt="" />
+            <LazyLoadImage
+              alt='Recurso 27'
+              src="/assets/images/obras/panoptico/Recurso 27.png"
+              className='img'
+            />
             <div>
               <p className='p1'>"EL OBSERVADOR III"</p>
               <p>FOTOGRAFÍA</p>

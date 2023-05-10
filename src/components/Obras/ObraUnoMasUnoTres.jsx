@@ -1,6 +1,7 @@
-import React, {useEffect} from 'react'
+import React, { useEffect } from 'react'
 import { Col, Row } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 import Footer from '../Footer/Footer'
 
 function ObraUnoMasUnoTres() {
@@ -14,7 +15,7 @@ function ObraUnoMasUnoTres() {
       <Row className='obraUnoMasUnoTresRow1 '>
         <Col className='obraUnoMasUnoTresColumn1' lg={12}>
           <div>
-              <h1>1 + 1 = 3</h1>
+            <h1>1 + 1 = 3</h1>
           </div>
         </Col>
       </Row>
@@ -48,7 +49,7 @@ function ObraUnoMasUnoTres() {
         </Col>
       </Row>
       <Row className='obraUnoMasUnoTresRow4'>
-        <Col className='obraUnoMasUnoTresColumn1' xs={12}  lg={12}>
+        <Col className='obraUnoMasUnoTresColumn1' xs={12} lg={12}>
           <div>
             <p className='p1'>
               Esta obra habla de esa tercera pieza invisibilizada.
@@ -64,16 +65,20 @@ function ObraUnoMasUnoTres() {
         </Col>
       </Row>
       <Row className='obraUnoMasUnoTresRow5'>
-        <Col className='obraUnoMasUnoTresColumn1' xs={12}  lg={12}>
+        <Col className='obraUnoMasUnoTresColumn1' xs={12} lg={12}>
           <div>
             <h2>GUIÓN DE OBRA</h2>
           </div>
         </Col>
       </Row>
       <Row className='obraUnoMasUnoTresRow6'>
-        <Col className='obraUnoMasUnoTresColumn1' xs={12}  lg={12}>
+        <Col className='obraUnoMasUnoTresColumn1' xs={12} lg={12}>
           <div>
-            <img src="/assets/images/obras/unomasunotres/recurso5.png" alt="" />
+            <LazyLoadImage
+              alt='Recurso 5'
+              src="/assets/images/obras/unomasunotres/recurso5.png"
+              className='img'
+            />
           </div>
         </Col>
       </Row>
@@ -87,7 +92,11 @@ function ObraUnoMasUnoTres() {
       <Row className='obraUnoMasUnoTresRow8'>
         <Col className='obraUnoMasUnoTresColumn1' xs={12} lg={12}>
           <div>
-            <img src="/assets/images/obras/unomasunotres/recurso3.png" alt="" />
+            <LazyLoadImage
+              alt='Recurso 3'
+              src="/assets/images/obras/unomasunotres/recurso3.png"
+              className='img'
+            />
           </div>
         </Col>
       </Row>

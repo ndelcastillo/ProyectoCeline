@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { faArrowRight, faArrowLeft } from '@fortawesome/free-solid-svg-icons'
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 function Arquitectura({ bookimg }) {
 
@@ -27,7 +28,11 @@ function Arquitectura({ bookimg }) {
         return (
           <div className={imagenActual === index ? `${"arquitecturaSliderImg"} ${"arquitecturaSliderImgActive"}` : "arquitecturaSliderImg"}>
             {imagenActual === index && (
-              <img key={index} src={imagen} alt="imagen" />
+              <LazyLoadImage
+                alt='Imagen Libro'
+                src={imagen}
+                key={index}
+              />
             )}
           </div>
         )
